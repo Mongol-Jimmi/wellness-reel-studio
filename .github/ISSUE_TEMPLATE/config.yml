@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reel Studio documentation
+    url: https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/docs/capabilities/reel-studio.md
+    about: Read the workflow and review gates before proposing content.

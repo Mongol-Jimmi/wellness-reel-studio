@@ -1,0 +1,67 @@
+name: Research approved topic
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Approved topic Issue number
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: topic-lifecycle-${{ inputs.issue_number }}
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Verify approved state and download Issue body
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ inputs.issue_number }}
+        run: |
+          set -euo pipefail
+          [[ "$ISSUE" =~ ^[1-9][0-9]*$ ]] || { echo "Invalid Issue number" >&2; exit 1; }
+          labels="$(gh issue view "$ISSUE" --json labels --jq '.labels[].name')"
+          grep -Fxq topic-proposal <<<"$labels"
+          grep -Fxq state:approved-for-research <<<"$labels"
+          gh issue view "$ISSUE" --json body --jq .body > /tmp/issue-body.md
+
+      - name: Discover OpenAlex candidates
+        env:
+          ISSUE: ${{ inputs.issue_number }}
+        run: python scripts/research_issue.py --body-file /tmp/issue-body.md --issue-number "$ISSUE"
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: evidence-candidates-issue-${{ inputs.issue_number }}
+          path: research-output/
+          retention-days: 30
+
+      - name: Recheck approval and move to evidence review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ inputs.issue_number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          labels="$(gh issue view "$ISSUE" --json labels --jq '.labels[].name')"
+          grep -Fxq state:approved-for-research <<<"$labels"
+          gh issue view "$ISSUE" --json body --jq .body > /tmp/current-issue-body.md
+          python - <<'PY'
+          from pathlib import Path
+          from scripts.issue_decision import parse_decision
+
+          body = Path("/tmp/current-issue-body.md").read_text(encoding="utf-8")
+          if parse_decision(body) != "approve":
+              raise SystemExit("Approval was revoked before evidence review")
+          PY
+          gh issue edit "$ISSUE" --remove-label state:approved-for-research --add-label state:evidence-review
+          gh issue comment "$ISSUE" --body "OpenAlex evidence candidates are ready in the [workflow artifact]($RUN_URL). OpenAlex has no per-request fee. These are discovery leads, not proof. A human must review full texts, methods, relevance, limitations, and safety before creating a Reel Spec."

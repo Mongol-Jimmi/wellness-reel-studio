@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "combined-check-in",
+    "title": "A small check-in for when things feel far away",
+    "status": "human review required",
+    "renderVersion": "1.0.0",
+    "sourceIssue": "Pre-lifecycle local draft",
+    "duration": "30 seconds",
+    "resolution": "540 × 960",
+    "video": "media/plain-spoken-pebble-combined-check-in-lowres.mp4",
+    "poster": "media/combined-check-in-keyframes.png",
+    "links": {
+      "Captions": "captions/combined-check-in-captions.srt",
+      "Reel Spec": "https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/edit/combined-check-in-plan.json",
+      "Script": "https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/edit/combined-check-in-script.md",
+      "Evidence": "https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/research/generated/candidate-evidence-cards.md"
+    }
+  },
+  {
+    "slug": "sleep-hygiene",
+    "title": "Sleep hygiene, explained plainly",
+    "status": "human review required",
+    "renderVersion": "1.0.0",
+    "sourceIssue": "Pre-lifecycle local draft",
+    "duration": "35 seconds",
+    "resolution": "1080 × 1920",
+    "video": "media/plain-spoken-pebble-sleep-hygiene-1080p.mp4",
+    "poster": "media/sleep-hygiene-rendered-keyframes.png",
+    "links": {
+      "Captions": "captions/sleep-hygiene-captions.srt",
+      "Reel Spec": "https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/edit/sleep-hygiene-plan.json",
+      "Script": "https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/edit/sleep-hygiene-script.md",
+      "Evidence": "https://github.com/Mongol-Jimmi/wellness-reel-studio/blob/main/research/generated/sleep-hygiene/candidate-evidence-cards.md"
+    }
+  }
+]

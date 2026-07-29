@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pi-subagents/
+work/
+site/media/
+site/captions/
+research-output/
+render-output/
+site-dist/

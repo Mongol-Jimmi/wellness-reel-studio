@@ -1,0 +1,213 @@
+[
+  {
+    "topic": "sleep-hygiene",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "TIME • LIGHT • CAFFEINE • ROOM",
+    "category": "sleep",
+    "actionSteps": [
+      "Keep your wake-up time as consistent as you reasonably can.",
+      "Make the hour before bed dimmer and quieter when possible.",
+      "Choose one small change tonight instead of trying to fix everything at once."
+    ],
+    "safetyBoundary": "Sleep habits can support sleep, but persistent sleep problems or major daytime impairment deserve professional assessment.",
+    "guidanceSources": [
+      "https://www.cdc.gov/nchs/products/databriefs/db559.htm",
+      "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/"
+    ],
+    "researchQuery": "sleep hygiene consistent wake time caffeine screen light bedroom systematic review adults",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-222821764",
+        "title": "Sleep timing, sleep consistency, and health in adults: a systematic review.",
+        "authors": [
+          "J. Chaput",
+          "Caroline Dutil",
+          "Ryan B. Featherstone",
+          "R. Ross",
+          "L. Giangregorio",
+          "T. Saunders",
+          "I. Janssen",
+          "V. Poitras",
+          "M. Kho",
+          "A. Ross-White",
+          "Sarah Zankar",
+          "J. Carrier"
+        ],
+        "year": 2020,
+        "abstract": "The objective of this systematic review was to examine the associations between sleep timing (e.g., bedtime/wake-up time, midpoint of sleep), sleep consistency/regularity (e.g., intra-individual variability in sleep duration, social jetlag, catch-up sleep), and health outcomes in adults aged 18 years and older. Four electronic databases were searched in December 2018 for articles published in the previous 10 years. Fourteen health outcomes were examined. A total of 41 articles, including 92 340 unique participants from 14 countries, met inclusion criteria. Sleep was assessed objectively in 37% of studies and subjectively in 63% of studies. Findings suggest that later sleep timing and greater sleep variability were generally associated with adverse health outcomes. However, because most studies reported linear associations, it was not possible to identify thresholds for \"late sleep timing\" or \"large sleep variability\". In addition, social jetlag was associated with adverse health outcomes, while weekend catch-up sleep was associated with better health outcomes. The quality of evidence ranged from \"very low\" to \"moderate\" across study designs and health outcomes using GRADE. In conclusion, the available evidence supports that earlier sleep timing and regularity in sleep patterns with consistent bedtimes and wake-up times are favourably associated with health. (PROSPERO registration no.: CRD42019119534.) Novelty This is the first systematic review to examine the influence of sleep timing and sleep consistency on health outcomes. Later sleep timing and greater variability in sleep are both associated with adverse health outcomes in adults. Regularity in sleep patterns with consistent bedtimes and wake-up times should be encouraged.",
+        "doi": "10.1139/apnm-2020-0032",
+        "pmid": "33054339",
+        "venue": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+        "cited_by_count": 295,
+        "urls": [
+          "https://doi.org/10.1139/apnm-2020-0032"
+        ]
+      },
+      {
+        "elicit_id": "ss-219497584",
+        "title": "Sleep hygiene in shift workers: A systematic literature review.",
+        "authors": [
+          "A. Shriane",
+          "S. Ferguson",
+          "S. Jay",
+          "G. Vincent"
+        ],
+        "year": 2020,
+        "abstract": null,
+        "doi": "10.1016/j.smrv.2020.101336",
+        "pmid": "32593135",
+        "venue": "Sleep Medicine Reviews",
+        "cited_by_count": 59,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-58946952",
+        "title": "A systematic review of the amount and timing of light in association with objective and subjective sleep outcomes in community-dwelling adults",
+        "authors": [
+          "Natalie D. Dautovich",
+          "Dana R. Schreiber",
+          "Janna L. Imel",
+          "C. Tighe",
+          "Kristy D Shoji",
+          "J. Cyrus",
+          "N. Bryant",
+          "A. Lisech",
+          "C. O'Brien",
+          "JosephM. Dzierzewski"
+        ],
+        "year": 2018,
+        "abstract": null,
+        "doi": "10.1016/j.sleh.2018.09.006",
+        "pmid": "30670164",
+        "venue": "Sleep Health",
+        "cited_by_count": 52,
+        "urls": [
+          "https://europepmc.org/articles/pmc6814154?pdf=render"
+        ]
+      },
+      {
+        "elicit_id": "ss-256645683",
+        "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis.",
+        "authors": [
+          "C. Gardiner",
+          "J. Weakley",
+          "L. Burke",
+          "G. Roach",
+          "C. Sargent",
+          "N. Maniar",
+          "A. Townshend",
+          "S. Halson"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.smrv.2023.101764",
+        "pmid": "36870101",
+        "venue": "Sleep Medicine Reviews",
+        "cited_by_count": 170,
+        "urls": [
+          "https://doi.org/10.1016/j.smrv.2023.101764",
+          "https://eprints.leedsbeckett.ac.uk/id/eprint/9625/1/TheEffectOfCaffeineOnSubsequentSleepASystematicReviewAndMetaanalysisPV-WEAKLEY.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-255362810",
+        "title": "Digital media use and sleep in late adolescence and young adulthood: A systematic review.",
+        "authors": [
+          "Louise A. S. Brautsch",
+          "L. Lund",
+          "Martin M Andersen",
+          "P. Jennum",
+          "A. P. Folker",
+          "S. Andersen"
+        ],
+        "year": 2022,
+        "abstract": null,
+        "doi": "10.1016/j.smrv.2022.101742",
+        "pmid": "36638702",
+        "venue": "Sleep Medicine Reviews",
+        "cited_by_count": 167,
+        "urls": [
+          "https://findresearcher.sdu.dk/ws/files/220293154/1_s2.0_S1087079222001551_main.pdf",
+          "https://doi.org/10.1016/j.smrv.2022.101742"
+        ]
+      },
+      {
+        "elicit_id": "ss-58669196",
+        "title": "Effects of screentime on the health and well-being of children and adolescents: a systematic review of reviews",
+        "authors": [
+          "Neza Stiglic",
+          "R. Viner"
+        ],
+        "year": 2019,
+        "abstract": "Objectives To systematically examine the evidence of harms and benefits relating to time spent on screens for children and young people’s (CYP) health and well-being, to inform policy. Methods Systematic review of reviews undertaken to answer the question ‘What is the evidence for health and well-being effects of screentime in children and adolescents (CYP)?’ Electronic databases were searched for systematic reviews in February 2018. Eligible reviews reported associations between time on screens (screentime; any type) and any health/well-being outcome in CYP. Quality of reviews was assessed and strength of evidence across reviews evaluated. Results 13 reviews were identified (1 high quality, 9 medium and 3 low quality). 6 addressed body composition; 3 diet/energy intake; 7 mental health; 4 cardiovascular risk; 4 for fitness; 3 for sleep; 1 pain; 1 asthma. We found moderately strong evidence for associations between screentime and greater obesity/adiposity and higher depressive symptoms; moderate evidence for an association between screentime and higher energy intake, less healthy diet quality and poorer quality of life. There was weak evidence for associations of screentime with behaviour problems, anxiety, hyperactivity and inattention, poorer self-esteem, poorer well-being and poorer psychosocial health, metabolic syndrome, poorer cardiorespiratory fitness, poorer cognitive development and lower educational attainments and poor sleep outcomes. There was no or insufficient evidence for an association of screentime with eating disorders or suicidal ideation, individual cardiovascular risk factors, asthma prevalence or pain. Evidence for threshold effects was weak. We found weak evidence that small amounts of daily screen use is not harmful and may have some benefits. Conclusions There is evidence that higher levels of screentime is associated with a variety of health harms for CYP, with evidence strongest for adiposity, unhealthy diet, depressive symptoms and quality of life. Evidence to guide policy on safe CYP screentime exposure is limited. PROSPERO registration number CRD42018089483.",
+        "doi": "10.1136/bmjopen-2018-023191",
+        "pmid": "30606703",
+        "venue": "BMJ Open",
+        "cited_by_count": 1003,
+        "urls": [
+          "https://bmjopen.bmj.com/content/bmjopen/9/1/e023191.full.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-248416996",
+        "title": "Timing of sedentary behaviour and access to sedentary activities in the bedroom and their association with sleep quality and duration in children and youth: a systematic review.",
+        "authors": [
+          "T. Saunders",
+          "T. McIsaac",
+          "J. Campbell",
+          "Kevin Douillette",
+          "I. Janssen",
+          "J. Tomasone",
+          "A. Ross-White",
+          "S. Prince",
+          "J. Chaput"
+        ],
+        "year": 2022,
+        "abstract": "BACKGROUND The purpose of this study was to systematically review the relationship between the timing of sedentary behaviours and access to sedentary activities in the bedroom with sleep duration and quality in children and youth. A secondary purpose was to examine whether these relationships differ when comparing screen-based and non-screen-based sedentary activities. METHODS We searched four databases for peer-reviewed studies published between 1 January 2010 and 19 January 2021. Risk of bias assessment for each study and certainty of evidence were assessed using the GRADE framework. RESULTS We identified 44 eligible papers reporting data from 42 separate datasets and including 239 267 participants. Evening participation in screen-based sedentary behaviours and access to screen-based devices in the bedroom were associated with reduced sleep duration and quality. Daytime screen use was also associated with reduced sleep duration, although this was examined in relatively few studies. Whether performed during the day or night, non-screen-based sedentary behaviours were not consistently associated with sleep duration or quality. The quality of evidence was rated as low to very low for all outcomes. CONCLUSION In order to maximize sleep duration and quality, children and youth should be encouraged to minimize screen time in the evening and remove screens from bedrooms. (PROSPERO registration no.: CRD42020189082).",
+        "doi": "10.24095/hpcdp.42.4.03",
+        "pmid": "35481336",
+        "venue": "Health Promotion and Chronic Disease Prevention in Canada",
+        "cited_by_count": 28,
+        "urls": [
+          "https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/health-promotion-chronic-disease-prevention-canada-research-policy-practice/vol-42-no-4-2022/timing-sedentary-behaviour-activities-bedroom-sleep-quality-duration-children-youth-systematic-review.pdf",
+          "https://open-science.canada.ca/server/api/core/bitstreams/a9bae70f-b8e9-46e0-8bca-fd4aa5f42e52/content"
+        ]
+      },
+      {
+        "elicit_id": "ss-220126782",
+        "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine systematic review, meta-analysis, and GRADE assessment",
+        "authors": [
+          "PhD Jack D. Edinger",
+          "PhD J. Todd Arnedt",
+          "M. M. Suzanne M. Bertisch",
+          "PhD Colleen E. Carney",
+          "M. M. John J. Harrington",
+          "PhD Kenneth L. Lichstein",
+          "M. F. Michael J. Sateia",
+          "PhD Wendy M. Troxel",
+          "PhD Eric S. Zhou",
+          "Mph Uzma Kazmi",
+          "MA Jonathan L. Heald",
+          "PhD Jennifer L. Martin"
+        ],
+        "year": 2020,
+        "abstract": "The purpose of this systematic review is to provide supporting evidence for a clinical practice guideline on the use of behavioral and psychological treatments for chronic insomnia disorder in adult populations. The American Academy of Sleep Medicine commissioned a task force of 9 experts in sleep medicine and sleep psychology. A systematic review was conducted to identify randomized controlled trials that addressed behavioral and psychological interventions for the treatment of chronic insomnia disorder in adults. Statistical analyses were performed to determine if the treatments produced clinically significant improvements in a range of critical and important outcomes. Finally, the Grading of Recommendations Assessment, Development, and Evaluation process was used to evaluate the evidence for making specific treatment recommendations. The literature search identified 1,244 studies; 124 studies met the inclusion criteria, and 89 studies provided data suitable for statistical analyses. Evidence for the following interventions is presented in this review: cognitive-behavioral therapy for insomnia, brief therapies for insomnia, stimulus control, sleep restriction therapy, relaxation training, sleep hygiene, biofeedback, paradoxical intention, intensive sleep retraining, and mindfulness. This review provides a detailed summary of the evidence along with the quality of evidence, the balance of benefits vs harms, patient values and preferences, and resource use considerations. Edinger JD, Arnedt JT, Bertisch SM, et al. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine systematic review, meta-analysis, and GRADE assessment. J Clin Sleep Med. 2021;17(2):263–298.",
+        "doi": "10.5664/jcsm.8988",
+        "pmid": "33164741",
+        "venue": "Journal of Clinical Sleep Medicine (JCSM)",
+        "cited_by_count": 244,
+        "urls": [
+          "https://jcsm.aasm.org/doi/pdf/10.5664/jcsm.8988"
+        ]
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  }
+]

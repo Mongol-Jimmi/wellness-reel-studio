@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "status": "approved_low_resolution_draft",
+  "format": {"width": 540, "height": 960, "fps": 30, "durationSeconds": 25},
+  "brandIdentity": "Plain-Spoken Pebble",
+  "beats": [
+    {"id":"intro","outputStart":0,"outputEnd":3.5,"action":"keep","visual":"Four pebble vocabulary preview","purpose":"Set a low-pressure check-in frame","reviewRequired":false},
+    {"id":"feet","outputStart":3.5,"outputEnd":8.5,"action":"keep","visual":"Sage FEET pebble settles over a stable shadow","purpose":"Concrete contact cue","reviewRequired":false},
+    {"id":"sound","outputStart":8.5,"outputEnd":13.5,"action":"keep","visual":"Sky SOUND pebble with restrained signal arcs","purpose":"One present auditory cue","reviewRequired":false},
+    {"id":"air","outputStart":13.5,"outputEnd":19.5,"action":"keep","visual":"Apricot AIR pebble and one slow expansion","purpose":"Introduce one comfortable, non-forced breath","reviewRequired":true},
+    {"id":"now","outputStart":19.5,"outputEnd":22.5,"action":"keep","visual":"Plum NOW pebble settles","purpose":"Invite observation without promising an outcome","reviewRequired":false},
+    {"id":"close","outputStart":22.5,"outputEnd":25,"action":"keep","visual":"Vocabulary pebbles regroup around quiet CTA","purpose":"Low-pressure close and safety boundary","reviewRequired":false}
+  ],
+  "publicationStatus": "human_review_required"
+}

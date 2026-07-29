@@ -1,0 +1,1059 @@
+[
+  {
+    "topic": "sensory-grounding",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "FEET • SOUND • NOW",
+    "category": "grounding",
+    "actionSteps": [
+      "Feel where your feet or body meet a stable surface.",
+      "Name one thing you can see, one you can hear, and one you can feel.",
+      "Pause and notice whether your attention has shifted; stop if this feels worse."
+    ],
+    "safetyBoundary": "This is an optional grounding prompt, not medical treatment for derealization or dissociation.",
+    "guidanceSources": [
+      "https://news.va.gov/104529/live-whole-health-125-grounding-exercise-and-connecting-with-our-senses/",
+      "https://www.nhs.uk/mental-health/conditions/dissociative-disorders/"
+    ],
+    "researchQuery": "sensory grounding present moment stress anxiety systematic review",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-233428437",
+        "title": "Reducing stress, anxiety and depression in undergraduate nursing students: Systematic review.",
+        "authors": [
+          "M. A. Aloufi",
+          "Rebecca J. Jarden",
+          "M. Gerdtz",
+          "S. Kapp"
+        ],
+        "year": 2021,
+        "abstract": null,
+        "doi": "10.1016/j.nedt.2021.104877",
+        "pmid": "33905898",
+        "venue": "Nurse Education Today",
+        "cited_by_count": 210,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-3349765",
+        "title": "Effects of mindfulness exercises as stand-alone intervention on symptoms of anxiety and depression: Systematic review and meta-analysis.",
+        "authors": [
+          "Paul Blanck",
+          "Sarah Perleth",
+          "T. Heidenreich",
+          "P. Kröger",
+          "B. Ditzen",
+          "H. Bents",
+          "Johannes Mander"
+        ],
+        "year": 2018,
+        "abstract": null,
+        "doi": "10.1016/j.brat.2017.12.002",
+        "pmid": "29291584",
+        "venue": "Behaviour Research and Therapy",
+        "cited_by_count": 205,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-270284981",
+        "title": "The association between sensory processing and stress in the adult population: A systematic review.",
+        "authors": [
+          "Á. Harrold",
+          "Kim Keating",
+          "F. Larkin",
+          "Annalisa Setti"
+        ],
+        "year": 2024,
+        "abstract": "There is emerging empirical evidence indicating that differences in self-reported sensory processing may be associated with differences in levels of stress in the adult populations. Understanding how sensory processing relates to stress is of clinical relevance, given the well-established impact of stress on physical health, mental health and well-being. Although several studies have examined the association between sensory processing and stress in adult populations, no published reviews have systematically summarised and synthesised these findings. We aimed to fill this gap by conducting a systematic review to synthesise the available evidence examining the association between self-reported sensory processing and self-reported measures of stress in the adult population. The review was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA-S) checklist. Twenty studies were included in the final review. Quality assessment was conducted with the Mixed Methods Appraisal Tool. Overall, the evidence is strong for an association between differences in sensory processing and self-reported stress in adults. This association was found across a range of populations and measures of stress, in cross-sectional studies. The most commonly used measure of sensory processing was the Highly Sensitive Person Scale, which was consistently moderately associated with a range of measures of stress. The quality of the included studies was generally good, with most meeting four or five out of five criteria. Longitudinal studies are lacking. There is strong evidence for a cross-sectional association between sensory processing and stress in an adult population. Further research, in particular longitudinal studies and studies including clinical populations, would be of benefit in order to establish causality.",
+        "doi": "10.1111/aphw.12554",
+        "pmid": "38838078",
+        "venue": "Applied Psychology: Health and Well-Being",
+        "cited_by_count": 30,
+        "urls": [
+          "https://doi.org/10.1111/aphw.12554",
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/aphw.12554"
+        ]
+      },
+      {
+        "elicit_id": "ss-270453458",
+        "title": "A systematic review of brief respiratory, embodiment, cognitive, and mindfulness interventions to reduce state anxiety",
+        "authors": [
+          "Phoebe Chin",
+          "Faye Gorman",
+          "F. Beck",
+          "Bruce R. Russell",
+          "K. Stephan",
+          "Olivia K. Harrison"
+        ],
+        "year": 2024,
+        "abstract": "Introduction Anxiety is one of the most prevalent mental health conditions worldwide, and psychotherapeutic techniques can be employed to help manage and mitigate symptoms. While the available therapies are numerous, key strategies often involve cognitive and/or embodiment techniques. Within body-centered methods, breathing-oriented approaches are particularly prevalent, using either attention towards or active control of breathing. As the perception of body states (i.e., interoception) is thought to be an integral component of emotion generation, these embodiment and breathing techniques may be key in addressing the miscommunication between the brain and body that is thought to exist with anxiety. Therefore, we conducted a systematic review and meta-analysis to assess the effects of acute administration of psychological interventions for state anxiety. Results This systematic review was conducted in accordance with the PRISMA statement and registered prospectively in PROSPERO. A literature search for randomized controlled trials was conducted in PubMed, PsycINFO, and Scopus. We considered interventions that focused on cognitive, embodiment or breathing strategies, or a combination of these techniques. Twelve studies met our inclusion criteria, and study characteristics, quality and effect sizes were assessed. A single cognitive study was found to produce a moderate reduction in state anxiety, while moderate to large effects were found across studies assessing embodiment practices. In contrast, studies which utilized breathing-based interventions alone produced inconsistent results, with both attention towards and active control of breathing producing large to no effects depending on the technique employed. Finally, consistent moderate effects were found with combination techniques that involved passive attention (e.g., towards cognitions, body and/or breathing), with active combination techniques producing inconsistent results. Discussion While study numbers are limited regarding brief interventions, cognitive and embodiment techniques are consistently helpful for reducing state anxiety, while breathing-based exercises need to consider the specific technique employed, and how successful this may be for each individual. Furthermore, combined practices such as mindfulness can also be successful, although care must be taken when introducing an active change to one or more elements. PROSPERO Systematic Review Registration Number CRD42024507585 Available from: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42024507585.",
+        "doi": "10.3389/fpsyg.2024.1412928",
+        "pmid": "38933581",
+        "venue": "Frontiers in Psychology",
+        "cited_by_count": 11,
+        "urls": [
+          "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1412928/pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11203600/pdf/fpsyg-15-1412928.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-215712497",
+        "title": "Effects of Mindfulness-Based Stress Reduction on employees’ mental health: A systematic review",
+        "authors": [
+          "Math Janssen",
+          "Y. Heerkens",
+          "W. Kuijer",
+          "Beatrice van der Heijden",
+          "J. Engels"
+        ],
+        "year": 2018,
+        "abstract": "Objectives The purpose of this exploratory study was to obtain greater insight into the effects of Mindfulness-Based Stress Reduction (MBSR) and Mindfulness-Based Cognitive Therapy (MBCT) on the mental health of employees. Methods Using PsycINFO, PubMed, and CINAHL, we performed a systematic review in October 2015 of studies investigating the effects of MBSR and MBCT on various aspects of employees’ mental health. Studies with a pre-post design (i.e. without a control group) were excluded. Results 24 articles were identified, describing 23 studies: 22 on the effects of MBSR and 1 on the effects of MBSR in combination with some aspects of MBCT. Since no study focused exclusively on MBCT, its effects are not described in this systematic review. Of the 23 studies, 2 were of high methodological quality, 15 were of medium quality and 6 were of low quality. A meta-analysis was not performed due to the emergent and relatively uncharted nature of the topic of investigation, the exploratory character of this study, and the diversity of outcomes in the studies reviewed. Based on our analysis, the strongest outcomes were reduced levels of emotional exhaustion (a dimension of burnout), stress, psychological distress, depression, anxiety, and occupational stress. Improvements were found in terms of mindfulness, personal accomplishment (a dimension of burnout), (occupational) self-compassion, quality of sleep, and relaxation. Conclusion The results of this systematic review suggest that MBSR may help to improve psychological functioning in employees.",
+        "doi": "10.1371/journal.pone.0191332",
+        "pmid": "29364935",
+        "venue": "PLoS ONE",
+        "cited_by_count": 358,
+        "urls": [
+          "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0191332&type=printable"
+        ]
+      },
+      {
+        "elicit_id": "ss-274241093",
+        "title": "Effectiveness of Mindfulness-Based Stress Reduction on Anxiety Disorder: A Systematic Review",
+        "authors": [
+          "Ahsan Huda Yumkhaibam",
+          "Sm Farooque",
+          "Sharina Naorem",
+          "Sanjib Kumar Bhowmik"
+        ],
+        "year": 2024,
+        "abstract": "Anxiety disorders, including generalized anxiety disorder (GAD), social anxiety disorder (SAD), panic disorder, and specific phobias, are significant public health concerns that affect millions worldwide and lead to substantial impairments in daily functioning and quality of life. Traditional treatments may not suit everyone, highlighting the need for alternatives like Mindfulness-Based Stress Reduction (MBSR), which emphasizes mindfulness meditation. This systematic review evaluates the effectiveness of MBSR in reducing anxiety symptoms across various anxiety disorders by synthesizing research findings from studies published between January 2013 and April 2024. A comprehensive search was conducted in electronic databases, including PubMed, Semantic Scholar, ScienceDirect, PsycINFO, and Web of Science, using keywords such as “Mindfulness-Based Stress Reduction,” “MBSR,” “anxiety disorder,” and “effectiveness.” Peer-reviewed studies assessing the efficacy of MBSR on anxiety disorders were included, with data extraction and quality assessment performed following PRISMA 2022 guidelines. The search identified 1095 articles, with 13 studies meeting the inclusion criteria for the final analysis, encompassing a total sample size of 751 participants. The studies varied in design, sample size, participant demographics, and targeted anxiety disorders. Findings consistently showed significant reductions in anxiety symptoms among participants receiving MBSR compared to control groups. For GAD, studies reported improvements in anxiety and stress measures such as the Beck Anxiety Inventory (BAI) and Hamilton Anxiety Rating Scale (HAM-A). For SAD, reductions in social anxiety symptoms were observed, with some studies showing comparable effectiveness to CBT. This review presents compelling evidence supporting the efficacy of MBSR in reducing symptoms associated with anxiety disorders. Future research should focus on the long-term effects, impact on diverse demographic groups, and specific mechanisms to improve its clinical applicability.",
+        "doi": "10.54536/ajhp.v2i1.3790",
+        "pmid": null,
+        "venue": "American Journal of Human Psychology",
+        "cited_by_count": 1,
+        "urls": [
+          "https://journals.e-palli.com/home/index.php/ajhp/article/download/3790/1877"
+        ]
+      },
+      {
+        "elicit_id": "ss-277589913",
+        "title": "Assistive and Emerging Technologies to Detect and Reduce Neurophysiological Stress and Anxiety in Children and Adolescents with Autism and Sensory Processing Disorders: A Systematic Review",
+        "authors": [
+          "Pantelis Pergantis",
+          "Victoria Bamicha",
+          "Aikaterini Doulou",
+          "Antonios I. Christou",
+          "N. Bardis",
+          "C. Skianis",
+          "Athanasios Drigas"
+        ],
+        "year": 2025,
+        "abstract": "This systematic review aims to investigate the ways in which assistive and developing technologies can help children and adolescents with autism spectrum disorder (ASD) experience less stress and neurophysiological distress. According to recent CDC data, the prevalence of ASD in the United States has climbed to 1 in 36 children. The symptoms of ASD can manifest in a wide range of ways, and the illness itself exhibits significant variations. Furthermore, it has been closely linked to experiencing stress and worry in one’s life, which many people refer to as sensory processing disorder (SPD). SPD is a disorder that describes how people behave when they are exposed to environmental stimuli that they may not normally process by feeling more intense than what is causing them to worry and distress. One of the most significant limiting factors that can prevent someone from engaging in what they need to do in their everyday lives is stress. Individuals with ASD deal with stress on a regular basis, which has a big impact on how they function. In order to address a significant research vacuum concerning the use of assistive and emerging technologies to reduce stress in individuals with ASD, this systematic review aims to investigate performance, measuring techniques, and interventions by gathering data from the past 10 years. In order to determine the research hypothesis, particular research questions, and the inclusion and exclusion criteria for the studies, the research process entails gathering studies through systematic review analysis in accordance with the PRISMA principles. Experimental and observational studies on the use of assistive and emerging technologies for stress and anxiety management in children and adolescents with ASD that were published only in English met the inclusion criteria. Research not directly related to stress and anxiety outcomes, articles published in languages other than English, and research conducted outside of the designated time frame were also excluded. The study’s findings demonstrated that the technologies under examination had beneficial impacts on reducing stress; nonetheless, notable limitations were found that could compromise the replication and generalizability of legitimate and dependable applications in their utilization.",
+        "doi": "10.3390/technologies13040144",
+        "pmid": null,
+        "venue": "Technologies",
+        "cited_by_count": 25,
+        "urls": [
+          "https://www.mdpi.com/2227-7080/13/4/144/pdf?version=1743758910"
+        ]
+      },
+      {
+        "elicit_id": "ss-238989292",
+        "title": "A systematic review and meta-analysis of acceptance- and mindfulness-based interventions for DSM-5 anxiety disorders",
+        "authors": [
+          "H. Haller",
+          "Pascal Breilmann",
+          "Marleen Schröter",
+          "G. Dobos",
+          "H. Cramer"
+        ],
+        "year": 2021,
+        "abstract": "This meta-analysis systematically reviewed the evidence on standardized acceptance-/mindfulness-based interventions in DSM-5 anxiety disorders. Randomized controlled trials examining Acceptance and Commitment Therapy (ACT), Mindfulness-Based Cognitive Therapy (MBCT), and Mindfulness-Based Stress Reduction (MBSR) were searched via PubMed, Central, PsycInfo, and Scopus until June 2021. Standardized mean differences (SMD) and 95% confidence intervals (CI) were calculated for primary outcomes (anxiety) and secondary ones (depression and quality of life). Risk of bias was assessed using the Cochrane tool. We found 23 studies, mostly of unclear risk of bias, including 1815 adults with different DSM-5 anxiety disorders. ACT, MBCT and MBSR led to short-term effects on clinician- and patient-rated anxiety in addition to treatment as usual (TAU) versus TAU alone. In comparison to Cognitive Behavioral Therapy (CBT), ACT and MBCT showed comparable effects on both anxiety outcomes, while MBSR showed significantly lower effects. Analyses up to 6 and 12 months did not reveal significant differences compared to TAU or CBT. Effects on depression and quality of life showed similar trends. Statistical heterogeneity was moderate to considerable. Adverse events were reported insufficiently. The evidence suggests short-term anxiolytic effects of acceptance- and mindfulness-based interventions. Specific treatment effects exceeding those of placebo mechanisms remain unclear. Protocol registry: Registered at Prospero on November 3rd, 2017 (CRD42017076810).",
+        "doi": "10.1038/s41598-021-99882-w",
+        "pmid": "34650179",
+        "venue": "Scientific Reports",
+        "cited_by_count": 90,
+        "urls": [
+          "https://www.nature.com/articles/s41598-021-99882-w.pdf"
+        ]
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  },
+  {
+    "topic": "gentle-breathing",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "AIR • EASY • SLOW",
+    "category": "stress",
+    "actionSteps": [
+      "Sit, stand, or lie somewhere supported.",
+      "Let the breath move into your belly only as deeply as is comfortable—never force it.",
+      "Breathe gently in through the nose and out through the mouth; count evenly if helpful."
+    ],
+    "safetyBoundary": "A short Reel can introduce the practice, but it is not an instant reset or a complete breathing session.",
+    "guidanceSources": [
+      "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/"
+    ],
+    "researchQuery": "slow paced breathing stress anxiety systematic review meta analysis",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-270511476",
+        "title": "A LITERATURE REVIEW ON THE EFFECT OF DEEP BREATHING EXERCISES ON STRESS-INDUCED ANXIETY AND CARDIOVASCULAR CHANGES",
+        "authors": [
+          "Ridham Meghanathi",
+          "Dr. Anjali Suresh"
+        ],
+        "year": 2024,
+        "abstract": "Many ailments, including somatic conditions like hypertension and pulmonary diseases additionally psychiatric conditions like anxiety and depressive disorders, benefit from using deep breathing techniques. The purpose of this literature review is to determine the effect of deep breathing on stress-induced anxiety and cardiovascular changes. METHOD: Search engines like PubMed and Google Scholar have been used to collect the reviews consisting of systematic reviews, randomized controlled trials, and experimental studies regarding the current evidence of the effect of breathing exercises on stress induced anxiety and related cardiovascular changes. A total of 35 articles were identified, among them 20 articles from 2007 to 2023 were selected for review. RESULT: four experimental studies were identified, where they compared the experimental group with the control group. Four quasi-experimental studies tested Deep Breathing Exercises to significantly reduce stress, anxiety, and circulatory problems. One systematic review summarized the impact of breathing activities on prehypertensive and hypertensive patients whereas One author summarized the positive effect of doing daily Deep breathing exercises to lessen stress of immediate or chronic by decreasing the sympathetic activity. One pre-experimental study concluded the effect of the DBE on headache and vitals like blood pressure, pulse and temperature. KEYWORDS: Anxiety, Blood pressure, Cardiovascular changes, Deep Breathing Exercise, Stress",
+        "doi": "10.36713/epra17300",
+        "pmid": null,
+        "venue": "EPRA international journal of multidisciplinary research",
+        "cited_by_count": 0,
+        "urls": [
+          "https://doi.org/10.36713/epra17300"
+        ]
+      },
+      {
+        "elicit_id": "ss-284573742",
+        "title": "Breathwork in embodied psychotherapies: a systematic review and meta-analysis",
+        "authors": [
+          "Christopher Lomas"
+        ],
+        "year": 2026,
+        "abstract": "Breathwork techniques such as diaphragmatic, paced, and box breathing are increasingly used in psychotherapy and embodied clinical practice yet their efficacy and mechanisms remain unevenly documented. This systematic review and meta-analysis synthesised controlled studies examining breathwork as a stand-alone or adjunctive intervention for psychological (anxiety, depression, stress) and neurobiological (heart-rate variability, brain activation) outcomes. Twenty-five eligible studies (N = 1278) were pooled using random-effects models. Breathwork produced moderate to large reductions in anxiety, depression and perceived stress, with moderate to large increases in heart-rate variability and activation of neural regions implicated in emotion regulation. Subgroup analyses suggested that slow diaphragmatic and paced breathing protocols, delivered regularly and embedded within psychotherapy, were associated with the most robust effects. These findings support breathwork as a low-cost, scalable component of embodied psychotherapies and highlight the need for further trials that integrate somatic, dance/movement, and body-oriented approaches with mechanistically informed psychophysiology.",
+        "doi": "10.1080/17432979.2025.2609283",
+        "pmid": null,
+        "venue": "Body, Movement and Dance in Psychotherapy: An International Journal for Theory, Research and Practice",
+        "cited_by_count": 0,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-249021808",
+        "title": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
+        "authors": [
+          "S. Laborde",
+          "M. Allen",
+          "U. Borges",
+          "F. Dosseville",
+          "T. Hosang",
+          "M. Iskra",
+          "E. Mosley",
+          "C. Salvotti",
+          "L. Spolverato",
+          "N. Zammit",
+          "F. Javelle"
+        ],
+        "year": 2022,
+        "abstract": null,
+        "doi": "10.1016/j.neubiorev.2022.104711",
+        "pmid": "35623448",
+        "venue": "Neuroscience and Biobehavioral Reviews",
+        "cited_by_count": 166,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-271879703",
+        "title": "A Systematic Review of Breathing Exercise Interventions: An Integrative Complementary Approach for Anxiety and Stress in Adult Populations",
+        "authors": [
+          "Sandra P. Morgan",
+          "Cecile A. Lengacher",
+          "Y. Seo"
+        ],
+        "year": 2024,
+        "abstract": "Aim: Nurses are well-qualified to deliver integrative complementary therapy interventions, a holistic approach to assist individuals experiencing anxiety and stress. Self-regulated, controlled breathing exercises (a clinical approach) are reported to decrease anxiety and increase stress tolerance. The aim of this systematic review was to evaluate the effectiveness of breathing exercise interventions on the psychological and physiologic outcomes of anxiety and stress among adults and assess the state of the science in the post-COVID-19 population. Methods: A systematic review was conducted, and four scientific databases were searched: PubMed, CINAHL, EMBASE, and Web of Science. Inclusion criteria included: (1) peer-reviewed studies, (2) adults over 18, (3) breathing exercise interventions, and (4) anxiety or stress as outcomes. Results: Out of 309 studies identified, 19 were included. Twelve reported significant improvements in anxiety and nine reported significant improvements in stress following varying breathing exercise interventions (p < .05). No adverse events were reported. Conclusions: Breathing exercises were found to be effective in reducing anxiety and stress in adults, however, there continues to be limited evidence that includes large randomized controlled trials. Breathing exercises are a holistic care approach that can be safely implemented by nurses to decrease symptomatology among adults, including the post-COVID population.",
+        "doi": "10.1177/08980101241273860",
+        "pmid": "39150318",
+        "venue": "Journal of Holistic Nursing",
+        "cited_by_count": 15,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-266774876",
+        "title": "The Effect of Slow-Paced Breathing on Cardiovascular and Emotion Functions: A Meta-Analysis and Systematic Review",
+        "authors": [
+          "R. Shao",
+          "Idy S. C. Man",
+          "Tatia M. C. Lee"
+        ],
+        "year": 2024,
+        "abstract": "Objectives Slow-paced breathing entails voluntarily controlling one’s breathing rate to a frequency close to the oscillation frequency of the cardiovascular system. Accumulating evidence indicates slow-paced breathing improves cardiovascular and emotion functions. However, there is no meta-analysis that quantifies pooled effect of slow-paced breathing across studies with nonclinical populations. Method In this meta-analysis and systematic review, we synthesized the findings of 31 studies (total n = 1133) which investigated the effect of slow-paced breathing on cardiovascular and emotion measures. PsycINFO, PubMed, Web of Science, and PsycARTICLES electronic databases were searched up to August 1, 2023. Random-effect modelling was conducted to compute pooled effect size across studies. Results Slow-paced breathing showed significant immediate effects in reducing systolic blood pressure (Standardized Mean Difference or SMD = -0.45, 95% CI = [-0.86, -0.04], p < 0.01), increasing time-domain heart rate variability (the root-mean-square-of-successive-differences-between-normal-heartbeats, or RMSSD, SMD = 0.37, 95% CI = [0.16, 0.58], p < 0.01; Standard Deviation of NN Intervals, or SDNN, SMD = 0.77, 95% CI = [0.26, 1.28], p < 0.01), and decreasing heart rate ( SMD = -0.10, 95% CI = [-0.19, -0.01], p < 0.05). The effect in reducing negative emotion, particularly perceived stress, was marginal ( SMD = -0.51, 95% CI = [-1.06, 0.03], p = 0.06). Limited evidence indicated persistent reduction of blood pressure 3 months post-intervention among prehypertensive samples. Preliminary analysis showed moderate association of the physiological and emotion effects of slow-paced breathing. Conclusions Slow-paced breathing demonstrated reliable effects in inducing short-term improvements in cardiovascular functions, and modest effect in reducing negative emotions, but its long-term efficacy in improving cardiovascular functions remains to be established. Future studies should continue to investigate the interrelations among the multifaceted effects of slow-paced breathing. Preregistration This review was preregistered on PROSPERO (Ref No: CRD42023450175).",
+        "doi": "10.1007/s12671-023-02294-2",
+        "pmid": null,
+        "venue": "Mindfulness",
+        "cited_by_count": 61,
+        "urls": [
+          "https://link.springer.com/content/pdf/10.1007/s12671-023-02294-2.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-288536683",
+        "title": "Aggregate Effects of Yoga-Based Volitional Breathing Interventions on Perceived Stress and Anxiety Levels Among Medical Students Worldwide: A Systematic Review and Meta-Analysis",
+        "authors": [
+          "Anupinder Thind",
+          "Pravin M Pisudde",
+          "Sonia Kochhar"
+        ],
+        "year": 2026,
+        "abstract": "Medical education has long been acknowledged as a very stressful career path that exposes students to greater chances of anxiety and burnout. The purpose of this systematic review and meta-analysis was to determine the overall impact of yoga-based volitional breathing (pranayama) interventions on self-perceived stress and anxiety among medical students worldwide. The review analysis was conducted following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, and seven databases were searched from 2010 to 2025. Potential studies were limited to those that concerned interventions involving only pranayama. Seven studies were included, comprising one randomized controlled trial (RCT) and six single-arm studies. A random-effects model was used to compute standardized mean differences (SMD). The meta-analysis of the seven studies in general revealed a significant, large decrease in stress/anxiety (SMD = -1.25, 95% CI: -1.64 to -0.86, p < 0.001), but heterogeneity (I² = 67%) was high. Subgroup analysis indicated a significantly larger effect for short-term (≤8 weeks) programs (SMD = -1.68, 95% CI: -3.13 to -0.22) compared to long-term (>8 weeks) programs (SMD = -1.06, 95% CI: -1.46 to -0.65), with the between-group difference being statistically significant (Q = 9.71, p = 0.002). There were no notable differences in the main outcome measure or by mode of delivery. The effect size of the single RCT, which had a low risk of bias, was very large (SMD = -1.78). It was established that pranayama interventions had significant stress and anxiety reductions in medical students. Although additional high-quality RCTs are required, these results support the inclusion of a structured pranayama intervention in student wellness programs as a powerful and viable mental health promotion approach.",
+        "doi": "10.7759/cureus.109256",
+        "pmid": "42326246",
+        "venue": "Cureus",
+        "cited_by_count": 0,
+        "urls": [
+          "https://doi.org/10.7759/cureus.109256"
+        ]
+      },
+      {
+        "elicit_id": "ss-265363076",
+        "title": "Breathing Practices for Stress and Anxiety Reduction: Conceptual Framework of Implementation Guidelines Based on a Systematic Review of the Published Literature",
+        "authors": [
+          "T. Bentley",
+          "Gina M D'Andrea-Penna",
+          "M. Rakic",
+          "Nicholas N. Arce",
+          "M. Lafaille",
+          "R. Berman",
+          "K. Cooley",
+          "Preston Sprimont"
+        ],
+        "year": 2023,
+        "abstract": "Anxiety and stress plague populations worldwide. Voluntary regulated breathing practices offer a tool to address this epidemic. We examined peer-reviewed published literature to understand effective approaches to and implementation of these practices. PubMed and ScienceDirect were searched to identify clinical trials evaluating isolated breathing-based interventions with psychometric stress/anxiety outcomes. Two independent reviewers conducted all screening and data extraction. Of 2904 unique articles, 731 abstracts, and 181 full texts screened, 58 met the inclusion criteria. Fifty-four of the studies’ 72 interventions were effective. Components of effective and ineffective interventions were evaluated to develop a conceptual framework of factors associated with stress/anxiety reduction effectiveness. Effective breath practices avoided fast-only breath paces and sessions <5 min, while including human-guided training, multiple sessions, and long-term practice. Population, other breath paces, session duration ≥5 min, and group versus individual or at-home practices were not associated with effectiveness. Analysis of interventions that did not fit this framework revealed that extensive standing, interruptions, involuntary diaphragmatic obstruction, and inadequate training for highly technical practices may render otherwise promising interventions ineffective. Following this evidence-based framework can help maximize the stress/anxiety reduction benefits of breathing practices. Future research is warranted to further refine this easily accessible intervention for stress/anxiety relief.",
+        "doi": "10.3390/brainsci13121612",
+        "pmid": "38137060",
+        "venue": "Brain Science",
+        "cited_by_count": 79,
+        "urls": [
+          "https://www.mdpi.com/2076-3425/13/12/1612/pdf?version=1700562364",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10741869/pdf/brainsci-13-01612.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-278771419",
+        "title": "Brief slow-paced breathing improves working memory, mood, and stress in college students",
+        "authors": [
+          "J. Pilcher",
+          "K. Byrne",
+          "Skylar E. Weiskittel",
+          "Emma C. Clark",
+          "Madelyn G Brancato",
+          "Margaret L Rosinski",
+          "Michael R Spinelli"
+        ],
+        "year": 2025,
+        "abstract": "ABSTRACT Background Few studies have examined the effects of brief focused breathing techniques. This study investigated the impact of brief slow-paced breathing (SPB) with a longer exhalation on working memory and perceived mood, stress, and arousal. Design Between-subjects experimental design. Methods Participants (139 undergraduates, 69% female) were randomized to a one-time SPB session or a mind-wandering active control condition. The participants completed the OSPAN working memory task and state measures of mood, stress, and arousal at three time points: baseline, post-manipulation, and post-task. Results OSPAN performance improved in the experimental group. Mood improved in the experimental group but decreased in the control group from baseline to post-manipulation and then decreased in both conditions after completing the OSPAN task. Stress decreased in the experimental group from baseline to post-manipulation and was significantly different from the control group at the post-manipulation time point. Stress then increased from post-manipulation to post-task in both conditions. Arousal decreased in both conditions from baseline to post-manipulation but then increased from post-manipulation to post-task. Conclusions The current results demonstrate that a brief SPB session with longer exhalation improved working memory and temporarily improved mood and stress thus providing a just-in-time intervention to help individuals cope with stress-inducing conditions.",
+        "doi": "10.1080/10615806.2025.2505897",
+        "pmid": "40392328",
+        "venue": "Anxiety, Stress, & Coping",
+        "cited_by_count": 6,
+        "urls": []
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  },
+  {
+    "topic": "mindful-noticing",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "NOTICE • RETURN • NOW",
+    "category": "mindfulness",
+    "actionSteps": [
+      "Choose one present sensation, such as a sound or the feeling of your hands.",
+      "Notice it without deciding whether it is good or bad.",
+      "When attention wanders, gently return once—no score and no failure."
+    ],
+    "safetyBoundary": "Mindful noticing is a general wellness practice, not a substitute for care.",
+    "guidanceSources": [
+      "https://news.va.gov/104529/live-whole-health-125-grounding-exercise-and-connecting-with-our-senses/"
+    ],
+    "researchQuery": "brief mindfulness present moment stress wellbeing systematic review",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-239191609",
+        "title": "MINDFULNESS-BASED BRIEF INTERVENTIONS FOR PREVENTIVE TREATMENT OF STRESS: A SYSTEMATIC REVIEW",
+        "authors": [
+          "Felipe",
+          "E.",
+          "García",
+          "Paulina Rincon",
+          "Valentina Rivera",
+          "Valenzuela"
+        ],
+        "year": 2019,
+        "abstract": "Objective: To carry out a systematic review of mindfulness-based brief psychological interventions for symptoms associated with stress. Method: A literature search was conducted between 2005 and 2018. 352 articles were obtained, 28 were selected that met the inclusion criteria. Results: mindfulness-based brief psychological interventions are an effective and efficient treatment in symptoms related to stress. However, no research was found to study these interventions as a strategy to prevent symptoms related to stress. Conclusions: Necessity to carry out studies that with rigorous methodological control, allow to establish solid conclusions regarding the effectiveness of this type of interventions for the prevention of pathologies associated with stress.",
+        "doi": "10.24205/03276716.2019.1113",
+        "pmid": null,
+        "venue": "REVISTA ARGENTINA DE CLINICA PSICOLOGICA",
+        "cited_by_count": 0,
+        "urls": [
+          "https://doi.org/10.24205/03276716.2019.1113"
+        ]
+      },
+      {
+        "elicit_id": "ss-237573115",
+        "title": "Can a little bit of mindfulness do you good? A systematic review and meta-analyses of unguided mindfulness-based self-help interventions.",
+        "authors": [
+          "Heather F. Taylor",
+          "C. Strauss",
+          "K. Cavanagh"
+        ],
+        "year": 2021,
+        "abstract": null,
+        "doi": "10.1016/j.cpr.2021.102078",
+        "pmid": "34537665",
+        "venue": "Clinical Psychology Review",
+        "cited_by_count": 80,
+        "urls": [
+          "https://figshare.com/articles/journal_contribution/Can_a_little_bit_of_mindfulness_do_you_good_A_systematic_review_and_meta-analyses_of_unguided_mindfulness-based_self-help_interventions/23485772"
+        ]
+      },
+      {
+        "elicit_id": "ss-23238209",
+        "title": "A systematic review of the impact of mindfulness on the well-being of healthcare professionals.",
+        "authors": [
+          "T. Lomas",
+          "J. C. Medina",
+          "Itai Ivtzan",
+          "Silke Rupprecht",
+          "F. Eiroa-Orosa"
+        ],
+        "year": 2018,
+        "abstract": "OBJECTIVE Among efforts to improve the well-being of healthcare professionals are initiatives based around mindfulness meditation. To understand the value of such initiatives, we conducted a systematic review of empirical studies pertaining to mindfulness in healthcare professionals. METHOD Databases were reviewed from the start of records to January 2016. Eligibility criteria included empirical analyses of mindfulness and well-being outcomes acquired in relation to practice. 81 papers met the eligibility criteria, comprising a total of 3,805 participants. Studies were principally examined for outcomes such as burnout, distress, anxiety, depression, and stress. RESULTS Mindfulness was generally associated with positive outcomes in relation to most measures (although results were more equivocal with respect to some outcomes, most notably burnout). CONCLUSION Overall, mindfulness does appear to improve the well-being of healthcare professionals. However, the quality of the studies was inconsistent, so further research is needed, particularly high-quality randomized controlled trials.",
+        "doi": "10.1002/jclp.22515",
+        "pmid": "28752554",
+        "venue": "Journal of Clinical Psychology",
+        "cited_by_count": 170,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jclp.22515"
+        ]
+      },
+      {
+        "elicit_id": "ss-49409806",
+        "title": "Brief Mindfulness Training for Negative Affectivity: A Systematic Review and Meta-Analysis",
+        "authors": [
+          "Maya C. Schumer",
+          "Emily K Lindsay",
+          "J. D. Creswell"
+        ],
+        "year": 2018,
+        "abstract": "Objective: Over the last 10 years, there has been a dramatic increase in published randomized controlled trials (RCTs) of brief mindfulness training (from single-session inductions to multisession interventions lasting up to 2 weeks), with some preliminary indications that these training programs may improve mental health outcomes, such as negative affectivity. This meta-analysis aimed to evaluate whether brief mindfulness training reliably reduces negative affectivity. Method: PubMed, PsycINFO, and the Mindfulness Research Monthly Newsletter were systematically searched for brief mindfulness intervention RCTs assessing negative affectivity outcomes (e.g., depression, rumination, anxiety, stress). Sixty-five RCTs, including 5,489 participants predominantly without experience in meditation (64.64% female, mean age = 24.62), qualified for the meta-analytic review. Results: The meta-analysis revealed a small but significant effect of brief mindfulness training on reducing negative affectivity compared to control programs (g = .21, p < .001). The overall effect size was significantly moderated by participant characteristics: community samples (g = .41, p < .001) produced larger training effects compared to student samples (g = .14, p = .001; Qbetween p = .03). No significant effect size differences were found between clinical and nonclinical samples. However, when accounting for publication bias, the overall effect size of brief mindfulness training programs on negative affectivity was significantly reduced (g = .04). Conclusions: Brief mindfulness training programs are increasingly popular approaches for reducing negative affectivity. This meta-analysis indicates that brief mindfulness training modestly reduces negative affectivity. Quantitative analyses indicated the presence of publication bias (i.e., unpublished null effect studies), highlighting the need to continue rigorous evaluation of brief mindfulness interventions.",
+        "doi": "10.1037/ccp0000324",
+        "pmid": "29939051",
+        "venue": "Journal of Consulting and Clinical Psychology",
+        "cited_by_count": 259,
+        "urls": [
+          "https://europepmc.org/articles/pmc6441958?pdf=render"
+        ]
+      },
+      {
+        "elicit_id": "ss-248396512",
+        "title": "Effectiveness of mindfulness-based interventions on well-being and work-related stress in the financial sector: a systematic review and meta-analysis protocol",
+        "authors": [
+          "Tantri Keerthi Dinesh",
+          "A. Shetty",
+          "V. Dhyani",
+          "Shwetha T.S",
+          "Komal Jenifer Dsouza"
+        ],
+        "year": 2022,
+        "abstract": "Background Work-related stress is a common phenomenon, often noticed in the employees of the finance sector. It mirrors counter effects on the wellness of employees, their mental well-being, and physical health. Mindfulness-based interventions (MBIs) raise awareness and attention to the present moment experiences by adopting coping skills. It is necessary to promote employee well-being and reduce work-related stress; hence, the need arises to associate between the level of mindfulness, employee well-being, and work-related stress. A systematic review on the effectiveness of MBIs in the finance sector is necessary to facilitate evidence for the future utility to reduce work-related stress and promote employee well-being. Methods In this review, randomized controlled trials, non-randomized control trials, cohort, and cross-sectional and case-control studies that assess the effectiveness of MBIs on the employees in the finance sector will be considered. We propose to perform a literature search which will be conducted from the years 2000 to 2021 on CINAHL, Cochrane Library, ProQuest, PubMed, Scopus, and Web of Science. The search terms will include controlled and accessible terms such as mindfulness-based interventions, mindfulness training, workplace, employees, workers, well-being, employee wellness, occupational health, and finance sector. The outcomes will include the effect on employee well-being and reduction in work-related stress. Two researchers will independently conduct the screening and data extraction and assess the risk of bias. Based on the availability of data, a meta-analysis will also be performed. This protocol follows the Preferred Reporting Items for Systematic reviews and Meta-Analysis-Protocol (PRISMA-P) guidelines. “Assessing the Methodological Quality of Systematic Reviews” will be used to assess the quality of this review. Discussion The review attempts to methodically analyse the effectiveness of MBIs among finance sector employees. It will foster to facilitate a detailed description and evidence-based overview of the effectiveness of MBIs on improving work-related stress, mindful awareness, and employee wellness and well-being in employees in the finance sector. The current study will provide an evidence base to researchers, academicians, and practitioners in the selection of mindfulness-based therapies for employees in the finance sector. Systematic review registration PROSPERO 2021 CRD42021249782",
+        "doi": "10.1186/s13643-022-01956-x",
+        "pmid": "35477582",
+        "venue": "Systematic Reviews",
+        "cited_by_count": 17,
+        "urls": [
+          "https://systematicreviewsjournal.biomedcentral.com/track/pdf/10.1186/s13643-022-01956-x"
+        ]
+      },
+      {
+        "elicit_id": "ss-189977413",
+        "title": "Effects of Brief Mindfulness-Based Interventions on Health-Related Outcomes: a Systematic Review",
+        "authors": [
+          "A. Howarth",
+          "Jared G. Smith",
+          "L. Perkins-Porras",
+          "M. Ussher"
+        ],
+        "year": 2019,
+        "abstract": "Traditional mindfulness-based interventions (MBIs) have been applied successfully across many populations. The time commitment for these programs is often a barrier, and while brief MBIs have become popular, the impact of these on health-related outcomes is unclear as they have not yet been reviewed. A search of databases, including Medline, Embase, and PsycINFO, was conducted with qualitative and case studies being excluded. Findings were summarized using a narrative approach for all studies that met the inclusion criteria. With one exception, all 85 studies that were included were randomized controlled trials and were relatively robust methodologically. Seventy-nine reported significant positive effects on at least one health-related outcome and over a quarter targeted a clinical population. The majority of studies focused on psychological outcomes, such as anxiety and depression, as well as emotion regulation, stress, and cognitive outcomes. Despite heterogeneity of outcomes across studies, there is evidence that brief MBIs can impact numerous health-related outcomes, after only one session and with interventions as brief as 5 min. These interventions have the potential to be the initial steps leading to sustainable and positive health outcomes.",
+        "doi": "10.1007/S12671-019-01163-1",
+        "pmid": null,
+        "venue": "Mindfulness",
+        "cited_by_count": 184,
+        "urls": [
+          "https://link.springer.com/content/pdf/10.1007/s12671-019-01163-1.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-213638455",
+        "title": "Brief Mindfulness-Based Interventions in a Laboratory Context: a Systematic Review of Randomized Controlled Trials",
+        "authors": [
+          "Óliver Jiménez",
+          "Natalia S. Ramos",
+          "Álvaro González-Moraleda",
+          "D. Resurrección"
+        ],
+        "year": 2020,
+        "abstract": "Objectives Brief mindfulness-based interventions conducted in laboratory context have increased in recent years as a novel form of intervention. However, there are no reports of their association with improved psychological health. The main objective of the present study was to systematically review the evidence from randomized controlled trials in a laboratory context of the relationship between brief mindfulness interventions and psychological outcomes. Methods MEDLINE, Scopus, Open Gray, Psycinfo, Web of Science, Proquest, and the Cochrane Database were searched for relevant publications from inception to March 2019. Search terms included (a) brief mindfulness, and (b) laboratory setting. Results A total of 4799 studies were reviewed, 19 of which were finally included, only three conducted in a clinical population. All the included studies were from the last decade. A total of 19 psychological variables were included, among which are anxiety, positive affect or distress. The studies differ in the type of intervention, the duration of the intervention and the type of variable studied. Conclusions Brief mindfulness interventions need to be examined with greater rigor in their application. In order to reach relevant conclusions regarding their implementation, consensus must be reached regarding the type of intervention, settings, timing and target population.",
+        "doi": "10.1007/s12671-020-01320-x",
+        "pmid": null,
+        "venue": "Mindfulness",
+        "cited_by_count": 14,
+        "urls": [
+          "https://hdl.handle.net/10630/30220"
+        ]
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  },
+  {
+    "topic": "muscle-release",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "HANDS • RELEASE • REST",
+    "category": "relaxation",
+    "actionSteps": [
+      "Pick one comfortable muscle group, such as your hands.",
+      "Gently tense without straining, then release.",
+      "Notice the contrast; skip injured or painful areas and stop if uncomfortable."
+    ],
+    "safetyBoundary": "Avoid painful areas or forceful tension; this is a brief introduction, not individualized treatment.",
+    "guidanceSources": [
+      "https://www.va.gov/WHOLEHEALTHLIBRARY/tools/progressive-muscle-relaxation.asp"
+    ],
+    "researchQuery": "progressive muscle relaxation stress anxiety systematic review randomized trial",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-284305482",
+        "title": "Jacobsons Progressive Muscle Relaxation and its Therapeutic Efficacy: A Systematic Review",
+        "authors": [
+          "R. Verma",
+          "Vikram Kumar"
+        ],
+        "year": 2025,
+        "abstract": "Progressive Muscle Relaxation (JPMR) developed by Jacobson is a psychophysiological method aimed at reducing stress and anxiety by a process involving the tensing and releasing of muscle groups with the aim of achieving physiological and psychological relaxation respectively. The current systematic review intended to systematize empirical studies carried out between 2020 to 2025 and found in the literature that investigated the efficacy of JPMR in various populations and psychological and physiological outcomes. In line with the Preferred Reporting Items on the Systematic Reviews and Meta-Analyses (PRISMA) guidelines, Google Scholar, PubMed and ResearchGate were searched with keywords of JPMR, Jacobson Progressive Muscle Relaxation, stress, anxiety, sleep, and blood pressure. A total of 20 peer-reviewed studies were found to fit the inclusion criteria. All the reviewed literature repeatedly proved that JPMR has a considerably high-level stress and anxiety reduction, sleep quality improvement, reduction in blood pressure, and overall emotional well-being in a clinical and non-clinical population. Nevertheless, some studies had methodological weaknesses due to small sample sizes, short interventions, and lack of cultural validation. In general, JPMR turns out to be a low-cost, available, and non-pharmacological intervention with bright perspectives in stress management, psychosomatic regulation, and the holistic well-being. Future studies must focus on long term interventions, cross-cultural uses, and use of technology for the delivery in order to boost the usefulness and sustainability of JPMR interventions.",
+        "doi": "10.61113/ijiap.v3i10.1185",
+        "pmid": null,
+        "venue": "International Journal of Interdisciplinary Approaches in Psychology",
+        "cited_by_count": 0,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-270579046",
+        "title": "The Effectiveness of Using Progressive Muscle Relaxation Techniques on Quality of Life, Stress, And Anxiety Among Acute Myocardial Infarction: A Systematic Review",
+        "authors": [
+          "Ala'a AI-yyan",
+          "Ayat A. ELayan",
+          "M. Saleh"
+        ],
+        "year": 2024,
+        "abstract": "The progressive muscle relaxation technique (PMRT) is an active method that is defined as a technique through which individuals gradually cause a feeling of quietness and coolness by actively contracting and loosening specific muscle groups. The purpose of this study was to review the effectiveness of using progressive muscle relaxation techniques on quality of life, stress, and anxiety levels among Acute Myocardial Infarction patients. A systematic review of randomized controlled trials (2013-2023). Databases of Pub Med through (Medline), EBSCO, and Cochrane Library were conducted for trials of progressive muscle relaxation techniques on quality of life, stress, and anxiety levels as clinical outcomes. Data extraction and quality appraisal were performed and verified. The Cochrane Risk of Bias instrument tool was used to appraise the selected articles critically. Seven out of 40 studies included 420 patients who met the inclusion criteria. The progressive muscle relaxation technique is more effective and statistically significant regarding quality of life (p < 0.05). Stress as an outcome was decreased after PMRT (p < 0.05), and anxiety levels (p = 0.001). The progressive muscle relaxation technique revealed a significant effect on patients' quality of life, stress, and anxiety levels. However, results need to be confirmed using more high-quality RCTs. Therefore, frequent evaluation is suggested for the available primary studies to prove the findings. Applying the PMRT as part of the cardiac rehabilitation program will help in enhancing patient outcomes. A combination of PMRT with other interventions will increase the efficacy of the PMRT. Follow-up in the long term will improve the generalizability of the findings for MI patients and among different patients with other cardiac diseases.",
+        "doi": "10.21926/obm.neurobiol.2402226",
+        "pmid": null,
+        "venue": "OBM Neurobiology",
+        "cited_by_count": 2,
+        "urls": [
+          "https://www.lidsen.com/journals/neurobiology/neurobiology-08-02-226/obm.neurobiol.2402226.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-279199214",
+        "title": "Efektivitas Pemberian Terapi Relaksasi Otot Progresif Terhadap Penurunan Tingkat Stres Pada Perawat : Systematic Review",
+        "authors": [
+          "Linda Mandasari",
+          "N. H. Daulima",
+          "Mustikasari Mustikasari",
+          "Yossie Susanti Eka Putri"
+        ],
+        "year": 2025,
+        "abstract": "Nurses are at the forefront of health services so they can influence the physical and psychological condition of nurses. Psychological disorders that can occur include work stress on nurses which must be studied and solutions found so that nurses' performance remains good and of high quality. To overcome work stress conditions in nurses, there are various solutions that can be done, one of which is progressive muscle relaxation. Progressive muscle relaxation therapy can have an effect on reducing stress and anxiety levels in nurses. Literature search using databases namely ProQuest, Sciencedirect and Clinicalkey Nursing within the last 10 years. There are 3 articles that use a Randomized Control Trial. Providing progressive muscle relaxation therapy can be effective in reducing stress levels in nurses.",
+        "doi": "10.31004/jn.v9i2.42754",
+        "pmid": null,
+        "venue": "Jurnal Ners",
+        "cited_by_count": 0,
+        "urls": [
+          "https://journal.universitaspahlawan.ac.id/index.php/ners/article/download/42754/27081"
+        ]
+      },
+      {
+        "elicit_id": "ss-284217974",
+        "title": "Progressive Muscle Relaxation as a Non-Pharmacological Intervention for Stress, Anxiety, and Quality of Life Among Elderly: A Systematic Review",
+        "authors": [
+          "Puji Setya Rini"
+        ],
+        "year": 2025,
+        "abstract": "Progressive Muscle Relaxation as a Non-Pharmacological Intervention for Stress, Anxiety, and Quality of LifeAmong Elderly: A Systematic Review",
+        "doi": "10.58439/jhrt.v4i1.434",
+        "pmid": null,
+        "venue": "Journal of health research and technology",
+        "cited_by_count": 0,
+        "urls": [
+          "https://e-journal.saku.co.id/index.php/JHRT/article/download/434/268"
+        ]
+      },
+      {
+        "elicit_id": "ss-237478498",
+        "title": "Progressive Muscle Relaxation and Guided Imagery in Breast Cancer: A Systematic Review and Meta-analysis of Randomised Controlled Trials",
+        "authors": [
+          "M. Sinha",
+          "Apurba Barman",
+          "M. Goyal",
+          "Suravi Patra"
+        ],
+        "year": 2021,
+        "abstract": "Breast cancer affects the mental well-being of patients who may need psychological support. The combined practice of progressive muscle relaxation (PMR) and guided imagery (GI) is known to improve psychological health. Its effect has been studied in patients with breast cancer. We need to systematically review and analyse the available data to outline its role in various stages of disease management. We wanted to evaluate the effect of the combined practice of PMR and GI on stress, anxiety, depression and mood. We also wanted to study the impact on quality of life and chemotherapy-related adverse effects. A systematic search and evaluation of the literature was performed. Five randomised controlled trials were selected for data extraction and construction of forest plots. The intervention was effective for stress and anxiety. It positively improved the quality of life but saw no significant improvement in chemotherapy-related adverse effects.",
+        "doi": "10.25259/IJPC_136_21",
+        "pmid": "34511805",
+        "venue": "Indian Journal of Palliative Care",
+        "cited_by_count": 25,
+        "urls": [
+          "https://jpalliativecare.com/view-pdf/?&article=f1d7e7f66c72755963f521707a2504f17g4C2qQmyP4="
+        ]
+      },
+      {
+        "elicit_id": "ss-254733021",
+        "title": "The effect of the demonstration-based progressive muscle relaxation technique on stress and anxiety in nurses caring for COVID-19 patients: a randomized clinical trial",
+        "authors": [
+          "Samaneh Ganjeali",
+          "Z. Farsi",
+          "S. A. Sajadi",
+          "Kourosh Zarea"
+        ],
+        "year": 2022,
+        "abstract": "Background Caring for patients with coronavirus disease 2019 (COVID-19) challenges nurses and causes them to experience stress and anxiety. From this perspective, it is of utmost importance to develop quick and effective intervention strategies to prevent numerous complications. This study aimed to investigate the effect of the progressive muscle relaxation technique, using the demonstration method on the stress and anxiety of nurses who care for COVID-19 patients. Methods This randomized clinical trial was conducted in 2021. Forty-six nurses working in two referral hospitals with wards for COVID-19 patients in Tehran, Iran recruited by convenience sampling method and then randomly assigned to experimental or control groups. The nurses in the experimental group educated the progressive muscle relaxation by the demonstration method, and they were encouraged to practice it. The Depression Anxiety Stress Scale-21 was utilized to measure the stress and anxiety levels in the nurses. Results Before the intervention, the levels of stress in the experimental and control groups were 13.91 ± 2.41 vs. 14.34 ± 2.74 ( p = 0.571), and their anxiety was 13.34 ± 3.41 vs. 12.78 ± 2.21 ( p = 0.510), respectively. After the intervention, the levels of stress in the experimental and control groups were 10.95 ± 2.01 vs. 14.17 ± 2.34 ( p < 0.001), and their anxiety was 9.47 ± 2.37 vs. 12.91 ± 1.85 ( p < 0.001), respectively. Moreover, the levels of stress and anxiety in the experimental group significantly diminished after intervention ( p < 0.001), but no significant changes were observed in the control group ( p > 0.05). Conclusion Concerning the effectiveness of the progressive muscle relaxation technique in relieving the stress and anxiety of the nurses caring for COVID-19 patients, it is suggested to include this relaxation technique in nursing courses.",
+        "doi": "10.1186/s12888-022-04456-3",
+        "pmid": "36522723",
+        "venue": "BMC Psychiatry",
+        "cited_by_count": 16,
+        "urls": [
+          "https://bmcpsychiatry.biomedcentral.com/counter/pdf/10.1186/s12888-022-04456-3"
+        ]
+      },
+      {
+        "elicit_id": "ss-245496529",
+        "title": "The effect of progressive muscle relaxation interventions on depression, stress, anxiety, and quality of life for cancer patients: a systematic review",
+        "authors": [
+          "S. Yusuf",
+          "Tria Anisa Firmanti",
+          "M. Nashir",
+          "Roudlotun Nurul Laili"
+        ],
+        "year": 2021,
+        "abstract": "Patients with cancer experience emotional distress which characterized by psychological symptoms such as anxiety or depression, psychological symptoms that arise and complex cancer processes have negative impact on their quality of life. Many cancer patients use a wide variety of techniques to improve their psychological symptoms and quality of life including relaxation therapy and specifically, Progressive Muscle Relaxation (PMR). The systematic review purpose was to review the evidence regarding the use of PMR intervention for cancer patients. Thirty four published studies and nine identified original article as potentially relevant , undertaken in the past six years until now (2013 to 2019) with data bases in Scopus, Proquest, Google Scholar, Oxford, and Science direct Searches. The information flow chart from record identification to study inclusion was conducted in accordance with the PRISMA and extracted data with PICOT. The impact of progressive muscle relaxation interventions remained in effect for between seven days and six month after the interventions.. Progressive muscle relaxation intervention is the technique including continous and systematic stretching and relaxing of the muscles until the whole body becomes relaxed. It has effects in improving depression, stress, anxiety and quality of life via physical relaxation.",
+        "doi": "10.54832/phj.v3i1.97",
+        "pmid": null,
+        "venue": "Professional Health Journal",
+        "cited_by_count": 0,
+        "urls": [
+          "https://www.ojsstikesbanyuwangi.com/index.php/PHJ/article/download/97/120"
+        ]
+      },
+      {
+        "elicit_id": "ss-276393070",
+        "title": "The Effect of Progressive Muscle Relaxation Exercises Applied to Caregivers of Palliative Care Patients on Stress Coping Styles and Anxiety Levels: A Randomised Controlled Trial",
+        "authors": [
+          "G. Turan",
+          "Zülfinaz Özer",
+          "Cuma Demir"
+        ],
+        "year": 2025,
+        "abstract": "This study aimed to investigate the effect of progressive muscle relaxation exercises on the ability to cope with stress and anxiety level in caregivers of palliative care patients.",
+        "doi": "10.1002/nop2.70149",
+        "pmid": "39953943",
+        "venue": "Nursing Open",
+        "cited_by_count": 5,
+        "urls": [
+          "https://doi.org/10.1002/nop2.70149",
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/nop2.70149"
+        ]
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  },
+  {
+    "topic": "nature-microbreak",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "LOOK • COLOR • TEXTURE",
+    "category": "behavior",
+    "actionSteps": [
+      "Step outside or look toward a natural view if one is available.",
+      "Notice one color, one texture, and one sound.",
+      "Treat any change as information, not a required outcome."
+    ],
+    "safetyBoundary": "This is a low-pressure wellness experiment; evidence and context still require full-text review.",
+    "guidanceSources": [],
+    "researchQuery": "brief nature exposure microbreak stress wellbeing systematic review",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-223554970",
+        "title": "Effect of nature exposure on perceived and physiologic stress: A systematic review.",
+        "authors": [
+          "Quincy Shuda",
+          "Michael E Bougoulias",
+          "Rebecca Kass"
+        ],
+        "year": 2020,
+        "abstract": null,
+        "doi": "10.1016/j.ctim.2020.102514",
+        "pmid": "33066853",
+        "venue": "Complementary Therapies in Medicine",
+        "cited_by_count": 121,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-157066783",
+        "title": "Psycho-Physiological Stress Recovery in Outdoor Nature-Based Interventions: A Systematic Review of the Past Eight Years of Research",
+        "authors": [
+          "S. Corazon",
+          "U. Sidenius",
+          "D. Poulsen",
+          "M. C. Gramkow",
+          "U. Stigsdotter"
+        ],
+        "year": 2019,
+        "abstract": "Background: In modern, urban daily life, natural environments are increasingly recognized as an important resource for stress recovery and general well-being. Aim: the present review aims to provide an overview and synthesis of the past eight years’ research into the psycho-physiological effects of outdoor nature-based interventions, related to stress recovery. Method: a structured search was performed in seven databases, returning 5618 articles. Removal of duplicates and initial screening gave a total of 95 studies. After full text reading, 36 studies were included in the assessment. Results: most of the psychological outcomes were related to different emotional measures. The synthesis of the results points towards outdoor, nature-based exposure having a positive effect on different emotional parameters, related to stress relief. The studies into physiological measures showed more equivocal results. Conclusion: the research, conducted over the past eight years, into outdoor, nature-based exposure has now attained a sound evidence base for psychological and especially emotional effects, but the evidence base for physiological effects within this timeframe shows a great degree of heterogeneity. Limitations: interpretation of the results is limited by the review only covering the past eight years’ research on the subject.",
+        "doi": "10.3390/ijerph16101711",
+        "pmid": "31100773",
+        "venue": "International Journal of Environmental Research and Public Health",
+        "cited_by_count": 221,
+        "urls": [
+          "https://curis.ku.dk/ws/files/218464983/ijerph_16_01711.pdf",
+          "https://www.mdpi.com/1660-4601/16/10/1711/pdf?version=1557973855"
+        ]
+      },
+      {
+        "elicit_id": "ss-287515524",
+        "title": "Assessing the Effects of Nature Exposure on Wellbeing: A Systematic Review and Meta-Analysis",
+        "authors": [
+          "Salem Malibary",
+          "Maíra André",
+          "Jungsoo Kim"
+        ],
+        "year": 2026,
+        "abstract": null,
+        "doi": "10.1016/j.indenv.2026.100174",
+        "pmid": null,
+        "venue": "Indoor Environments",
+        "cited_by_count": 0,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-230585167",
+        "title": "The effect of exposure to the natural environment on stress reduction: A meta-analysis",
+        "authors": [
+          "W. Yao",
+          "Xiaofeng Zhang",
+          "Qisheng Gong"
+        ],
+        "year": 2020,
+        "abstract": null,
+        "doi": "10.1016/j.ufug.2020.126932",
+        "pmid": null,
+        "venue": "Urban Forestry & Urban Greening",
+        "cited_by_count": 238,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-259895666",
+        "title": "Nature and human well-being: a systematic review of empirical evidence from nature-based interventions",
+        "authors": [
+          "Ana Silva",
+          "M. Matos",
+          "M. Gonçalves"
+        ],
+        "year": 2023,
+        "abstract": "There is a growing body of knowledge that underlines the role of nature on human well-being, with an increase in the number of studies that report data on this topic in recent years. This systematic review provides a comprehensive overview of the state of the art regarding the impacts of nature-based interventions (NBIs) in both human well-being and nature-related outcomes (e.g. connection with nature). It also provides detailed information about methodological approaches, including the activities performed, measures used and parameters assessed. Thirty-eight studies met the inclusion criteria, presenting quantitative and qualitative data reporting positive outcomes regarding psychological (e.g. mental health, mood states, perceived levels of stress), physiological (e.g. physiological stress, neurocognitive function) and nature-related outcomes (e.g. connection with nature, attitudes towards the natural environment). Despite the need to overcome some fragilities and knowledge gaps, overall, the studies strongly suggest that natural environments have significant positive impacts on human well-being.",
+        "doi": "10.1080/09640568.2023.2227761",
+        "pmid": null,
+        "venue": "Journal of Environmental Planning and Management",
+        "cited_by_count": 55,
+        "urls": [
+          "https://repositorium.sdum.uminho.pt/bitstream/1822/91103/1/6.1.2%20Nature%20and%20human%20well-being-a%20systematic%20review%20of%20empirical%20evidence%20from.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-254555211",
+        "title": "EXPLORING THE IMPACTS THAT VIRTUAL NATURE EXPOSURE CAN HAVE ON HEALTH AND WELL-BEING AND THE MECHANISMS INVOLVED: A SYSTEMATIC REVIEW",
+        "authors": [
+          "Rebecca Reece",
+          "S. Merchant"
+        ],
+        "year": 2022,
+        "abstract": "Exposure to nature can improve health and well-being. However, numerous populations have restricted access to outdoor environments. Reviews show virtual nature exposure can provide benefits for a range of health and well-being outcomes. There is space for a systematic review that provides an overview of all outcomes impacted by virtual nature exposure, as well as underlying mechanisms. This systematic review searched databases; PsycINFO, MEDLINE, SCOPUS, Web of Science, and Google Scholar. Searches resulted in 9948 articles, with 66 studies included in the review. Findings showed virtual nature exposure can increase levels of mood, motivation, restorativeness, and cognitive functioning, whilst reducing anxiety, depressive symptoms, stress, and perceived pain. Presence and perceived restorativeness mediated improved positive affect after exposure, whilst connectedness to nature mediated improved positive affect and ability to reflect after exposure, and perceptions of safety mediated the extent to which enclosure of an environment predicted perceived restorativeness. There is support for virtual nature to be used in general and clinical settings for improving health and well-being, in addition as a tool for populations with limited mobility. Future studies should investigate long-term virtual exposure and conduct statistical analyses to understand the mechanisms linking virtual nature exposure with health and well-being outcomes.",
+        "doi": "10.47967/tor2022/vol8.06",
+        "pmid": null,
+        "venue": "The Open Review Journal",
+        "cited_by_count": 1,
+        "urls": [
+          "https://purehost.bath.ac.uk/ws/files/286301561/Exploring_the_impacts_that_virtual_nature_exposure_can_have_on_health_and_well_being_and_the_mechanisms_involved_A_systematic_review.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-4493302",
+        "title": "Does spending time outdoors reduce stress? A review of real‐time stress response to outdoor environments",
+        "authors": [
+          "M. Kondo",
+          "Sara F Jacoby",
+          "Eugenia C South"
+        ],
+        "year": 2018,
+        "abstract": null,
+        "doi": "10.1016/j.healthplace.2018.03.001",
+        "pmid": "29604546",
+        "venue": "Health and Place",
+        "cited_by_count": 211,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-203515454",
+        "title": "Effects of Public Green Space on Acute Psychophysiological Stress Response: A Systematic Review and Meta-Analysis of the Experimental and Quasi-Experimental Evidence",
+        "authors": [
+          "Lærke Mygind",
+          "Eva Kjeldsted",
+          "R. Hartmeyer",
+          "E. Mygind",
+          "Matt P. Stevenson",
+          "D. Quintana",
+          "P. Bentsen"
+        ],
+        "year": 2019,
+        "abstract": "Contact with nature is widely considered to ameliorate psychological stress, but the empirical support for a causal link is limited. We conducted a systematic review to synthesize and critically assess the evidence. Six electronic databases were searched. Twenty-six studies evaluated the difference between the effect of natural environments and that of a suitable control on the acute psychophysiological stress response. Eighteen studies were rated as being of moderate quality, four studies of low quality, and four studies of high quality. Meta-analyses indicated that seated relaxation (g = .5, p = .06) and walking (g = .3, p = .02) in natural environments enhanced heart rate variability more than the same activities in control conditions. Cortisol concentration measures were inconsistent. While intuitively and theoretically sound, the empirical support for acute stress-reducing effects of immersion in natural environments is tentative due to small sample sizes and methodological weaknesses in the studies. We provide guidelines for future research.",
+        "doi": "10.1177/0013916519873376",
+        "pmid": null,
+        "venue": "Environment and Behavior",
+        "cited_by_count": 109,
+        "urls": [
+          "https://researchprofiles.ku.dk/da/publications/85c54c5c-6f9e-4d9d-b201-9eb97c9e93d6"
+        ]
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  },
+  {
+    "topic": "awe-noticing",
+    "brandIdentity": "Plain-Spoken Pebble",
+    "pebbleLabel": "WIDE • DETAIL • WONDER",
+    "category": "emerging",
+    "actionSteps": [
+      "Notice something that feels vast, intricate, or surprising.",
+      "Describe one concrete detail rather than forcing a feeling.",
+      "Let the moment be neutral if awe does not appear."
+    ],
+    "safetyBoundary": "Treat awe as an emerging research lead, not a guaranteed mood intervention.",
+    "guidanceSources": [],
+    "researchQuery": "awe intervention mental health wellbeing randomized trial systematic review",
+    "evidenceLeads": [
+      {
+        "elicit_id": "ss-233310898",
+        "title": "A systematic review and meta-analysis of psychological interventions to improve mental wellbeing",
+        "authors": [
+          "J. van Agteren",
+          "M. Iasiello",
+          "Laura Lo",
+          "Jonathan D Bartholomaeus",
+          "Zoe Kopsaftis",
+          "M. Carey",
+          "M. Kyrios"
+        ],
+        "year": 2021,
+        "abstract": "Our current understanding of the efficacy of psychological interventions in improving mental states of wellbeing is incomplete. This study aimed to overcome limitations of previous reviews by examining the efficacy of distinct types of psychological interventions, irrespective of their theoretical underpinning, and the impact of various moderators, in a unified systematic review and meta-analysis. Four-hundred-and-nineteen randomized controlled trials from clinical and non-clinical populations (n = 53,288) were identified for inclusion. Mindfulness-based and multi-component positive psychological interventions demonstrated the greatest efficacy in both clinical and non-clinical populations. Meta-analyses also found that singular positive psychological interventions, cognitive and behavioural therapy-based, acceptance and commitment therapy-based, and reminiscence interventions were impactful. Effect sizes were moderate at best, but differed according to target population and moderator, most notably intervention intensity. The evidence quality was generally low to moderate. While the evidence requires further advancement, the review provides insight into how psychological interventions can be designed to improve mental wellbeing.",
+        "doi": "10.1038/s41562-021-01093-w",
+        "pmid": "33875837",
+        "venue": "Nature Human Behaviour",
+        "cited_by_count": 371,
+        "urls": []
+      },
+      {
+        "elicit_id": "ss-216556171",
+        "title": "Interventions to Improve Mental Health, Well-Being, Physical Health, and Lifestyle Behaviors in Physicians and Nurses: A Systematic Review",
+        "authors": [
+          "B. Melnyk",
+          "Stephanie A. Kelly",
+          "Janna D. Stephens",
+          "K. Dhakal",
+          "Colleen M. McGovern",
+          "S. Tucker",
+          "Jacqueline Hoying",
+          "K. McRae",
+          "S. Ault",
+          "Elizabeth J. Spurlock",
+          "S. Bird"
+        ],
+        "year": 2020,
+        "abstract": "Objective: This systematic review focused on randomized controlled trials (RCTs) with physicians and nurses that tested interventions designed to improve their mental health, well-being, physical health, and lifestyle behaviors. Data Source: A systematic search of electronic databases from 2008 to May 2018 included PubMed, CINAHL, PsycINFO, SPORTDiscus, and the Cochrane Library. Study Inclusion and Exclusion Criteria: Inclusion criteria included an RCT design, samples of physicians and/or nurses, and publication year 2008 or later with outcomes targeting mental health, well-being/resiliency, healthy lifestyle behaviors, and/or physical health. Exclusion criteria included studies with a focus on burnout without measures of mood, resiliency, mindfulness, or stress; primary focus on an area other than health promotion; and non-English papers. Data Extraction: Quantitative and qualitative data were extracted from each study by 2 independent researchers using a standardized template created in Covidence. Data Synthesis: Although meta-analytic pooling across all studies was desired, a wide array of outcome measures made quantitative pooling unsuitable. Therefore, effect sizes were calculated and a mini meta-analysis was completed. Results: Twenty-nine studies (N = 2708 participants) met the inclusion criteria. Results indicated that mindfulness and cognitive-behavioral therapy-based interventions are effective in reducing stress, anxiety, and depression. Brief interventions that incorporate deep breathing and gratitude may be beneficial. Visual triggers, pedometers, and health coaching with texting increased physical activity. Conclusion: Healthcare systems must promote the health and well-being of physicians and nurses with evidence-based interventions to improve population health and enhance the quality and safety of the care that is delivered.",
+        "doi": "10.1177/0890117120920451",
+        "pmid": "32338522",
+        "venue": "American Journal of Health Promotion",
+        "cited_by_count": 304,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8982669"
+        ]
+      },
+      {
+        "elicit_id": "ss-257956491",
+        "title": "Child and adolescent mental well-being intervention programme: A systematic review of randomised controlled trials",
+        "authors": [
+          "L. Lam",
+          "Mary K. Lam"
+        ],
+        "year": 2023,
+        "abstract": "Background There has been an increasing awareness and recognition of mental well-being as one of the main outcome measures in national mental health policy and service provision in recent years. Many systemic reviews on intervention programmes for mental health or general well-being in young people have been conducted; however, these reviews were not mental well-being specific. Objective This study aims to examine the effectiveness of child and adolescent mental well-being intervention programmes and to identify the approach of effective intervention by reviewing the available Randomised Controlled Trials. Methods This systematic review study followed the PRISMA guidelines for systematic reviews ensuring a methodical and structured approach for the literature search and the subsequent review processes. The systematic literature search utilised major medical and health databases. Covidence, an online application for conducting systematic reviews, was used to assemble the titles, abstracts and full articles retrieved from the initial literature search. To examine the quality of the included trials for determining the strength of the evidence provided, the JBI Critical Appraisal Tool for Randomised Controlled Trial was used. Results There were 34 studies identified after an extensive search of the literature following the PRISMA guidelines. Seven (7) fulfilled all selection criteria and provided information on the effect of an intervention programme on mental well-being in adolescence. Data were extracted and analysed systematically with key information summarised. The results suggested that two (2) programmes demonstrated significant intervention effects, but with a small effect size. The quality of these trials was also assessed using the JBI Critical Appraisal Tool for Randomised Controlled Trials and identified some methodological issues. Conclusion In conclusion, activity-based and psychoeducation are shown to be potentially effective approaches for future programme development. More research on a well-designed programme is urgently needed, particularly in developing countries, to provide good evidence in supporting the mental health policy through the enhancement of mental well-being in young people.",
+        "doi": "10.3389/fpsyt.2023.1106816",
+        "pmid": "37091697",
+        "venue": "Frontiers in Psychiatry",
+        "cited_by_count": 16,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10116571/pdf/fpsyt-14-1106816.pdf",
+          "https://www.frontiersin.org/articles/10.3389/fpsyt.2023.1106816/pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-226308001",
+        "title": "What Kind of Intervention Is Effective for Improving Subjective Well-Being Among Workers? A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+        "authors": [
+          "A. Sakuraya",
+          "K. Imamura",
+          "Kazuhiro Watanabe",
+          "Y. Asai",
+          "E. Ando",
+          "H. Eguchi",
+          "Norimitsu Nishida",
+          "Yuka Kobayashi",
+          "Hideaki Arima",
+          "M. Iwanaga",
+          "Y. Otsuka",
+          "N. Sasaki",
+          "A. Inoue",
+          "R. Inoue",
+          "K. Tsuno",
+          "A. Hino",
+          "A. Shimazu",
+          "A. Tsutsumi",
+          "N. Kawakami"
+        ],
+        "year": 2020,
+        "abstract": "Objectives: This study aimed to conduct a systematic review and meta-analysis of randomized controlled trials (RCTs) to improve subjective well-being (SWB), including evaluative, hedonic, and eudemonic well-being, and the mental component of quality of life (QOL) of working population. Methods: A literature search was conducted, using PubMed, Embase, PsycINFO, and PsycARTICLES. Eligible studies included those that were RCTs of any intervention, conducted among healthy workers, measured SWB as a primary outcome, and original articles in English. Study characteristics, intervention, outcomes, and results on SWB outcomes were extracted by the investigators independently. After a brief narrative summarizing and classifying the contents of the interventions, the included outcomes were categorized into each aspect of SWB (evaluative, hedonic, and eudemonic well-being, and the mental component of QOL). Finally, the characteristics of the effective interventions for increasing each aspect were summarized, and the pooled effect of interventions on SWB was investigated by a meta-analysis. Publication bias was investigated by drawing a funnel plot and conducting Egger's test. Results: From the 5,450 articles found, 39 met the inclusion criteria for the systematic review. The interventions included in this review were classified into six categories (physical activity, ergonomics, psychological, environmental, multicomponent intervention, and others). The meta-analysis from 31 studies showed that the pooled effect of included interventions on SWB was significantly positive (standardized mean difference (SMD) = 0.51; standard error (SE) = 0.10). A funnel plot showed there were extremely large or small SMDs, and Egger's test was significant. Thus, we conducted sensitivity analysis, excluding these extreme SMDs, and confirmed that the estimated pooled effect was also significantly positive. Subgroup analyses for separate types of interventions showed the effects of psychological interventions (e.g., mindfulness, cognitive behavioral based approach, and other psychological interventions) were also significantly positive. Conclusion: The current study revealed the effectiveness of interventions for increasing SWB. Specifically, psychological interventions (e.g., mindfulness, cognitive behavioral based approach, and other psychological interventions) may be useful for improving SWB.",
+        "doi": "10.3389/fpsyg.2020.528656",
+        "pmid": "33281653",
+        "venue": "Frontiers in Psychology",
+        "cited_by_count": 52,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.528656/pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-189816555",
+        "title": "Mindfulness-based interventions for mental well-being among people with multiple sclerosis: a systematic review and meta-analysis of randomised controlled trials",
+        "authors": [
+          "Robert Simpson",
+          "S. Simpson",
+          "N. Ramparsad",
+          "M. Lawrence",
+          "J. Booth",
+          "S. Mercer"
+        ],
+        "year": 2019,
+        "abstract": "Objective Impairment of mental well-being (anxiety, depression, stress) is common among people with multiple sclerosis (PwMS). Treatment options are limited, particularly for anxiety. The aim of this study was to update our previous systematic review (2014) and evaluate via meta-analysis the efficacy of mindfulness-based interventions (MBIs) for improving mental well-being in PwMS. Methods Systematic searches for eligible randomised controlled trials (RCTs) were carried out in seven major databases (November 2017, July 2018), using medical subject headings and key words. Studies were screened, data extracted, quality appraised and analysed by two independent reviewers, using predefined criteria. Study quality was assessed using the Cochrane Collaboration risk of bias tool. Mental well-being was the primary outcome. Random effects model meta-analysis was performed, with effect size reported as standardised mean difference (SMD). Results Twelve RCTs including 744 PwMS were eligible for inclusion in the systematic review, eight had data extractable for meta-analysis; n=635. Ethnicity, socioeconomic status, comorbidity and disability were inconsistently reported. MBIs varied from manualised to tailored versions, lasting 6–9 weeks, delivered individually and via groups, both in person and online. Overall SMD for mental well-being (eight studies) was 0.40 (0.28–0.53), p<0.01, I2=28%; against active comparators only (three studies) SMD was 0.17 (0.01–0.32), p<0.05, I2 =0%. Only three adverse events were reported. Conclusions MBIs are effective at improving mental well-being in PwMS. More research is needed regarding optimal delivery method, cost-effectiveness and comparative-effectiveness. PROSPERO registration number CRD42018093171.",
+        "doi": "10.1136/jnnp-2018-320165",
+        "pmid": "31196913",
+        "venue": "Journal of Neurology Neurosurgery & Psychiatry",
+        "cited_by_count": 68,
+        "urls": [
+          "https://researchonline.gcu.ac.uk/ws/files/27421790/M.Lawrence_Manuscript_for_PURE.pdf",
+          "https://jnnp.bmj.com/content/jnnp/90/9/1051.full.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-252496682",
+        "title": "The effectiveness of group-based gardening interventions for improving wellbeing and reducing symptoms of mental ill-health in adults: a systematic review and meta-analysis",
+        "authors": [
+          "Rebecca N. Briggs",
+          "P. Morris",
+          "K. Rees"
+        ],
+        "year": 2022,
+        "abstract": "Abstract Background There is increasing interest in the association between nature, health and wellbeing. Gardening is a popular way in which interaction with nature occurs and numerous gardening projects aim to facilitate wellbeing among participants. More research is needed to determine their effectiveness. Aim To systematically evaluate the effectiveness of group-based gardening interventions for increasing wellbeing and reducing symptoms of mental ill-health in adults. Methods A systematic review of Randomised Controlled Trials was conducted following the protocol submitted to PROSPERO (CRD42020162187). Studies reporting quantitative validated health and wellbeing outcomes of the community residing, adult populations (18+) were eligible for inclusion. Results 24 studies met inclusion criteria: 20 completed and four ongoing trials. Meta-analyses suggest these interventions may increase wellbeing and may reduce symptoms of depression, however, there was uncertainty in the pooled effects due to heterogeneity and unclear risk of bias for many studies. There were mixed results for other outcomes. Research limitations/implications Heterogeneity and small sample sizes limited the results. Poor reporting precluded meta-analysis for some studies. Initial findings for wellbeing and depression are promising and should be corroborated in further studies. The research area is active, and the results of the ongoing trials identified will add to the evidence base.",
+        "doi": "10.1080/09638237.2022.2118687",
+        "pmid": "36151719",
+        "venue": "Journal of Mental Health",
+        "cited_by_count": 29,
+        "urls": [
+          "https://www.tandfonline.com/doi/pdf/10.1080/09638237.2022.2118687?needAccess=true",
+          "https://wrap.warwick.ac.uk/169991/1/WRAP-The-effectiveness-of-group-based-gardening-interventions-for-improving-wellbeing-and-reducing-symptoms-of-mental-ill-health-in-adults-Briggs-2022.pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-216554210",
+        "title": "The Effects of Workplace Nature-Based Interventions on the Mental Health and Well-Being of Employees: A Systematic Review",
+        "authors": [
+          "S. Gritzka",
+          "Tadhg MacIntyre",
+          "D. Dörfel",
+          "Jordan L. Baker-Blanc",
+          "G. Calogiuri"
+        ],
+        "year": 2020,
+        "abstract": "Mental health in the workplace is a societal challenge with serious economical and human costs. Most prevalent mental disorders in the workforce (e.g., depression), however, are preventable. There is widespread agreement about the favorable effects of nature exposure and consequently, nature-based interventions (NBI) in the workplace have been proposed as a cost-effective approach to promote good health among employees. The objective of the present study was to systematically review scientific evidence on the effectiveness of NBI to promote mental health and well-being among actual employees in actual workplace settings. The review was conducted and presented in accordance with the PRISMA guidelines. The literature search was performed on five databases (PubMed, Embase, CENTRAL, CINHAL, and PsycINFO), hand-searching of field-specific journals, and the reference lists of retrieved papers over the past 5 years up to November (13th, 2018). Studies were eligible for inclusion if they (i) were randomized or nonrandomized controlled trials; (ii) comprised samples of actual employees; (iii) implemented a workplace-based intervention with exposure to nature; (iv) included comparison conditions that displayed a clear contrast to NBIs; and (v) investigated the quantitative effects on mental health or well-being. No restrictions on type of employees or workplace, publication period, or language of the publication were set. Risk of bias was assessed using the Cochrane’s RoB2 tool. Narrative synthesis was performed due to large heterogeneity in outcome variables. Of the 510 articles identified, 10 NBIs (nine papers) met the eligibility criteria. The outcomes were grouped in five categories: (i) mental health indices, (ii) cognitive ability, (iii) recovery and restoration, (iv) work and life satisfaction, and (v) psychophysiological indicators. Narrative synthesis indicates consistently positive effects on mental health indices and cognitive ability, while mixed results were found for the other outcome categories. Caution must be given when interpreting the current evidence in this emerging research field because of the diversity of NBIs and the overall high risk of bias in the individual studies. Although in this field often researchers have to balance scientific rigor and ecological validity, there is a need for large, well-designed and rigorously conducted trials grounded in contemporary theories.",
+        "doi": "10.3389/fpsyt.2020.00323",
+        "pmid": "32411026",
+        "venue": "Frontiers in Psychiatry",
+        "cited_by_count": 110,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fpsyt.2020.00323/pdf"
+        ]
+      },
+      {
+        "elicit_id": "ss-56169570",
+        "title": "Blue care: a systematic review of blue space interventions for health and wellbeing",
+        "authors": [
+          "Easkey Britton",
+          "G. Kindermann",
+          "C. Domegan",
+          "Caitríona Carlin"
+        ],
+        "year": 2018,
+        "abstract": "Abstract There is increasing interest in the potential use of outdoor water environments, or blue space, in the promotion of human health and wellbeing. However, therapeutic nature-based practices are currently outpacing policy and the evidence base for health or wellbeing benefits of therapeutic interventions within blue space has not been systematically assessed. This systematic review aims to address the gap in understanding the impacts of blue space within existing interventions for targeted individuals. A systematic review was carried out, searching Google Scholar, SCOPUS, PubMed, etc. through to August 2017. Only blue space interventions were included that were specifically designed and structured with a therapeutic purpose for individuals with a defined need and did not include nature-based promotion projects or casual recreation in the outdoors. Thirty-three studies met the inclusion criteria and were assessed. Overall, the studies suggest that blue care can have direct benefit for health, especially mental health and psycho-social wellbeing. The majority of papers found a positive or weak association between blue care and health and wellbeing indicators. There was also some evidence for greater social connectedness during and after interventions, but results were inconsistent and mixed across studies with very few findings for physical health. This is the first systematic review of the literature on blue care. In summary, it has been shown that mental health, especially psycho-social wellbeing, can be improved with investment in blue spaces. Key areas for future research include improving understanding of the mechanisms through which blue care can improve public health promotion.",
+        "doi": "10.1093/heapro/day103",
+        "pmid": "30561661",
+        "venue": "Health Promotion International",
+        "cited_by_count": 359,
+        "urls": [
+          "https://academic.oup.com/heapro/article-pdf/35/1/50/33289910/day103.pdf"
+        ]
+      }
+    ],
+    "publicationStatus": "human_review_required",
+    "reviewChecklist": [
+      "Read the full paper, not only the abstract.",
+      "Check population, comparator, outcomes, harms, uncertainty, and follow-up.",
+      "Separate association from causation and confirm the study is not retracted.",
+      "Have a qualified reviewer approve any clinical or condition-specific wording."
+    ]
+  }
+]

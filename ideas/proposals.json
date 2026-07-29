@@ -1,0 +1,160 @@
+[
+  {
+    "id": "I4",
+    "title": "Plan the Restart, Not the Streak",
+    "hook": "Missing once rarely ends a routine. Not knowing how to restart often does.",
+    "actions": [
+      "Choose a restart cue",
+      "Write the smallest return step",
+      "Keep what you need ready",
+      "Skip the urge to repay missed days"
+    ],
+    "research_query": "How do habit lapse recovery plans, self-compassion, and all-or-nothing thinking affect re-engagement with health behaviors?",
+    "visual": "Pebble steps around a broken streak counter toward a restart button.",
+    "rationale": "A forgiving alternative to streak pressure with clear, practical actions.",
+    "score": 9.09,
+    "safety": "Do not promise adherence or frame a lapse as a personal failure. Keep all actions optional."
+  },
+  {
+    "id": "B1",
+    "title": "The Mental Tab Handoff",
+    "hook": "Why does the last task follow you into the next one?",
+    "actions": [
+      "Write down where you stopped",
+      "Record the next physical action",
+      "Leave the note where you will restart",
+      "Close unrelated tabs"
+    ],
+    "research_query": "What evidence links task interruption, resumption cues, external reminders, and attention residue?",
+    "visual": "Pebble hands a glowing mental tab to a paper note.",
+    "rationale": "A distinctive metaphor for an everyday attention problem with strong prop visuals.",
+    "score": 8.96,
+    "safety": "Avoid implying a diagnosis or claiming that the method removes intrusive thoughts."
+  },
+  {
+    "id": "G3",
+    "title": "Shrink the Choice Menu",
+    "hook": "Too many good options can make starting harder.",
+    "actions": [
+      "Cap the immediate menu at three",
+      "Choose one default",
+      "Preselect tomorrow's first option",
+      "Hide choices you do not need now"
+    ],
+    "research_query": "What evidence links choice overload, defaults, cognitive load, and follow-through in everyday decisions?",
+    "visual": "A giant menu folds down to three simple cards beside Pebble.",
+    "rationale": "Turns decision friction into a concrete visual and a small environmental change.",
+    "score": 8.84,
+    "safety": "Do not claim choice is universally harmful. Preserve personal agency and accessible alternatives."
+  },
+  {
+    "id": "I5",
+    "title": "Make Notifications Ask Permission",
+    "hook": "Your phone does not need a vote on every minute of your attention.",
+    "actions": [
+      "Disable nonessential alerts",
+      "Allow important people or apps",
+      "Batch the rest",
+      "Remove badges from high-pull apps"
+    ],
+    "research_query": "How do smartphone notifications, notification batching, and phone visibility affect attention and task performance?",
+    "visual": "Notifications line up at a permission desk staffed by Pebble.",
+    "rationale": "A practical attention boundary with unusually clear phone-based visuals.",
+    "score": 8.79,
+    "safety": "Keep exceptions for caregiving, work, safety, and accessibility needs."
+  },
+  {
+    "id": "I1",
+    "title": "Build the Bad-Day Version",
+    "hook": "If your routine only works on good days, it may need a smaller version.",
+    "actions": [
+      "Define the minimum version in advance",
+      "Keep its supplies visible",
+      "Make completion small and clear",
+      "Return to the full version without repayment"
+    ],
+    "research_query": "What evidence links smaller behavior targets, contextual cues, and flexible goal adjustment with habit maintenance?",
+    "visual": "A large routine card folds into a small bad-day card.",
+    "rationale": "Supportive, realistic, and useful when time or energy changes.",
+    "score": 8.72,
+    "safety": "Avoid ableist assumptions, productivity pressure, and claims about treating low mood or fatigue."
+  },
+  {
+    "id": "G1",
+    "title": "Build a Tiny Start Button",
+    "hook": "Make the first move so small it feels like pressing Play.",
+    "actions": [
+      "Name only the first physical move",
+      "Put its tool in reach",
+      "Use a two-minute launch window"
+    ],
+    "research_query": "What evidence links implementation intentions, graded tasks, and reduced activation effort with task initiation?",
+    "visual": "A comically small start button sits beside an oversized task.",
+    "rationale": "A compact, visual way to reduce the pressure of getting started.",
+    "score": 8.62,
+    "safety": "Do not present task initiation trouble as proof of a condition or guarantee completion."
+  },
+  {
+    "id": "G2",
+    "title": "Create a Reset Station",
+    "hook": "Your environment can offer a pause before you remember to ask for one.",
+    "actions": [
+      "Choose one recurring transition",
+      "Place its essentials together",
+      "Add one visible cue",
+      "Restock at a regular moment"
+    ],
+    "research_query": "How do environmental cues, object placement, and implementation intentions affect repeated everyday behaviors?",
+    "visual": "Pebble deposits and retrieves everyday objects at a small reset station.",
+    "rationale": "A simple environmental system with recurring set and prop potential.",
+    "score": 8.55,
+    "safety": "Offer cheap, small-space alternatives and avoid claiming that cues work for everyone."
+  },
+  {
+    "id": "T3",
+    "title": "Can a Messy Counter Feel Noisy?",
+    "hook": "Why can six objects compete for your attention without making a sound?",
+    "actions": [
+      "Clear one hand-sized working space",
+      "Corral loose items in one tray",
+      "Lower what sits in your direct sightline",
+      "Use a temporary basket instead of a full cleanup"
+    ],
+    "research_query": "What evidence connects visual clutter, selective attention, cognitive load, and perceived stress in adults?",
+    "visual": "Counter objects make noise marks that fade as one small area clears.",
+    "rationale": "A relatable hook and strong before-and-after visual without requiring a full cleanup.",
+    "score": 8.55,
+    "safety": "Treat clutter as optional visual load, not a moral failure. Evidence may be limited and must be reviewed carefully."
+  },
+  {
+    "id": "B3",
+    "title": "Your Best Posture Is the Next One",
+    "hook": "Your body may prefer position changes over one supposedly perfect posture.",
+    "actions": [
+      "Change position periodically",
+      "Alternate supported and active positions",
+      "Move before discomfort becomes the only cue"
+    ],
+    "research_query": "What evidence compares posture variation and dynamic sitting with maintaining one ergonomic posture during prolonged sitting?",
+    "visual": "Pebble rotates through sitting, leaning, standing, and stretching.",
+    "rationale": "A fresh correction to rigid posture advice with movement-rich visuals.",
+    "score": 8.55,
+    "safety": "No pain treatment or injury-prevention claims. Encourage professional advice for persistent pain or specific access needs."
+  },
+  {
+    "id": "R1",
+    "title": "The One-Study Headline Check",
+    "hook": "A health headline can sound certain even when the research is not.",
+    "actions": [
+      "Check whether humans were studied",
+      "Look for the number of participants",
+      "Check what the study actually measured",
+      "See whether other studies agree"
+    ],
+    "research_query": "How do study design, sample size, replication, and headline framing affect the reliability of wellness claims?",
+    "visual": "A bold headline shrinks beside a plain-language study card.",
+    "rationale": "A practical media-literacy routine that strengthens the whole channel's evidence culture.",
+    "score": 8.13,
+    "safety": "Present these as screening questions, not a complete evidence appraisal or a reason to dismiss all single studies."
+  }
+]

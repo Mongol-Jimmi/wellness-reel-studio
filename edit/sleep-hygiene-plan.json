@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "status": "approved_high_resolution_draft",
+  "format": {"width": 1080, "height": 1920, "fps": 30, "durationSeconds": 35},
+  "brandIdentity": "Plain-Spoken Pebble",
+  "hook": {"claim":"Nearly 1 in 3 U.S. adults got under seven hours of sleep a day in 2024.","source":"https://www.cdc.gov/nchs/products/databriefs/db559.htm","sourceLabel":"CDC / NCHS, 2024"},
+  "beats": [
+    {"id":"hook","outputStart":0,"outputEnd":4.5,"purpose":"Lead with a current sourced prevalence statistic"},
+    {"id":"explain","outputStart":4.5,"outputEnd":8.5,"purpose":"Explain sleep hygiene in plain language"},
+    {"id":"time","outputStart":8.5,"outputEnd":14,"purpose":"Offer wake-time consistency as one starting point"},
+    {"id":"light","outputStart":14,"outputEnd":19.5,"purpose":"Offer a dimmer, quieter wind-down"},
+    {"id":"caffeine","outputStart":19.5,"outputEnd":25,"purpose":"Offer an individualized earlier caffeine cutoff"},
+    {"id":"room","outputStart":25,"outputEnd":30.5,"purpose":"Offer a cool, quiet, dark environment"},
+    {"id":"close","outputStart":30.5,"outputEnd":35,"purpose":"Ask for one manageable experiment and give help-seeking context"}
+  ],
+  "publicationStatus": "human_review_required"
+}
