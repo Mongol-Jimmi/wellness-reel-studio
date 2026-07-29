@@ -1,0 +1,86 @@
+name: Apply trusted topic decision
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Topic Issue number
+        required: true
+        type: string
+      decision:
+        description: Validated decision
+        required: true
+        type: choice
+        options: [approve, reject, invalid]
+
+permissions:
+  actions: write
+  contents: read
+  issues: write
+
+concurrency:
+  group: topic-lifecycle-${{ inputs.issue_number }}
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Recheck and apply decision
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ inputs.issue_number }}
+          EXPECTED_DECISION: ${{ inputs.decision }}
+        run: |
+          set -euo pipefail
+          [[ "$ISSUE" =~ ^[1-9][0-9]*$ ]] || { echo "Invalid Issue number" >&2; exit 1; }
+          case "$EXPECTED_DECISION" in approve|reject|invalid) ;; *) exit 1 ;; esac
+
+          gh issue view "$ISSUE" --json body --jq .body > /tmp/current-issue-body.md
+          actual_decision="$(python - <<'PY'
+          from pathlib import Path
+          from scripts.issue_decision import parse_decision
+
+          print(parse_decision(Path("/tmp/current-issue-body.md").read_text(encoding="utf-8")))
+          PY
+          )"
+          if [[ "$actual_decision" != "$EXPECTED_DECISION" ]]; then
+            echo "Ignoring stale decision dispatch: expected $EXPECTED_DECISION, found $actual_decision"
+            exit 0
+          fi
+
+          current="$(gh issue view "$ISSUE" --json labels --jq '.labels[].name')"
+          grep -Fxq topic-proposal <<<"$current"
+          active=false
+          if grep -Eq '^state:(approved-for-research|evidence-review|spec-review|ready-to-render|rendering|preview-review|changes-requested|publication-approved|published)$' <<<"$current"; then
+            active=true
+          fi
+
+          if [[ "$EXPECTED_DECISION" == approve && "$active" == true ]]; then
+            echo "Approval already has an active lifecycle state; preserving it."
+            exit 0
+          fi
+
+          for label in state:proposed state:invalid-decision state:approved-for-research state:rejected state:evidence-review state:spec-review state:ready-to-render state:rendering state:preview-review state:changes-requested state:publication-approved state:published; do
+            if grep -Fxq "$label" <<<"$current"; then
+              gh issue edit "$ISSUE" --remove-label "$label"
+            fi
+          done
+
+          case "$EXPECTED_DECISION" in
+            approve)
+              gh issue edit "$ISSUE" --add-label state:approved-for-research
+              gh workflow run research-approved.yml -f issue_number="$ISSUE"
+              gh issue comment "$ISSUE" --body "Approval recorded. Evidence discovery has been queued. This does not approve any claim, render, or publication."
+              ;;
+            reject)
+              gh issue edit "$ISSUE" --add-label state:rejected
+              gh issue comment "$ISSUE" --body "Rejection recorded. No new research or rendering will be queued."
+              ;;
+            invalid)
+              gh issue edit "$ISSUE" --add-label state:invalid-decision
+              gh issue comment "$ISSUE" --body "Please select exactly one decision: **Approve for research** or **Reject**. No work was queued."
+              ;;
+          esac

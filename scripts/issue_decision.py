@@ -33,11 +33,12 @@ def event_outputs(event: dict) -> dict[str, str]:
     issue = event.get("issue", {})
     decision = parse_decision(issue.get("body") or "")
     previous_body = event.get("changes", {}).get("body", {}).get("from")
-    previous_decision = parse_decision(previous_body) if isinstance(previous_body, str) else "unknown"
+    has_body_change = isinstance(previous_body, str)
+    previous_decision = parse_decision(previous_body) if has_body_change else "unknown"
     return {
         "decision": decision,
         "previous_decision": previous_decision,
-        "decision_changed": str(decision != previous_decision).lower(),
+        "decision_changed": str(has_body_change and decision != previous_decision).lower(),
         "issue_number": str(issue.get("number", "")),
         "is_topic": str(any(label.get("name") == "topic-proposal" for label in issue.get("labels", []))).lower(),
     }

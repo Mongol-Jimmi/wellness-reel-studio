@@ -7,11 +7,6 @@ on:
 permissions:
   actions: write
   contents: read
-  issues: write
-
-concurrency:
-  group: topic-decision-${{ github.event.issue.number }}
-  cancel-in-progress: false
 
 jobs:
   decide:
@@ -36,7 +31,7 @@ jobs:
         name: Validate checkboxes
         run: python scripts/issue_decision.py --event "$GITHUB_EVENT_PATH" --github-output "$GITHUB_OUTPUT"
 
-      - name: Apply lifecycle state
+      - name: Queue trusted lifecycle transition
         if: steps.decision.outputs.is_topic == 'true' && steps.decision.outputs.decision_changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -44,32 +39,6 @@ jobs:
           DECISION: ${{ steps.decision.outputs.decision }}
         run: |
           set -euo pipefail
-          current="$(gh issue view "$ISSUE" --json labels --jq '.labels[].name')"
-          was_active=false
-          if grep -Eq '^state:(approved-for-research|evidence-review|spec-review|ready-to-render|rendering|preview-review|changes-requested|publication-approved|published)$' <<<"$current"; then
-            was_active=true
-          fi
-
-          for label in state:proposed state:invalid-decision state:approved-for-research state:rejected state:evidence-review state:spec-review state:ready-to-render state:rendering state:preview-review state:changes-requested state:publication-approved state:published; do
-            if grep -Fxq "$label" <<<"$current"; then
-              gh issue edit "$ISSUE" --remove-label "$label"
-            fi
-          done
-
-          case "$DECISION" in
-            approve)
-              gh issue edit "$ISSUE" --add-label state:approved-for-research
-              if [[ "$was_active" == false ]]; then
-                gh workflow run research-approved.yml -f issue_number="$ISSUE"
-                gh issue comment "$ISSUE" --body "Approval recorded. Evidence discovery has been queued. This does not approve any claim, render, or publication."
-              fi
-              ;;
-            reject)
-              gh issue edit "$ISSUE" --add-label state:rejected
-              gh issue comment "$ISSUE" --body "Rejection recorded. No research or rendering was queued."
-              ;;
-            *)
-              gh issue edit "$ISSUE" --add-label state:invalid-decision
-              gh issue comment "$ISSUE" --body "Please select exactly one decision: **Approve for research** or **Reject**. No work was queued."
-              ;;
-          esac
+          [[ "$ISSUE" =~ ^[1-9][0-9]*$ ]] || { echo "Invalid Issue number" >&2; exit 1; }
+          case "$DECISION" in approve|reject|invalid) ;; *) exit 1 ;; esac
+          gh workflow run apply-decision.yml -f issue_number="$ISSUE" -f decision="$DECISION"

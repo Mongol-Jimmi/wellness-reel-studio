@@ -35,6 +35,17 @@ class DecisionTests(unittest.TestCase):
         self.assertEqual(output["decision"], "approve")
         self.assertEqual(output["decision_changed"], "false")
 
+    def test_title_only_edit_does_not_repeat_a_decision(self) -> None:
+        event = {
+            "issue": {
+                "number": 4,
+                "body": "- [x] Approve for research\n- [ ] Reject",
+                "labels": [{"name": "topic-proposal"}],
+            },
+            "changes": {"title": {"from": "Old title"}},
+        }
+        self.assertEqual(event_outputs(event)["decision_changed"], "false")
+
     def test_changed_decision_is_processed(self) -> None:
         event = {
             "issue": {
@@ -45,6 +56,17 @@ class DecisionTests(unittest.TestCase):
             "changes": {"body": {"from": "- [x] Approve for research\n- [ ] Reject"}},
         }
         self.assertEqual(event_outputs(event)["decision_changed"], "true")
+
+
+class WorkflowBoundaryTests(unittest.TestCase):
+    def test_untrusted_issue_event_only_dispatches_trusted_transition(self) -> None:
+        validator = Path(".github/workflows/issue-decision.yml").read_text(encoding="utf-8")
+        applier = Path(".github/workflows/apply-decision.yml").read_text(encoding="utf-8")
+        self.assertIn("gh workflow run apply-decision.yml", validator)
+        self.assertNotIn("gh issue edit", validator)
+        self.assertNotIn("topic-lifecycle-", validator)
+        self.assertIn("group: topic-lifecycle-${{ inputs.issue_number }}", applier)
+        self.assertIn("scripts.issue_decision import parse_decision", applier)
 
 
 class ProposalTests(unittest.TestCase):
