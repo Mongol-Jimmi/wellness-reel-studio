@@ -59,6 +59,13 @@ jobs:
           fi
 
           if [[ "$EXPECTED_DECISION" == approve && "$active" == true ]]; then
+            # An evidence-first topic already carries its paper, so approval queues scripting
+            # instead of another search. Any later state is left exactly as it is.
+            if grep -Fxq state:evidence-review <<<"$current"; then
+              gh issue edit "$ISSUE" --remove-label state:evidence-review --add-label state:spec-review
+              gh issue comment "$ISSUE" --body "Approval recorded. This topic already carries reviewed evidence, so it is queued for scripting rather than another search. A Reel Spec will be written, validated, and rendered as a Preview. This does not approve publication."
+              exit 0
+            fi
             echo "Approval already has an active lifecycle state; preserving it."
             exit 0
           fi
