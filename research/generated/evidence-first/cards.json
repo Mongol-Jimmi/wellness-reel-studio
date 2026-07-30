@@ -1,471 +1,338 @@
 {
-  "provider": "OpenAlex",
   "human_review_required": true,
   "cards": [
     {
-      "seed": "mindfulness AND perceived stress",
-      "openalex": "https://openalex.org/W4382600715",
-      "title": "Workplace interventions to improve well-being and reduce burnout for nurses, physicians and allied healthcare professionals: a systematic review",
-      "year": 2023,
-      "authors": [
-        "Catherine Cohen",
-        "Silvia Pignata",
-        "Eva Bezak",
-        "Mark Tié",
-        "Jessie Childs"
-      ],
-      "doi": "https://doi.org/10.1136/bmjopen-2022-071203",
-      "source": "BMJ Open",
-      "cited_by_count": 453,
-      "abstract": "There is a growing need for interventions to improve well-being in healthcare workers, particularly since the onset of COVID-19. OBJECTIVES: To synthesise evidence since 2015 on the impact of interventions designed to address well-being and burnout in physicians, nurses and allied healthcare professionals. DESIGN: Systematic literature review. DATA SOURCES: Medline, Embase, Emcare, CINAHL, PsycInfo and Google Scholar were searched in May-October 2022. ELIGIBILITY CRITERIA FOR SELECTING STUDIES: Studies that primarily investigated burnout and/or well-being and reported quantifiable preintervention and postintervention outcomes using validated well-being measures were included. DATA EXTRACTION AND SYNTHESIS: Full-text articles in English were independently screened and quality assessed by two researchers using the Medical Education Research Study Quality Instrument. Results were synthesised and presented in both quantitative and narrative formats. Meta-analysis was not possible due to variations in study designs and outcomes. RESULTS: A total of 1663 articles were screened for eligibility, with 33 meeting inclusion criterium. Thirty studies used individually focused interventions, while three were organisationally focused. Thirty-one studies used secondary level interventions (managed stress in individuals) and two were primary level (eliminated stress causes). Mindfulness-based practices were adopted in 20 studies; the remainder used meditation, yoga and acupuncture. Other interventions promoted a positive mindset (gratitude journaling, choirs, coaching) while organisational interventions centred on workload reduction, job crafting and peer networks. Effective outcomes were reported in 29 studies, with significant improvements in well-being, work engagement, quality of life and resilience, and reductions in burnout, perceived stress, anxiety and depression. CONCLUSION: The review found that interventions benefitted healthcare workers by increasing well-being, engagem",
-      "human_review_required": true
-    },
-    {
-      "seed": "self-compassion AND self-criticism",
-      "openalex": "https://openalex.org/W2940104235",
-      "title": "Self-Compassion Interventions and Psychosocial Outcomes: a Meta-Analysis of RCTs",
-      "year": 2019,
-      "authors": [
-        "Madeleine Ferrari",
-        "Caroline Hunt",
-        "Ashish Harrysunker",
-        "Maree J. Abbott",
-        "Alissa Beath"
-      ],
-      "doi": "https://doi.org/10.1007/s12671-019-01134-6",
-      "source": "Mindfulness",
-      "cited_by_count": 717,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "sleep AND insomnia AND behavioural intervention",
-      "openalex": "https://openalex.org/W4285498627",
-      "title": "Comparative effects of pharmacological interventions for the acute and long-term management of insomnia disorder in adults: a systematic review and network meta-analysis",
-      "year": 2022,
-      "authors": [
-        "Franco De Crescenzo",
-        "Gian Loreto D’Alò",
-        "Edoardo G. Ostinelli",
-        "Marco Ciabattini",
-        "Valeria Di Franco"
-      ],
-      "doi": "https://doi.org/10.1016/s0140-6736(22)00878-9",
-      "source": "The Lancet",
-      "cited_by_count": 421,
-      "abstract": "BACKGROUND: Behavioural, cognitive, and pharmacological interventions can all be effective for insomnia. However, because of inadequate resources, medications are more frequently used worldwide. We aimed to estimate the comparative effectiveness of pharmacological treatments for the acute and long-term treatment of adults with insomnia disorder. METHODS: In this systematic review and network meta-analysis, we searched the Cochrane Central Register of Controlled Trials, MEDLINE, PubMed, Embase, PsycINFO, WHO International Clinical Trials Registry Platform, ClinicalTrials.gov, and websites of regulatory agencies from database inception to Nov 25, 2021, to identify published and unpublished randomised controlled trials. We included studies comparing pharmacological treatments or placebo as monotherapy for the treatment of adults (≥18 year) with insomnia disorder. We assessed the certainty of evidence using the confidence in network meta-analysis (CINeMA) framework. Primary outcomes were efficacy (ie, quality of sleep measured by any self-rated scale), treatment discontinuation for any reason and due to side-effects specifically, and safety (ie, number of patients with at least one adverse event) both for acute and long-term treatment. We estimated summary standardised mean differences (SMDs) and odds ratios (ORs) using pairwise and network meta-analysis with random effects. This study is registered with Open Science Framework, https://doi.org/10.17605/OSF.IO/PU4QJ. FINDINGS: We included 170 trials (36 interventions and 47 950 participants) in the systematic review and 154 double-blind, randomised controlled trials (30 interventions and 44 089 participants) were eligible for the network meta-analysis. In terms of acute treatment, benzodiazepines, doxylamine, eszopiclone, lemborexant, seltorexant, zolpidem, and zopiclone were more efficacious than placebo (SMD range: 0·36-0·83 [CINeMA estimates of certainty: high to moderate]). Benzodiazepines, eszopiclone, zolpidem, and",
-      "human_review_required": true
-    },
-    {
-      "seed": "mindfulness AND perceived stress",
-      "openalex": "https://openalex.org/W2914063688",
-      "title": "A systematic review and meta-analysis of workplace mindfulness training randomized controlled trials.",
-      "year": 2019,
-      "authors": [
-        "Larissa Bartlett",
-        "Àngela Martín",
-        "Amanda L. Neil",
-        "Kate Memish",
-        "Petr Otáhal"
-      ],
-      "doi": "https://doi.org/10.1037/ocp0000146",
-      "source": "Journal of Occupational Health Psychology",
-      "cited_by_count": 427,
-      "abstract": "This meta-analytic review responds to promises in the research literature and public domain about the benefits of workplace mindfulness training. It synthesizes randomized controlled trial evidence from workplace-delivered training for changes in mindfulness, stress, mental health, well-being, and work performance outcomes. Going beyond extant reviews, this article explores the influence of variability in workforce and intervention characteristics for reducing perceived stress. Meta-effect estimates (Hedge's g) were computed using data from 23 studies. Results indicate beneficial effects following training for mindfulness (g = 0.45, p < .001) and stress (g = 0.56, p < .001), anxiety (g = 0.62, p < .001) and psychological distress (g = 0.69, p < .001), and for well-being (g = 0.46, p = .002) and sleep (g = 0.26, p = .003). No conclusions could be drawn from pooled data for burnout due to ambivalence in results, for depression due to publication bias, or for work performance due to insufficient data. The potential for integrating the construct of mindfulness within job demands-resources, coping, and prevention theories of work stress is considered in relation to the results. Limitations to study designs and reporting are addressed, and recommendations to advance research in this field are made. (PsycINFO Database Record (c) 2019 APA, all rights reserved).",
-      "human_review_required": true
-    },
-    {
-      "seed": "physical activity AND mood AND depression",
-      "openalex": "https://openalex.org/W2513004262",
-      "title": "Motivating factors and barriers towards exercise in severe mental illness: a systematic review and meta-analysis",
+      "seed": "implementation intentions AND goal attainment",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1111/SPC3.12265",
+      "title": "The Intention–Behavior Gap",
       "year": 2016,
       "authors": [
-        "Joseph Firth",
-        "Simon Rosenbaum",
-        "Brendon Stubbs",
-        "Paul Gorczynski",
-        "Alison R. Yung"
+        "P. Sheeran",
+        "Thomas Llewelyn Webb"
       ],
-      "doi": "https://doi.org/10.1017/s0033291716001732",
-      "source": "Psychological Medicine",
-      "cited_by_count": 581,
-      "abstract": "Exercise can improve clinical outcomes in people with severe mental illness (SMI). However, this population typically engages in low levels of physical activity with poor adherence to exercise interventions. Understanding the motivating factors and barriers towards exercise for people with SMI would help to maximize exercise participation. A search of major electronic databases was conducted from inception until May 2016. Quantitative studies providing proportional data on the motivating factors and/or barriers towards exercise among patients with SMI were eligible. Random-effects meta-analyses were undertaken to calculate proportional data and 95% confidence intervals (CI) for motivating factors and barriers toward exercise. From 1468 studies, 12 independent studies of 6431 psychiatric patients were eligible for inclusion. Meta-analyses showed that 91% of people with SMI endorsed 'improving health' as a reason for exercise (N = 6, n = 790, 95% CI 80-94). Among specific aspects of health and well-being, the most common motivations were 'losing weight' (83% of patients), 'improving mood' (81%) and 'reducing stress' (78%). However, low mood and stress were also identified as the most prevalent barriers towards exercise (61% of patients), followed by 'lack of support' (50%). Many of the desirable outcomes of exercise for people with SMI, such as mood improvement, stress reduction and increased energy, are inversely related to the barriers of depression, stress and fatigue which frequently restrict their participation in exercise. Providing patients with professional support to identify and achieve their exercise goals may enable them to overcome psychological barriers, and maintain motivation towards regular physical activity.",
+      "doi": "https://doi.org/10.1111/SPC3.12265",
+      "source": "Social and Personality Psychology Compass",
+      "cited_by_count": 1782,
+      "abstract": "Bitter personal experience and meta-analysis converge on the conclusion that people do not always do the things that they intend to do. This paper synthesizes research on intention–behavior relations to address questions such as: How big is the intention–behavior gap? When are intentions more or less likely to get translated into action? What kinds of problems prevent people from realizing their intentions? And what strategies show promise in closing the intention–behavior gap and helping people do the things that they intend to do?",
       "human_review_required": true
     },
     {
       "seed": "physical activity AND mood AND depression",
-      "openalex": "https://openalex.org/W3020257396",
-      "title": "Interventions to Improve Mental Health, Well-Being, Physical Health, and Lifestyle Behaviors in Physicians and Nurses: A Systematic Review",
-      "year": 2020,
-      "authors": [
-        "Bernadette Mazurek Melnyk",
-        "Stephanie Kelly",
-        "Janna Stephens",
-        "Kerry Dhakal",
-        "Colleen McGovern"
-      ],
-      "doi": "https://doi.org/10.1177/0890117120920451",
-      "source": "American Journal of Health Promotion",
-      "cited_by_count": 365,
-      "abstract": "OBJECTIVE: This systematic review focused on randomized controlled trials (RCTs) with physicians and nurses that tested interventions designed to improve their mental health, well-being, physical health, and lifestyle behaviors. DATA SOURCE: A systematic search of electronic databases from 2008 to May 2018 included PubMed, CINAHL, PsycINFO, SPORTDiscus, and the Cochrane Library. STUDY INCLUSION AND EXCLUSION CRITERIA: Inclusion criteria included an RCT design, samples of physicians and/or nurses, and publication year 2008 or later with outcomes targeting mental health, well-being/resiliency, healthy lifestyle behaviors, and/or physical health. Exclusion criteria included studies with a focus on burnout without measures of mood, resiliency, mindfulness, or stress; primary focus on an area other than health promotion; and non-English papers. DATA EXTRACTION: Quantitative and qualitative data were extracted from each study by 2 independent researchers using a standardized template created in Covidence. DATA SYNTHESIS: Although meta-analytic pooling across all studies was desired, a wide array of outcome measures made quantitative pooling unsuitable. Therefore, effect sizes were calculated and a mini meta-analysis was completed. RESULTS: Twenty-nine studies (N = 2708 participants) met the inclusion criteria. Results indicated that mindfulness and cognitive-behavioral therapy-based interventions are effective in reducing stress, anxiety, and depression. Brief interventions that incorporate deep breathing and gratitude may be beneficial. Visual triggers, pedometers, and health coaching with texting increased physical activity. CONCLUSION: Healthcare systems must promote the health and well-being of physicians and nurses with evidence-based interventions to improve population health and enhance the quality and safety of the care that is delivered.",
-      "human_review_required": true
-    },
-    {
-      "seed": "mindfulness AND perceived stress",
-      "openalex": "https://openalex.org/W3092008362",
-      "title": "The efficacy of mindfulness meditation apps in enhancing users’ well-being and mental health related outcomes: a meta-analysis of randomized controlled trials",
-      "year": 2020,
-      "authors": [
-        "Éva Gál",
-        "Simona Ștefan",
-        "Ioana A. Cristea"
-      ],
-      "doi": "https://doi.org/10.1016/j.jad.2020.09.134",
-      "source": "Journal of Affective Disorders",
-      "cited_by_count": 304,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "rumination AND worry AND perseverative cognition",
-      "openalex": "https://openalex.org/W2409629706",
-      "title": "Physiological concomitants of perseverative cognition: A systematic review and meta-analysis.",
-      "year": 2015,
-      "authors": [
-        "Cristina Ottaviani",
-        "Julian F. Thayer",
-        "Bart Verkuil",
-        "Antonia Lonigro",
-        "Barbara Medea"
-      ],
-      "doi": "https://doi.org/10.1037/bul0000036",
-      "source": "Psychological Bulletin",
-      "cited_by_count": 474,
-      "abstract": "Rumination about the past and worries about the future (perseverative cognition) are extremely common, although pervasive and distressing, dysfunctional cognitive processes. Perseverative cognition is not only implicated in psychological health, contributing to mood worsening and psychopathology but, due to its ability to elicit prolonged physiological activity, is also considered to play a role in somatic health. Although there is emerging evidence that such negative and persistent thoughts have consequences on the body, this association has not yet been quantified. The aim of this study was to meta-analyze available studies on the physiological concomitants of perseverative cognition in healthy subjects. Separate meta-analyses were performed on each examined physiological parameter. Sixty studies were eligible for the analyses. Associations emerged between perseverative cognition and higher systolic blood pressure (SBP) (g = .45) and diastolic blood pressure (DBP) (g = .51) in experimental studies, and higher heart rate (HR) (g = .28 and g = .20) and cortisol (g = .36 and g = .32), and lower heart rate variability (HRV) (g = .15 and g = .27) in experimental and correlational studies, respectively. Significant moderators were sex, ethnicity, type of induction used to elicit perseverative cognition, assessment of state versus trait perseverative cognition, focus on worry or rumination, duration of physiological assessment, and quality of the studies. With the exception of blood pressure, results were not influenced by publication bias. Results show that perseverative cognition affects cardiovascular, autonomic, and endocrine nervous system activity, suggesting a pathogenic pathway to long-term disease outcomes and clarifying the still unexplained relationship between chronic stress and health vulnerability.",
-      "human_review_required": true
-    },
-    {
-      "seed": "physical activity AND mood AND depression",
-      "openalex": "https://openalex.org/W4378783734",
-      "title": "Effect of the COVID-19 pandemic on obesity and its risk factors: a systematic review",
-      "year": 2023,
-      "authors": [
-        "Tahir Yousuf Nour",
-        "Kerim Hakan Altıntaş"
-      ],
-      "doi": "https://doi.org/10.1186/s12889-023-15833-2",
-      "source": "BMC Public Health",
-      "cited_by_count": 151,
-      "abstract": "BACKGROUND: Coronavirus disease (COVID-19) is a contagious disease caused by the severe acute new coronavirus called SARS-CoV-2. Devastating social, economic, and health service utilisation-related activities. Increased burden and lifestyle changes due to confinement. OBJECTIVE: This study aimed to investigate and determine the determinants of obesity during the coronavirus disease (COVID-19) pandemic from 2019 to 2023. METHODS: Observational studies published between December 2019 and January 2023 were thoroughly searched using a PRISMA flow chart. PubMed, Google Scholar, Web of Science, HINARI, Scopus, and Embase databases were used. Two reviewers independently identified and critically evaluated the relevant literature. Studies that reported weight gain or involved BMI measurements of 25 kg/m2 or BMI z-scores for children during the COVID-19 lockdown were selected for inclusion. The Newcastle-Ottawa Scale (NOS) was used as a quality assessment instrument in nonrandomised studies to evaluate study quality. All the contributing determinants of weight increase were identified, gathered, and synthesised. RESULTS: This systematic review identified 40 studies with a total population of 5,681,813 from 22 countries, of which 74.6% were male. The sample size from included articles ranged from 37 to 5,315,435. Of the 40 selected articles, 24 focused on adults, five on adolescents, three on children, and eight on children and adolescents. Physical inactivity, sedentary behaviour, bad eating habits, behavioural lifestyle, excessive stress, depression, anxiety, behavioural risk factors, sex, and ethnic minorities were associated with obesity during the COVID-19 pandemic lockdown. CONCLUSION: During the COVID-19 pandemic, physical inactivity, sedentary lifestyle, and poor eating patterns were the most common risk factors for obesity. Additionally, unhealthy eating habits, excessive behavioural stress, depression, anxiety, low mood, age, gender, and ethnic minorities have been ",
-      "human_review_required": true
-    },
-    {
-      "seed": "self-compassion AND self-criticism",
-      "openalex": "https://openalex.org/W4316042114",
-      "title": "The effectiveness of compassion focused therapy with clinical populations: A systematic review and meta-analysis",
-      "year": 2023,
-      "authors": [
-        "Leah Alice Millard",
-        "Ming Wai Wan",
-        "Diana M. Smith",
-        "Anja Wittkowski"
-      ],
-      "doi": "https://doi.org/10.1016/j.jad.2023.01.010",
-      "source": "Journal of Affective Disorders",
-      "cited_by_count": 151,
-      "abstract": "BACKGROUND: Over the last 20 years, compassion focused therapy (CFT) has gained popularity as an emerging 'third wave' intervention. Although previous reviews indicated its potential benefits, a systematic review and meta-analysis of CFT in those with mental health difficulties has yet to be conducted. METHODS: A systematic search of five databases was undertaken, focusing on randomised controlled trials and randomised pilot/feasibility studies of CFT only. No language restrictions were implemented. A narrative synthesis was conducted. Random effects meta-analyses were measured on levels of self-compassion, self-criticism/self-reassurance, fears of compassion and clinical symptomology. RESULTS: Fifteen studies from 2013 to 2022 were included. Findings suggested that CFT was effective in improving compassion-based outcomes and clinical symptomology from baseline to post-intervention and compared to waitlist control. A range of small to large effect sizes were reported for improvements in self-compassion (0.19-0.90), self-criticism (0.15-0.72), self-reassurance (0.43-0.81), fear of self-compassion (0.18), depression (0.24-0.25) and eating disorders (0.18-0.79). Meta-analyses favoured CFT in improving levels of self-compassion and self-reassurance than control groups. LIMITATIONS: The methodological quality of many of the included studies (7/15) was rated as 'unclear' due to a lack of information. There was a distinct gender gap, with 74.88% identifying as female participants. CONCLUSIONS: This review was the first to examine the effectiveness of CFT in clinical populations. The results indicate that CFT has promising clinical implications, suggesting that the intervention increases compassion-based outcomes and reduces clinical symptomology in those with mental health difficulties. However, future research is required into the long-term effects of CFT.",
-      "human_review_required": true
-    },
-    {
-      "seed": "self-compassion AND self-criticism",
-      "openalex": "https://openalex.org/W2922505176",
-      "title": "The ‘Flow’ of compassion: A meta-analysis of the fears of compassion scales and psychological functioning",
-      "year": 2019,
-      "authors": [
-        "James N. Kirby",
-        "Jamin Day",
-        "Vinita Sagar"
-      ],
-      "doi": "https://doi.org/10.1016/j.cpr.2019.03.001",
-      "source": "Clinical Psychology Review",
-      "cited_by_count": 227,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "self-compassion AND self-criticism",
-      "openalex": "https://openalex.org/W3137777394",
-      "title": "Effectiveness of self‐compassion‐related interventions for reducing self‐criticism: A systematic review and meta‐analysis",
-      "year": 2021,
-      "authors": [
-        "Katherine Wakelin",
-        "Gemma Perman",
-        "Laura M. Simonds"
-      ],
-      "doi": "https://doi.org/10.1002/cpp.2586",
-      "source": "Clinical Psychology & Psychotherapy",
-      "cited_by_count": 156,
-      "abstract": "Self-criticism is the process of negative self-evaluation. High levels are associated with psychopathology and poorer therapeutic outcomes. Self-compassion interventions were developed to explicitly target self-criticism. The aim of this review was to estimate the overall effect of self-compassion-related interventions on self-criticism outcomes and investigate potential moderating variables. A systematic search of the literature identified 20 randomized controlled trials (RCTs) that met the inclusion criteria. Nineteen papers, involving 1350 participants, had sufficient data to be included in the meta-analysis. Pre- and post-data points were extracted for the compassion and control groups. Study quality was assessed using an adapted version of the Cochrane Collaboration's risk of bias tool, which concluded that studies were of moderate quality. Meta-analysis findings indicated that self-compassion-related interventions produce a significant, medium reduction in self-criticism in comparison with control groups (Hedges' g = 0.51, 95% CI [0.33-0.69]). Moderator analysis found greater reductions in self-criticism when self-compassion-related interventions were longer and compared with passive controls rather than active. The remaining moderators of forms of self-criticism, sample type, intervention delivery, intervention setting and risk of bias ratings were insignificant. Overall, the review provides promising evidence of the effectiveness of self-compassion-related interventions for reducing self-criticism. However, results are limited by moderate quality studies with high heterogeneity. Directions for future research indicate that more RCTs with active controls, follow-ups, consistent use and reporting of measures and diverse samples are needed.",
-      "human_review_required": true
-    },
-    {
-      "seed": "sleep AND insomnia AND behavioural intervention",
-      "openalex": "https://openalex.org/W2626454985",
-      "title": "Let's talk about sleep: a systematic review of psychological interventions to improve sleep in college students",
-      "year": 2017,
-      "authors": [
-        "Anja Friedrich",
-        "Angelika Schlarb"
-      ],
-      "doi": "https://doi.org/10.1111/jsr.12568",
-      "source": "Journal of Sleep Research",
-      "cited_by_count": 251,
-      "abstract": "Sleep problems are a common occurrence in college students. Insomnia, nightmares and impaired sleep quality lead to several mental health issues, as well as impaired academic performance. Although different sleep programmes exist, a systematic overview comparing their effectiveness is still missing. This systematic review aims to provide an overview of psychological interventions to improve sleep in college students. Seven databases were searched from November to December 2016 (MEDLINE, EMBASE, PsycINFO, Cinahl, Cochrane Library, PubMed, OpenSigle). The search string included search terms from three different topics: sleep, intervention and college students. Outcome measures included subjective as well as objective measures and focused on sleep, sleep-related and mental health variables. Twenty-seven studies met the inclusion criteria. They were assigned to four intervention categories: (1) sleep hygiene, (2) cognitive-behavioural therapy (CBT), (3) relaxation, mindfulness and hypnotherapy and (4) other psychotherapeutic interventions. Fifteen studies were randomized controlled trials. While sleep hygiene interventions provided small to medium effects, the CBTs showed large effects. The variability of the effect sizes was especially large in the relaxation category, ranging from very small to very large effect sizes. Other psychotherapeutic interventions showed medium effects. CBT approaches provided the best effects for the improvement of different sleep variables in college students. Five studies included insomnia patients. The other three intervention categories also showed promising results with overall medium effects. In the future, CBT should be combined with relaxation techniques, mindfulness and hypnotherapy. Furthermore, the interventions should broaden their target group and include more sleep disorders.",
-      "human_review_required": true
-    },
-    {
-      "seed": "mindfulness AND perceived stress",
-      "openalex": "https://openalex.org/W2607260079",
-      "title": "Trait mindfulness at work: A meta-analysis of the personal and professional correlates of trait mindfulness",
-      "year": 2017,
-      "authors": [
-        "Jessica Mesmer‐Magnus",
-        "Archana Manapragada",
-        "Chockalingam Viswesvaran",
-        "Josh Allen"
-      ],
-      "doi": "https://doi.org/10.1080/08959285.2017.1307842",
-      "source": "Human Performance",
-      "cited_by_count": 246,
-      "abstract": "Popular and academic press alike have concluded that mindfulness significantly benefits healthy individuals as well as those suffering from physical and psychological problems. Workplace interventions, clinical therapies, and popular self-help programs aimed at enhancing mindfulness abound, and research has demonstrated the efficacy of such mindfulness interventions in enhancing mindful states. It is of importance to note that research also suggests the average frequency with which individuals experience states of mindfulness varies from person to person, underscoring the existence of a dispositional tendency toward mindfulness—trait mindfulness. We meta-analytically cumulate the results of 270 independent studies (N = 58,592 adults from nonclinical samples) of trait mindfulness in order to explore its personal and professional correlates. Results suggest the benefits of trait mindfulness extend to both personal and professional domains. With regards to personal benefits, trait mindfulness was found to be positively correlated with confidence (ρ = .39), mental health (ρ = .38), emotional regulation (ρ = .40), and life satisfaction (ρ = .36), and negatively correlated with perceived life stress (ρ = –.43), negative emotions (ρ = –.40), anxiety (ρ = –.34), and depression (ρ = –.38). Professionally, results suggest trait mindfulness may benefit job satisfaction (ρ = .29), performance (ρ = .34), and interpersonal relations (ρ = .31), while also reducing burnout (ρ = –.48) and work withdrawal (ρ = –.17). Meta-analytic regressions also suggest trait mindfulness adds incremental predictive variance over more traditional predictors of employee burnout and work performance.",
-      "human_review_required": true
-    },
-    {
-      "seed": "mindfulness AND perceived stress",
-      "openalex": "https://openalex.org/W2607016890",
-      "title": "Mindfulness-Based Interventions During Pregnancy: a Systematic Review and Meta-analysis",
-      "year": 2017,
-      "authors": [
-        "Anjulie Dhillon",
-        "Elizabeth Sparkes",
-        "Rui Duarte"
-      ],
-      "doi": "https://doi.org/10.1007/s12671-017-0726-x",
-      "source": "Mindfulness",
-      "cited_by_count": 239,
-      "abstract": "This systematic review aims to assess the effect of mindfulness-based interventions carried out during pregnancy exploring mindfulness and mental health outcomes. A systematic review was conducted to appraise the current literature on the subject area. Inclusion and exclusion criteria were agreed and after reviewing titles, abstracts and full papers, 14 articles met the inclusion criteria and were included in the review. The quality of included articles was checked using the Quality Assessment Tool for Quantitative Studies. Pooled results of the randomised controlled trials (RCTs) reporting outcomes on anxiety, depression and perceived stress indicated no differences between the mindfulness intervention group and the control group. Pooled results of the non-RCTs reporting anxiety, depression and perceived stress showed a significant benefit for the mindfulness group. Mindfulness as an outcome was assessed in four RCTs for which the pooled results show a significant difference in favour of the mindfulness intervention when compared to a control group. The pooled results of the four non-RCTs also indicate a significant difference following mindfulness intervention. Results suggest that mindfulness-based interventions can be beneficial for outcomes such as anxiety, depression, perceived stress and levels of mindfulness during the perinatal period. Further research would be useful to explore if such benefits are sustained during the post-natal period.",
-      "human_review_required": true
-    },
-    {
-      "seed": "sleep AND insomnia AND behavioural intervention",
-      "openalex": "https://openalex.org/W3024783828",
-      "title": "Cannabinoid therapies in the management of sleep disorders: A systematic review of preclinical and clinical studies",
-      "year": 2020,
-      "authors": [
-        "Anastasia Suraev",
-        "Nathaniel S. Marshall",
-        "Ryan G. Vandrey",
-        "Danielle McCartney",
-        "Melissa J. Benson"
-      ],
-      "doi": "https://doi.org/10.1016/j.smrv.2020.101339",
-      "source": "Sleep Medicine Reviews",
-      "cited_by_count": 167,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "physical activity AND mood AND depression",
-      "openalex": "https://openalex.org/W2947113254",
-      "title": "A comprehensive approach to rehabilitation interventions following breast cancer treatment - a systematic review of systematic reviews",
-      "year": 2019,
-      "authors": [
-        "Ulrika Möller",
-        "Ingela Beck",
-        "Lisa Rydén",
-        "Marlene Malmström"
-      ],
-      "doi": "https://doi.org/10.1186/s12885-019-5648-7",
-      "source": "BMC Cancer",
-      "cited_by_count": 190,
-      "abstract": "BACKGROUND: Breast cancer (BC) is the most common type of cancer in women worldwide. Post-treatment, patients suffer from side effects and have various rehabilitation needs, which means that individualization is fundamental for optimal rehabilitation. This systematic review (SR) of SRs aims to evaluate the current evidence on rehabilitation interventions in female patients following BC treatment. METHODS: Full-text SRs published in English from 2009 were searched in Embase, PubMed, Cinahl Complete, PsycINFO, AMED, SCOPUS, and Cochrane Library. INCLUSION CRITERIA: SRs of randomized or non-randomized controlled trials investigating the effects of rehabilitation interventions in women following BC treatment. All outcomes were considered. Methodological quality was evaluated using the AMSTAR 2 tool and interrater agreement was evaluated. Out of 1269 citations retrieved, 37 SRs were included. RESULTS: Five rehabilitation areas were identified: exercise and physical activity (PA), complementary and alternative medicine (CAM), yoga, lymphoedema treatment, and psychosocial interventions. The most solid evidence was found in exercise/PA and yoga. Exercise interventions improved outcomes such as shoulder mobility, lymphoedema, pain, fatigue and quality of life (QoL). Effects of yoga were shown on QoL, anxiety, depression, sleep disturbance, fatigue and gastrointestinal symptoms. The effect of CAM was shown on nausea, pain, fatigue, anger and anxiety but these results need to be interpreted with caution because of low methodological quality in included studies in the SRs. Among the lymphoedema treatments, positive effects were seen for resistance training on volume reduction and muscle strength and psychosocial interventions such as cognitive behavioural therapy had positive effects on QoL, anxiety, depression and mood disturbance. CONCLUSIONS: This SR of SRs show solid positive effects of exercise/PA and yoga for women following BC treatment, and provides extended knowledge o",
-      "human_review_required": true
-    },
-    {
-      "seed": "rumination AND worry AND perseverative cognition",
-      "openalex": "https://openalex.org/W2999483757",
-      "title": "The association between worry and rumination with sleep in non-clinical populations: a systematic review and meta-analysis",
-      "year": 2020,
-      "authors": [
-        "Faye Clancy",
-        "Andrew Prestwich",
-        "Lizzie Caperon",
-        "Anastasia Tsipa",
-        "Daryl B. O’Connor"
-      ],
-      "doi": "https://doi.org/10.1080/17437199.2019.1700819",
-      "source": "Health Psychology Review",
-      "cited_by_count": 161,
-      "abstract": "Associations have been found between perseverative cognition (PC: worry and rumination) and somatic markers of ill-health. Further studies have reported associations between sleep and both PC and poorer health. As such, sleep disturbance may represent a pathway between PC and ill-health. Therefore, studies assessing the relationship between PC and sleep in non-clinical populations were synthesised. Meta-analyses (k = 55) revealed small- to medium-sized associations between higher PC and poorer sleep quality (SQ, r = −0.28), shorter total sleep time (TST, r = −0.15) and longer sleep onset latency (SOL, r = −0.16). Variations included associations between SQ and rumination (r = −.33) and worry (r = −.23). Associations were stronger in studies measuring SQ via self-report rather than actigraphy, and where SOL and TST outcomes were cross-sectional. Associations with SOL were stronger when outcomes were from non-diary studies and when trait, rather than state PC, was measured, but weaker where studies incorporated more measures of PC. Effect sizes were generally larger where studies were higher quality and being female may act as a protective factor between PC and longer SOL. Therefore, there is a consistent association between PC and sleep which may partially explain the link between PC and ill-health.",
-      "human_review_required": true
-    },
-    {
-      "seed": "sleep AND insomnia AND behavioural intervention",
-      "openalex": "https://openalex.org/W2914137248",
-      "title": "Sleep problem, suicide and self-harm in university students: A systematic review",
-      "year": 2019,
-      "authors": [
-        "Kirsten Russell",
-        "Stephanie Allan",
-        "Louise Beattie",
-        "Jason Bohan",
-        "Kenneth Macmahon"
-      ],
-      "doi": "https://doi.org/10.1016/j.smrv.2018.12.008",
-      "source": "Sleep Medicine Reviews",
-      "cited_by_count": 175,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "loneliness AND social connection AND intervention",
-      "openalex": "https://openalex.org/W4312178673",
-      "title": "Association between friendship quality and subjective wellbeing among adolescents: a systematic review",
-      "year": 2022,
-      "authors": [
-        "Abdullah Alsarrani",
-        "Ruth F. Hunter",
-        "Laura Dunne",
-        "Leandro García"
-      ],
-      "doi": "https://doi.org/10.1186/s12889-022-14776-4",
-      "source": "BMC Public Health",
-      "cited_by_count": 108,
-      "abstract": "BACKGROUND: Social integration with friends has an important role in shaping adolescents' behavior and determining their wellbeing. Friendship features such as companionship, trust, closeness, intimacy, and conflicts all form the concept of friendship quality. The quality of friendships can either enhance or impede mental development during adolescence. Therefore, this systematic review was conducted to understand the association between friendship quality and adolescents' mental wellbeing. METHODS: In November 2020 and later in August 2022, the search for evidence was conducted on five databases (Medline, Embase, ProQuest, Scopus, and PsycINFO). Only peer-reviewed quantitative studies published from January 2000 to August 2022 that investigated friendship quality as their exposure variable in relation to six constructs of subjective wellbeing (mood, loneliness, life satisfaction, happiness, self-esteem, and subjective wellbeing) were included. After screening for eligibility, two reviewers independently extracted the data based on population characteristics, study design, exposure and outcome variables, outcome measures used, and results. Risk of bias assessment was performed utilizing the NIH Quality Assessment Tool. Narrative evidence synthesis was performed based on the constructs of subjective wellbeing. RESULTS: Forty-three articles out of 21,585 records were included in the review. The relationship between friendship quality and depression has been investigated extensively in the literature and negative (beneficial) associations were found in eighteen studies out of twenty-three. Poor peer relationship was associated with loneliness in nine studies out of ten. All seven studies on life satisfaction and quality of peer connection found a positive association. In five studies, better peer relationship was found to be associated with happiness. A positive association between friendship quality and self-esteem was observed in five out of six applicable studies. F",
-      "human_review_required": true
-    },
-    {
-      "seed": "self-compassion AND self-criticism",
-      "openalex": "https://openalex.org/W2906139095",
-      "title": "The clinical trait self-criticism and its relation to psychopathology: A systematic review – Update",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1176/appi.ajp.2018.17111194",
+      "title": "Physical Activity and Incident Depression: A Meta-Analysis of Prospective Cohort Studies.",
       "year": 2018,
       "authors": [
-        "Antonia M. Werner",
-        "Ana N. Tibubos",
-        "Sonja Rohrmann",
-        "Neele Reiß"
+        "F. Schuch",
+        "D. Vancampfort",
+        "J. Firth",
+        "S. Rosenbaum",
+        "P. Ward"
       ],
-      "doi": "https://doi.org/10.1016/j.jad.2018.12.069",
-      "source": "Journal of Affective Disorders",
-      "cited_by_count": 190,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "rumination AND worry AND perseverative cognition",
-      "openalex": "https://openalex.org/W2989756419",
-      "title": "Can't get it off my brain: Meta-analysis of neuroimaging studies on perseverative cognition",
-      "year": 2019,
-      "authors": [
-        "Elena Makovac",
-        "Sabrina Fagioli",
-        "Charlotte L. Rae",
-        "Hugo Critchley",
-        "Cristina Ottaviani"
-      ],
-      "doi": "https://doi.org/10.1016/j.pscychresns.2019.111020",
-      "source": "Psychiatry Research Neuroimaging",
-      "cited_by_count": 160,
-      "abstract": "",
-      "human_review_required": true
-    },
-    {
-      "seed": "loneliness AND social connection AND intervention",
-      "openalex": "https://openalex.org/W3199656832",
-      "title": "Systematic review of risk and protective factors for suicidal and self-harm behaviors among children and adolescents involved with cyberbullying",
-      "year": 2021,
-      "authors": [
-        "Ophely Dorol--Beauroy-Eustache",
-        "Brian L. Mishara"
-      ],
-      "doi": "https://doi.org/10.1016/j.ypmed.2021.106684",
-      "source": "Preventive Medicine",
-      "cited_by_count": 119,
-      "abstract": "Cyberbullying is associated with increased risk of suicidal and self-harm behaviors in children and adolescents. However, no review to date has explored factors that exacerbate and mitigate this relationship. This systematic review concerns research on factors that influence the impact of cyberbullying on suicidal and self-harm behaviors. Four bibliographic databases were explored and references in included articles were searched. We identified 727 articles and retained 66 that met inclusion criteria. Research has identified multiple risk factors which have been associated with increased suicide risk in general (mental health problems, substance abuse, loneliness, stress, sexual orientation/gender identity issues and violent behaviors). Others risk factors more specific to cyberbullying were: Autism Spectrum Disorder, Intellectual and Developmental Disorders, obesity, having asthma and severity of cyberbullying. Fewer studies concern protective factors. School connectedness, restrictive style of parenting, parental support, life satisfaction, having a healthy diet, personal skills and having family dinners were associated with less risk of suicidal and self-harm behaviors following cyberbullying. These protective factors suggest prevention strategies to reduce the impacts of cyberbullying by teaching better personal skills, promoting school social connections and proposing family interventions. More research is needed including exploration of the differential impacts of different forms of cyberbullying, and evaluations of the impacts of programs to increase personal skills, improve family relationships and foster school connectedness to reducing suicidal and self-harm behaviors in this vulnerable population.",
-      "human_review_required": true
-    },
-    {
-      "seed": "sleep AND insomnia AND behavioural intervention",
-      "openalex": "https://openalex.org/W3094113653",
-      "title": "Pharmacological and non‐pharmacological interventions to enhance sleep in mild cognitive impairment and mild Alzheimer's disease: A systematic review",
-      "year": 2020,
-      "authors": [
-        "Jonathan Blackman",
-        "Marta Swirski",
-        "James Clynes",
-        "Sam Harding",
-        "Yue Leng"
-      ],
-      "doi": "https://doi.org/10.1111/jsr.13229",
-      "source": "Journal of Sleep Research",
-      "cited_by_count": 131,
-      "abstract": "Suboptimal sleep causes cognitive decline and probably accelerates Alzheimer's Disease (AD) progression. Several sleep interventions have been tested in established AD dementia cases. However early intervention is needed in the course of AD at Mild Cognitive Impairment (MCI) or mild dementia stages to help prevent decline and maintain good quality of life. This systematic review aims to summarize evidence on sleep interventions in MCI and mild AD dementia. Seven databases were systematically searched for interventional studies where ≥ 75% of participants met diagnostic criteria for MCI/mild AD dementia, with a control group and validated sleep outcome measures. Studies with a majority of participants diagnosed with Moderate to Severe AD were excluded. After removal of duplicates, 22,133 references were returned in two separate searches (August 2019 and September 2020). 325 full papers were reviewed with 18 retained. Included papers reported 16 separate studies, total sample (n = 1,056), mean age 73.5 years. 13 interventions were represented: Cognitive Behavioural Therapy - Insomnia (CBT-I), A Multi-Component Group Based Therapy, A Structured Limbs Exercise Programme, Aromatherapy, Phase Locked Loop Acoustic Stimulation, Transcranial Stimulation, Suvorexant, Melatonin, Donepezil, Galantamine, Rivastigmine, Tetrahydroaminoacridine and Continuous Positive Airway Pressure (CPAP). Psychotherapeutic approaches utilising adapted CBT-I and a Structured Limbs Exercise Programme each achieved statistically significant improvements in the Pittsburgh Sleep Quality Index with one study reporting co-existent improved actigraphy variables. Suvorexant significantly increased Total Sleep Time and Sleep Efficiency whilst reducing Wake After Sleep Onset time. Transcranial Stimulation enhanced cortical slow oscillations and spindle power during daytime naps. Melatonin significantly reduced sleep latency in two small studies and sleep to wakefulness transitions in a small sample. CPAP d",
-      "human_review_required": true
-    },
-    {
-      "seed": "habit formation AND behaviour change technique",
-      "openalex": "https://openalex.org/W2938364341",
-      "title": "Effectiveness of Interventions and Behaviour Change Techniques for Improving Dietary Intake in Young Adults: A Systematic Review and Meta-Analysis of RCTs",
-      "year": 2019,
-      "authors": [
-        "Lee Ashton",
-        "Thomas Sharkey",
-        "Megan Whatnall",
-        "Rebecca Williams",
-        "Aaron Bezzina"
-      ],
-      "doi": "https://doi.org/10.3390/nu11040825",
-      "source": "Nutrients",
-      "cited_by_count": 137,
-      "abstract": "Poor eating habits are common during young adulthood and influence chronic disease morbidity. This systematic review evaluates the effectiveness of interventions aiming to improve dietary intake among young adults and, identifies which behaviour change techniques (BCTs) are most effective. Six electronic databases were searched for RCTs published until October 2018, and evaluating behavioural interventions assessing change in dietary intake in young adults (17–35 years). Of the 18,779 articles identified, 54 were included. Forty studies focused on fruit and/or vegetable intake, of which 63% showed a significant between-group difference in favour of the intervention group. Meta-analysis (n = 17) demonstrated a significant increase in fruit and vegetable intake of +68.6 g/day after three months of intervention and +65.8 g/day for interventions &gt;3 months when compared to control. A meta-analysis (n = 5) on total energy intake found no significant differences between groups. The BCTs with the highest effectiveness ratio were habit formation (100%), salience of consequences (83%) and adding objects to the environment (70%). The review highlights the potential of behavioural interventions to improve young adults’ fruit and vegetable intake but was less convincing for other dietary outcomes. Due to the lack of studies including each BCT, the BCTs imperative to success could not be identified.",
-      "human_review_required": true
-    },
-    {
-      "seed": "loneliness AND social connection AND intervention",
-      "openalex": "https://openalex.org/W4387303680",
-      "title": "What is the effect of intergenerational activities on the wellbeing and mental health of older people?: A systematic review",
-      "year": 2023,
-      "authors": [
-        "Rebecca Whear",
-        "Fiona Campbell",
-        "Morwenna Rogers",
-        "Anthea Sutton",
-        "Ellie Robinson‐Carter"
-      ],
-      "doi": "https://doi.org/10.1002/cl2.1355",
-      "source": "Campbell Systematic Reviews",
-      "cited_by_count": 63,
-      "abstract": "Background: Opportunities for social connection between generations have diminished over the last few decades around the world as a result of changes in the way that we live and work. The COVID-19 pandemic has exacerbated loneliness for many with young and old being kept apart for safety. The Public Health England prevention concordat for better mental health (Office for Health Improvement and Disparities) aims to bring a prevention-focused approach to improving public mental health. The concordat promotes evidence-based planning and commissioning to increase the impact on reducing health inequalities using sustainable and cost-effective interventions that impact on the wider determinants of mental health and wellbeing for children and young people and older people. Intergenerational activities could provide an opportunity to support both populations. In 2023, we produced an evidence and gap map to illustrate the amount and variety of research on intergenerational interventions and the gaps in research that still exist in this area. The review conducted here is based on the evidence in that map. Objectives: This systematic review examines the impact of intergenerational interventions on the wellbeing and mental health of older people and identifies areas for future research as well as key messages for service commissioners. Search Methods: We searched an evidence and gap map published in 2022 (comprehensive searches conducted July 2021 and updated June 2023) to identify randomised controlled trials of intergenerational interventions that report mental health and wellbeing outcomes for older people. Selection Criteria: Randomised controlled trials of intergenerational interventions that involved unrelated younger and older people with at least one skipped generation between them and reported mental health or wellbeing outcomes for older people were included in this review. Data Collection and Analysis: We used standard methodological procedures expected by The Campbe",
-      "human_review_required": true
-    },
-    {
-      "seed": "physical activity AND mood AND depression",
-      "openalex": "https://openalex.org/W2338735671",
-      "title": "Factors contributing to depressive mood states in everyday life: A systematic review",
-      "year": 2016,
-      "authors": [
-        "Rachel Pemberton",
-        "Matthew Fuller‐Tyszkiewicz"
-      ],
-      "doi": "https://doi.org/10.1016/j.jad.2016.04.023",
-      "source": "Journal of Affective Disorders",
-      "cited_by_count": 141,
-      "abstract": "",
+      "doi": "https://doi.org/10.1176/appi.ajp.2018.17111194",
+      "source": "American Journal of Psychiatry",
+      "cited_by_count": 1450,
+      "abstract": "OBJECTIVE The authors examined the prospective relationship between physical activity and incident depression and explored potential moderators. METHOD Prospective cohort studies evaluating incident depression were searched from database inception through Oct. 18, 2017, on PubMed, PsycINFO, Embase, and SPORTDiscus. Demographic and clinical data, data on physical activity and depression assessments, and odds ratios, relative risks, and hazard ratios with 95% confidence intervals were extracted. Random-effects meta-analyses were conducted, and the potential sources of heterogeneity were explored. Methodological quality was assessed using the Newcastle-Ottawa Scale. RESULTS A total of 49 unique prospective studies (N=266,939; median proportion of males across studies, 47%) were followed up for 1,837,794 person-years. Compared with people with low levels of physical activity, those with high levels had lower odds of developing depression (adjusted odds ratio=0.83, 95% CI=0.79, 0.88; I2=0.00). Furthermore, physical activity had a protective effect against the emergence of depression in youths (adjusted odds ratio=0.90, 95% CI=0.83, 0.98), in adults (adjusted odds ratio=0.78, 95% CI=0.70, 0.87), and in elderly persons (adjusted odds ratio=0.79, 95% CI=0.72, 0.86). Protective effects against depression were found across geographical regions, with adjusted odds ratios ranging from 0.65 to 0.84 in Asia, Europe, North America, and Oceania, and against increased incidence of positive screen for depressive symptoms (adjusted odds ratio=0.84, 95% CI=0.79, 0.89) or major depression diagnosis (adjusted odds ratio=0.86, 95% CI=0.75, 0.98). No moderators were identified. Results were consistent for unadjusted odds ratios and for adjusted and unadjusted relative risks/hazard ratios. Overall study quality was moderate to high (Newcastle-Ottawa Scale score, 6.3). Although significant publication bias was found, adjusting for this did not change the magnitude of the associations. CONCLU",
       "human_review_required": true
     },
     {
       "seed": "implementation intentions AND goal attainment",
-      "openalex": "https://openalex.org/W3160299755",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1037/bul0000025",
+      "title": "Does monitoring goal progress promote goal attainment? A meta-analysis of the experimental evidence.",
+      "year": 2016,
+      "authors": [
+        "Benjamin Harkin",
+        "Thomas Llewelyn Webb",
+        "B. Chang",
+        "A. Prestwich",
+        "M. Conner"
+      ],
+      "doi": "https://doi.org/10.1037/bul0000025",
+      "source": "Psychological bulletin",
+      "cited_by_count": 470,
+      "abstract": "Control theory and other frameworks for understanding self-regulation suggest that monitoring goal progress is a crucial process that intervenes between setting and attaining a goal, and helps to ensure that goals are translated into action. However, the impact of progress monitoring interventions on rates of behavioral performance and goal attainment has yet to be quantified. A systematic literature search identified 138 studies (N = 19,951) that randomly allocated participants to an intervention designed to promote monitoring of goal progress versus a control condition. All studies reported the effects of the treatment on (a) the frequency of progress monitoring and (b) subsequent goal attainment. A random effects model revealed that, on average, interventions were successful at increasing the frequency of monitoring goal progress (d+ = 1.98, 95% CI [1.71, 2.24]) and promoted goal attainment (d+ = 0.40, 95% CI [0.32, 0.48]). Furthermore, changes in the frequency of progress monitoring mediated the effect of the interventions on goal attainment. Moderation tests revealed that progress monitoring had larger effects on goal attainment when the outcomes were reported or made public, and when the information was physically recorded. Taken together, the findings suggest that monitoring goal progress is an effective self-regulation strategy, and that interventions that increase the frequency of progress monitoring are likely to promote behavior change.",
+      "human_review_required": true
+    },
+    {
+      "seed": "rumination AND worry AND perseverative cognition",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1037/bul0000036",
+      "title": "Physiological concomitants of perseverative cognition: A systematic review and meta-analysis.",
+      "year": 2016,
+      "authors": [
+        "C. Ottaviani",
+        "J. Thayer",
+        "B. Verkuil",
+        "Antonia Lonigro",
+        "Barbara Medea"
+      ],
+      "doi": "https://doi.org/10.1037/bul0000036",
+      "source": "Psychological bulletin",
+      "cited_by_count": 437,
+      "abstract": "Rumination about the past and worries about the future (perseverative cognition) are extremely common, although pervasive and distressing, dysfunctional cognitive processes. Perseverative cognition is not only implicated in psychological health, contributing to mood worsening and psychopathology but, due to its ability to elicit prolonged physiological activity, is also considered to play a role in somatic health. Although there is emerging evidence that such negative and persistent thoughts have consequences on the body, this association has not yet been quantified. The aim of this study was to meta-analyze available studies on the physiological concomitants of perseverative cognition in healthy subjects. Separate meta-analyses were performed on each examined physiological parameter. Sixty studies were eligible for the analyses. Associations emerged between perseverative cognition and higher systolic blood pressure (SBP) (g = .45) and diastolic blood pressure (DBP) (g = .51) in experimental studies, and higher heart rate (HR) (g = .28 and g = .20) and cortisol (g = .36 and g = .32), and lower heart rate variability (HRV) (g = .15 and g = .27) in experimental and correlational studies, respectively. Significant moderators were sex, ethnicity, type of induction used to elicit perseverative cognition, assessment of state versus trait perseverative cognition, focus on worry or rumination, duration of physiological assessment, and quality of the studies. With the exception of blood pressure, results were not influenced by publication bias. Results show that perseverative cognition affects cardiovascular, autonomic, and endocrine nervous system activity, suggesting a pathogenic pathway to long-term disease outcomes and clarifying the still unexplained relationship between chronic stress and health vulnerability.",
+      "human_review_required": true
+    },
+    {
+      "seed": "nature exposure AND green space AND mental health",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3390/ijerph15122668",
+      "title": "Impact of Green Space Exposure on Children’s and Adolescents’ Mental Health: A Systematic Review",
+      "year": 2018,
+      "authors": [
+        "Gert-Jan Vanaken",
+        "M. Danckaerts"
+      ],
+      "doi": "https://doi.org/10.3390/ijerph15122668",
+      "source": "International Journal of Environmental Research and Public Health",
+      "cited_by_count": 319,
+      "abstract": "In recent years, the interest in the relationship between exposure to green spaces and children’s and adolescents’ mental health has risen. This systematic review aims to provide an overview of observational studies assessing the association between empirical green space exposure with standardized outcome measures of mental health problems, mental well-being and developmental problems in children, adolescents and young adults. The PRISMA statement guidelines for reporting systematic reviews were followed. A PubMed and Scopus search resulted in the inclusion of 21 studies. The evidence consistently suggests a beneficial association between green space exposure and children’s emotional and behavioral difficulties, particularly with hyperactivity and inattention problems. Limited evidence suggests a beneficial association with mental well-being in children and depressive symptoms in adolescents and young adults. These beneficial associations are resistant to adjustment for demographic and socio-economic confounders, which thus may represent independent links. Mediating factors and the variability of this association between different age groups are discussed. From a precautionary principle, evidence up to now demands the attention of policy makers, urban planners and mental healthcare workers in order to protect children’s and adolescents’ mental health in light of rapid global urbanization by providing sufficient exposure to green spaces.",
+      "human_review_required": true
+    },
+    {
+      "seed": "sleep AND insomnia AND behavioural intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.5664/jcsm.8988",
+      "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine systematic review, meta-analysis, and GRADE assessment",
+      "year": 2020,
+      "authors": [
+        "PhD Jack D. Edinger",
+        "PhD J. Todd Arnedt",
+        "M. M. Suzanne M. Bertisch",
+        "PhD Colleen E. Carney",
+        "M. M. John J. Harrington"
+      ],
+      "doi": "https://doi.org/10.5664/jcsm.8988",
+      "source": "Journal of Clinical Sleep Medicine (JCSM)",
+      "cited_by_count": 244,
+      "abstract": "The purpose of this systematic review is to provide supporting evidence for a clinical practice guideline on the use of behavioral and psychological treatments for chronic insomnia disorder in adult populations. The American Academy of Sleep Medicine commissioned a task force of 9 experts in sleep medicine and sleep psychology. A systematic review was conducted to identify randomized controlled trials that addressed behavioral and psychological interventions for the treatment of chronic insomnia disorder in adults. Statistical analyses were performed to determine if the treatments produced clinically significant improvements in a range of critical and important outcomes. Finally, the Grading of Recommendations Assessment, Development, and Evaluation process was used to evaluate the evidence for making specific treatment recommendations. The literature search identified 1,244 studies; 124 studies met the inclusion criteria, and 89 studies provided data suitable for statistical analyses. Evidence for the following interventions is presented in this review: cognitive-behavioral therapy for insomnia, brief therapies for insomnia, stimulus control, sleep restriction therapy, relaxation training, sleep hygiene, biofeedback, paradoxical intention, intensive sleep retraining, and mindfulness. This review provides a detailed summary of the evidence along with the quality of evidence, the balance of benefits vs harms, patient values and preferences, and resource use considerations. Edinger JD, Arnedt JT, Bertisch SM, et al. Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine systematic review, meta-analysis, and GRADE assessment. J Clin Sleep Med. 2021;17(2):263–298.",
+      "human_review_required": true
+    },
+    {
+      "seed": "self-compassion AND self-criticism",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1002/cpp.2586",
+      "title": "Effectiveness of Self-Compassion Related Interventions for Reducing Self-Criticism: A Systematic Review and Meta-analysis.",
+      "year": 2021,
+      "authors": [
+        "Kate Wakelin",
+        "G. Perman",
+        "L. Simonds"
+      ],
+      "doi": "https://doi.org/10.1002/cpp.2586",
+      "source": "Clinical Psychology and Psychotherapy",
+      "cited_by_count": 135,
+      "abstract": "Self-criticism is the process of negative self-evaluation. High levels are associated with psychopathology and poorer therapeutic outcomes. Self-compassion interventions were developed to explicitly target self-criticism. The aim of this review was to estimate the overall effect of self-compassion related interventions on self-criticism outcomes and investigate potential moderating variables. A systematic search of the literature identified 20 randomised controlled trials that met inclusion criteria. Nineteen papers, involving 1350 participants, had sufficient data to be included in the meta-analysis. Pre and post data points were extracted for the compassion and control groups. Study quality was assessed using an adapted version of the Cochrane Collaboration's risk of bias tool which concluded that studies were of moderate quality. Meta-analysis findings indicated that self-compassion related interventions produce a significant, medium reduction in self-criticism in comparison to control groups (Hedges g= 0.51, 95% CI [0.33-0.69]). Moderator analysis found greater reductions in self-criticism when self-compassion related interventions were longer and compared to passive controls, rather than active. The remaining moderators of forms of self-criticism, sample type, intervention delivery, intervention setting and risk of bias ratings were insignificant. Overall, the review provides promising evidence of the effectiveness of self-compassion related interventions for reducing self-criticism. However, results are limited by moderate quality studies with high heterogeneity. Directions for future research indicate that more RCTs with active controls, follow-ups, consistent use and reporting of measures and diverse samples are needed.",
+      "human_review_required": true
+    },
+    {
+      "seed": "screen time AND smartphone use AND wellbeing",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1186/s12916-025-03944-z",
+      "title": "Smartphone screen time reduction improves mental health: a randomized controlled trial",
+      "year": 2025,
+      "authors": [
+        "C. Pieh",
+        "E. Humer",
+        "Andreas Hoenigl",
+        "Julia Schwab",
+        "Doris Mayerhofer"
+      ],
+      "doi": "https://doi.org/10.1186/s12916-025-03944-z",
+      "source": "BMC Medicine",
+      "cited_by_count": 41,
+      "abstract": "Smartphone screen time has risen sharply in recent years. Even though an association between smartphone use and mental health is well documented, it is still unclear whether this is simply a correlation or causality. The aim of this study is to investigate the effects of smartphone screen time reduction on mental health indicators. This non-blinded, parallel randomized controlled trial (RCT) was performed to investigate the impact of a 3-week screen time reduction to ≤ 2 h/d in healthy students on stress (PSQ), well-being (WHO-5), depressive symptoms (PHQ-9), and sleep quality (ISI) at baseline (t0), post-intervention (t1), and at follow-up (t2 = 6 weeks after t1). For the intention to treat analysis, repeated measures ANOVAs and post-hoc tests (for time as well as group differences) were performed and effect sizes were presented as partial eta squared (η2 = time × group) and group-mean differences. In total, 111 out of 125 healthy students (70 females; mean age = 22.68 ± 2.6 years; mean screen time = 276 ± 115.1 min/day) were randomly assigned to intervention—(n = 58; 3 weeks of screen time reduction to ≤ 2 h/day) or control group (n = 53). Although no differences were observed at baseline (t0), significant post-intervention (t1) effects of small to medium size were observed on well-being (η2 = .053), depressive symptoms (η2 = .109), sleep quality (η2 = .048), and stress (η2 = .085). Significant group differences (p ≤ .05) were found post-intervention (t1) for depressive symptoms (Mean Difference (MD) = 2.11, Standard Error (SE) = 0.63, 95% Confidence Interval (CI) [0.87, 3.36]), sleep quality (MD = 2.59, SE = 0.97, 95% CI [0.66, 4.51]), well-being (MD = -1.54, SE = 0.68, 95% CI [.-2.89, -0.18]), and stress (MD = 6.91, SE = 3.48, 95% CI [0.01, 13.81]). Screen time increased rapidly after the intervention and at follow-up the values were once again approaching the initial level. The study highlights mental health improvements through smartphone screen time reduction",
+      "human_review_required": true
+    },
+    {
+      "seed": "habit formation AND behaviour change technique",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.2196/54375",
+      "title": "Digital Behavior Change Intervention Designs for Habit Formation: Systematic Review",
+      "year": 2024,
+      "authors": [
+        "Yujie Zhu",
+        "Yonghao Long",
+        "Hailiang Wang",
+        "K. Lee",
+        "Lie Zhang"
+      ],
+      "doi": "https://doi.org/10.2196/54375",
+      "source": "Journal of Medical Internet Research",
+      "cited_by_count": 56,
+      "abstract": "Background With the development of emerging technologies, digital behavior change interventions (DBCIs) help to maintain regular physical activity in daily life. Objective To comprehensively understand the design implementations of habit formation techniques in current DBCIs, a systematic review was conducted to investigate the implementations of behavior change techniques, types of habit formation techniques, and design strategies in current DBCIs. Methods The process of this review followed the PRISMA (Preferred Reporting Item for Systematic Reviews and Meta-Analyses) guidelines. A total of 4 databases were systematically searched from 2012 to 2022, which included Web of Science, Scopus, ACM Digital Library, and PubMed. The inclusion criteria encompassed studies that used digital tools for physical activity, examined behavior change intervention techniques, and were written in English. Results A total of 41 identiﬁed research articles were included in this review. The results show that the most applied behavior change techniques were the self-monitoring of behavior, goal setting, and prompts and cues. Moreover, habit formation techniques were identified and developed based on intentions, cues, and positive reinforcement. Commonly used methods included automatic monitoring, descriptive feedback, general guidelines, self-set goals, time-based cues, and virtual rewards. Conclusions A total of 32 commonly design strategies of habit formation techniques were summarized and mapped to the proposed conceptual framework, which was categorized into target-mediated (generalization and personalization) and technology-mediated interactions (explicitness and implicitness). Most of the existing studies use the explicit interaction, aligning with the personalized habit formation techniques in the design strategies of DBCIs. However, implicit interaction design strategies are lacking in the reviewed studies. The proposed conceptual framework and potential solutions can serve as gu",
+      "human_review_required": true
+    },
+    {
+      "seed": "habit formation AND behaviour change technique",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1111/bjhp.12504",
+      "title": "Habit formation following routine-based versus time-based cue planning: A randomized controlled trial.",
+      "year": 2021,
+      "authors": [
+        "J. Keller",
+        "D. Kwasnicka",
+        "P. Klaiber",
+        "Lena Sichert",
+        "Phillippa Lally"
+      ],
+      "doi": "https://doi.org/10.1111/bjhp.12504",
+      "source": "British Journal of Health Psychology",
+      "cited_by_count": 89,
+      "abstract": "OBJECTIVES Habit formation has been identified as one of the key determinants of behaviour change. To initiate habit formation, self-regulation interventions can support individuals to form a cue-behaviour plan and to repeatedly enact the plan in the same context. This randomized controlled trial aimed to model habit formation of an everyday nutrition behaviour and examined whether habit formation and plan enactment differ when individuals plan to enact their behaviour in response to a routine-based versus time-based cue. DESIGN Following a baseline assessment, N = 192 adults (aged 18-77 years) were randomly assigned to a routine-based cue or a time-based cue planning intervention, in which they selected an everyday nutrition behaviour and linked it to a daily routine or a time cue. METHODS Participants responded to daily questionnaires over 84 days assessing plan enactment and the behaviour's automaticity (as an indicator of habit formation). Multilevel models with days nested in participants were fitted. RESULTS As indicated by asymptotic curves, it took a median of 59 days for participants who successfully formed habits to reach peak automaticity. Group-level analyses revealed that both routine-based and time-based cue planning led to increases in automaticity and plan enactment, but no between-condition differences were found. Repeated plan enactment was a key predictor for automaticity. CONCLUSIONS Linking one's nutrition behaviour to a daily routine or a specific time was similarly effective for habit formation. Interventions should encourage persons to repeatedly carry out their planned behaviour in response to the planned cue to facilitate habit formation.",
+      "human_review_required": true
+    },
+    {
+      "seed": "screen time AND smartphone use AND wellbeing",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1037/xap0000430",
+      "title": "Finding the \"sweet spot\" of smartphone use: Reduction or abstinence to increase well-being and healthy lifestyle?! An experimental intervention study.",
+      "year": 2022,
+      "authors": [
+        "J. Brailovskaia",
+        "Jasmin Delveaux",
+        "J. John",
+        "Vanessa Wicker",
+        "Alina Noveski"
+      ],
+      "doi": "https://doi.org/10.1037/xap0000430",
+      "source": "Journal of experimental psychology. Applied",
+      "cited_by_count": 64,
+      "abstract": "The present experimental study compared the impact of a total abstinence from smartphone use and of a reduction of daily smartphone use by 1 hr on well-being and healthy lifestyle. Participants (Ntotal = 619) were smartphone users in Germany. The first experimental group (N = 200) waived smartphone use for 7 days, the second experimental group (N = 226) reduced its daily use by 1 hr, and the control group (N = 193) used smartphone as usual. Variables of smartphone use (time, intensity, problematic tendencies), life satisfaction, depressive symptoms, anxiety symptoms, physical activity, and smoking behavior were assessed via online surveys at four measurement time points (baseline; postintervention; 1 and 4 months after postintervention). Both interventions reduced smartphone use intensity, problematic use tendencies, depressive, and anxiety symptoms. In both groups, life satisfaction and physical activity increased. Most effects were stronger and remained more stable over 4 months in the reduction group than in the abstinence group. Moreover, in the reduction group only, the number of daily smoked cigarettes decreased. Thus, less time spent on the smartphone leads to more well-being and a healthier lifestyle; a complete smartphone abstinence is not necessary. Programs that focus on the increase of well-being and a healthier lifestyle could benefit from the integration of controlled reduction of smartphone use. A potential \"sweet spot\" of smartphone use is discussed. (PsycInfo Database Record (c) 2022 APA, all rights reserved).",
+      "human_review_required": true
+    },
+    {
+      "seed": "implementation intentions AND goal attainment",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/10463283.2024.2334563",
+      "title": "The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests",
+      "year": 2024,
+      "authors": [
+        "P. Sheeran",
+        "Olivia Listrom",
+        "P. Gollwitzer"
+      ],
+      "doi": "https://doi.org/10.1080/10463283.2024.2334563",
+      "source": "European Review of Social Psychology",
+      "cited_by_count": 37,
+      "abstract": "ABSTRACT When and how should one plan? We estimated the scope (when) of implementation intentions by computing effect sizes for different outcomes, samples, and study characteristics, and tested the components (how) of implementation intentions by analysing the format, processes of formation, and contents of plans. Across 642 independent tests, forming implementation intentions proved effective for cognitive, affective, and behavioural outcomes (.27 ≤ d ≤ .66). Effect sizes were larger when plans had a contingent (if-then) format, participants were highly motivated to pursue the goal, and plans were rehearsed. We developed a new taxonomy of the cues (e.g., time-and-place, task juncture) and responses (e.g., cognitive procedures, ignore- or inner speech-responses) specified in implementation intentions and tested their efficacy in promoting outcomes. Our review underlines the utility of implementation intentions in helping people regulate their thoughts, feelings, and actions and offers a taxonomy of plan contents that could inspire further tests of implementation intentions.",
+      "human_review_required": true
+    },
+    {
+      "seed": "sleep AND insomnia AND behavioural intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.7326/M15-1782",
+      "title": "Psychological and Behavioral Interventions for Managing Insomnia Disorder: An Evidence Report for a Clinical Practice Guideline by the American College of Physicians",
+      "year": 2016,
+      "authors": [
+        "M. Brasure",
+        "E. Fuchs",
+        "R. MacDonald",
+        "Victoria A. Nelson",
+        "Erin Koffel"
+      ],
+      "doi": "https://doi.org/10.7326/M15-1782",
+      "source": "Annals of Internal Medicine",
+      "cited_by_count": 129,
+      "abstract": "Sleep difficulties, including the inability to initiate or maintain sleep, are common in adults. Sleep difficulties are typically transient; however, when they become chronic and cause distress or daytime dysfunction, insomnia disorder may be present. The American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, defines insomnia disorder as a predominant symptom of difficulty with sleep initiation, difficulty maintaining sleep, or early-morning waking with inability to return to sleep causing clinically significant distress or impairment in activities, occurring at least 3 nights per week for 3 months or more (1). Furthermore, individuals must have adequate opportunity for sleep and the symptoms cannot be better explained by medical or mental conditions, including another sleep disorder (such as breathing-related sleep disorder), or medication or substance use. The term previously used for insomnia disorder is chronic insomnia (14), for which diagnostic criteria required sleep problems lasting from weeks to months. These criteria are empirically similar to current criteria for insomnia disorder. We use the term insomnia disorder even though much of the primary research has used other terminology (such as chronic insomnia and persistent insomnia). Between 6% and 10% of adults meet the diagnostic criteria for insomnia disorder (4). Duration ranges from 1 to 20 years across longitudinal studies (5). Insomnia disorder is more common in female patients and older adults (6, 7). Older adults typically report difficulty maintaining sleep as opposed to initiating sleep, which is common in younger adults (8). Many treatment types are available once insomnia disorder is accurately diagnosed by using established diagnostic criteria (4, 9). These include psychological and behavioral treatments, pharmacologic therapies, and complementary and alternative medicine. The American Academy of Sleep Medicine recommends psychological and beh",
+      "human_review_required": true
+    },
+    {
+      "seed": "implementation intentions AND goal attainment",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1111/bjc.12086",
+      "title": "Does forming implementation intentions help people with mental health problems to achieve goals? A meta-analysis of experimental studies with clinical and analogue samples.",
+      "year": 2016,
+      "authors": [
+        "A. Toli",
+        "Thomas Llewelyn Webb",
+        "G. Hardy"
+      ],
+      "doi": "https://doi.org/10.1111/bjc.12086",
+      "source": "British Journal of Clinical Psychology",
+      "cited_by_count": 124,
+      "abstract": "OBJECTIVE People struggle to act on the goals that they set themselves, and this gap between intention and action is likely to be exacerbated by mental health problems. Evidence suggests that forming specific if-then plans (or 'implementation intentions') can promote goal attainment and a number of studies have applied such techniques in clinical contexts. However, to date, the extent to which planning can help people with mental health problems has not been systematically examined. METHOD The present review used meta-analysis to investigate the effect of if-then planning on goal attainment among people with a DSM-IV/ICD-10 diagnosis (i.e., clinical samples) or scores above a relevant cut-off on clinical measures (i.e., analogue samples). In total, 29 experimental studies, from 18 records, met the inclusion criteria. RESULTS Excluding one outlying (very large) effect, forming implementation intentions had a large-sized effect on goal attainment (d+ = 0.99, k = 28, N = 1,636). Implementation intentions proved effective across different mental health problems and goals, and in studies with different methodological approaches. CONCLUSIONS Taken together, the findings suggest that forming implementation intentions can be a useful strategy for helping people with mental health problems to achieve various goals and might be usefully integrated into existing treatment approaches. However, further studies are needed addressing a wider range of mental health problems.",
+      "human_review_required": true
+    },
+    {
+      "seed": "daylight AND light exposure AND circadian",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3390/ijerph18199980",
+      "title": "Access to Daylight at Home Improves Circadian Alignment, Sleep, and Mental Health in Healthy Adults: A Crossover Study",
+      "year": 2021,
+      "authors": [
+        "R. Nagare",
+        "May K Woo",
+        "P. MacNaughton",
+        "B. Plitnick",
+        "Brandon Tinianov"
+      ],
+      "doi": "https://doi.org/10.3390/ijerph18199980",
+      "source": "International Journal of Environmental Research and Public Health",
+      "cited_by_count": 67,
+      "abstract": "As the primary environmental cue for the body’s master biological clock, light–dark patterns are key for circadian alignment and are ultimately fundamental to multiple dimensions of health including sleep and mental health. Although daylight provides the proper qualities of light for promoting circadian alignment, our modern indoor lifestyles offer fewer opportunities for adequate daylight exposure. This field study explores how increasing circadian-effective light in residences affects circadian phase, sleep, vitality, and mental health. In this crossover study, 20 residents spent one week in their apartments with electrochromic glass windows and another week with functionally standard windows with blinds. Calibrated light sensors revealed higher daytime circadian-effective light levels with the electrochromic glass windows, and participants exhibited consistent melatonin onset, a 22-min earlier sleep onset, and higher sleep regularity. In the blinds condition, participants exhibited a 15-min delay in dim light melatonin onset, a delay in subjective vitality throughout the day, and an overall lower positive affect. This study demonstrates the impact of daytime lighting on the physiological, behavioral, and subjective measures of circadian health in a real-world environment and stresses the importance of designing buildings that optimize daylight for human health and wellbeing.",
+      "human_review_required": true
+    },
+    {
+      "seed": "rumination AND worry AND perseverative cognition",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/J.PAID.2018.11.028",
+      "title": "Perfectionism, worry, rumination, and distress: A meta-analysis of the evidence for the perfectionism cognition theory",
+      "year": 2019,
+      "authors": [
+        "Yu Xie",
+        "Yan Kong",
+        "Jiyu Yang",
+        "Faxiang Chen"
+      ],
+      "doi": "https://doi.org/10.1016/J.PAID.2018.11.028",
+      "source": "Personality and Individual Differences",
+      "cited_by_count": 85,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "rumination AND worry AND perseverative cognition",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.pscychresns.2019.111020",
+      "title": "Can't get it off my brain: Meta-analysis of neuroimaging studies on perseverative cognition.",
+      "year": 2019,
+      "authors": [
+        "Elena Makovac",
+        "S. Fagioli",
+        "Charlotte L. Rae",
+        "H. Critchley",
+        "C. Ottaviani"
+      ],
+      "doi": "https://doi.org/10.1016/j.pscychresns.2019.111020",
+      "source": "Psychiatry research. Neuroimaging",
+      "cited_by_count": 80,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "rumination AND worry AND perseverative cognition",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3389/fnhum.2016.00534",
+      "title": "Perseverative Cognition and Health Behaviors: A Systematic Review and Meta-Analysis",
+      "year": 2016,
+      "authors": [
+        "Faye Clancy",
+        "A. Prestwich",
+        "Lizzie Caperon",
+        "D. O'Connor"
+      ],
+      "doi": "https://doi.org/10.3389/fnhum.2016.00534",
+      "source": "Frontiers in Human Neuroscience",
+      "cited_by_count": 100,
+      "abstract": "Recent developments in stress theory have emphasized the significance of perseverative cognition (worry and rumination) in furthering our understanding of stress-disease relationships. Substantial evidence has shown that perseverative cognition (PC) is associated with somatic outcomes and numerous physiological concomitants have been identified (i.e., cardiovascular, autonomic, and endocrine nervous system activity parameters). However, there has been no synthesis of the evidence regarding the association between PC and health behaviors. This is important given such behaviors may also directly and/or indirectly influence health and disease outcomes (triggered by PC). Therefore, the aim of the current review was to synthesize available studies that have explored the relationship between worry and rumination and health behaviors (health risk: behaviors which, if performed, would be detrimental to health; health promoting: behaviors which, if performed, would be beneficial for health). A systematic review and meta-analyses of the literature were conducted. Studies were included in the review if they reported the association between PC and health behavior. Studies identified in MEDLINE or PsycINFO (k = 7504) were screened, of which 19 studies met the eligibility criteria. Random-effects meta-analyses suggested increased PC was generally associated with increased health risk behaviors but not health promoting behaviors. Further analyses indicated that increases in rumination (r = 0.122), but not reflection (r = −0.080), or worry (r = 0.048) were associated with health risk behaviors. In conclusion, these results showed that increases in PC are associated with increases in health risk behaviors (substance use, alcohol consumption, unhealthy eating, and smoking) that are driven primarily through rumination. These findings provide partial support for our hypothesis that in Brosschot et al.'s (2006) original perseverative cognition hypothesis, there may be scope for addition",
+      "human_review_required": true
+    },
+    {
+      "seed": "implementation intentions AND goal attainment",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3389/fpsyg.2021.565202",
       "title": "A Meta-Analysis of the Effects of Mental Contrasting With Implementation Intentions on Goal Attainment",
       "year": 2021,
       "authors": [
@@ -475,96 +342,944 @@
       ],
       "doi": "https://doi.org/10.3389/fpsyg.2021.565202",
       "source": "Frontiers in Psychology",
-      "cited_by_count": 62,
+      "cited_by_count": 53,
       "abstract": "Mental contrasting with implementation intentions (MCII) is a self-regulation strategy that enhances goal attainment. This meta-analysis evaluated the efficacy of MCII for goal attainment and explored potential moderators. A total of 21 empirical studies with 24 independent effect sizes (15,907 participants) were included in the analysis. Results showed that MCII to be effective for goal attainment with a small to medium effect size (g = 0.336). The effect was mainly moderated by intervention style. Specifically, studies with interventions based on interactions between participants and experimenters (g = 0.465) had stronger effects than studies with interventions based on interactions between participants and documents (g = 0.277). The results revealed that MCII is a brief and effective strategy for goal attainment with a small to moderate effect; however, because of some publication bias, the actual effect sizes may be smaller. Due to small number of studies in this meta-analysis, additional studies are needed to determine the role of moderator variables.",
       "human_review_required": true
     },
     {
-      "seed": "rumination AND worry AND perseverative cognition",
-      "openalex": "https://openalex.org/W2555783136",
-      "title": "Perseverative Cognition and Health Behaviors: A Systematic Review and Meta-Analysis",
-      "year": 2016,
+      "seed": "implementation intentions AND goal attainment",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1111/bjhp.12230",
+      "title": "Reducing fat intake using implementation intentions: A meta‐analytic review",
+      "year": 2017,
       "authors": [
-        "Faye Clancy",
-        "Andrew Prestwich",
-        "Lizzie Caperon",
-        "Daryl B. O’Connor"
+        "Irene Vilà",
+        "I. Carrero",
+        "R. Redondo"
       ],
-      "doi": "https://doi.org/10.3389/fnhum.2016.00534",
-      "source": "Frontiers in Human Neuroscience",
-      "cited_by_count": 110,
-      "abstract": "Recent developments in stress theory have emphasized the significance of perseverative cognition (worry and rumination) in furthering our understanding of stress-disease relationships. Substantial evidence has shown that perseverative cognition (PC) is associated with somatic outcomes and numerous physiological concomitants have been identified (i.e., cardiovascular, autonomic and endocrine nervous system activity parameters). However, there has been no synthesis of the evidence regarding the association between PC and health behaviors. This is important given such behaviors may also directly and/or indirectly influence health and disease outcomes (triggered by PC). Therefore, the aim of the current review was to synthesise available studies that have explored the relationship between worry and rumination and health behaviors (health risk: behaviors which, if performed, would be detrimental to health; health promoting: behaviors which, if performed, would be beneficial for health). A systematic review and meta-analyses of the literature were conducted. Studies were included in the review if they reported the association between PC and health behavior. Studies identified in MEDLINE or PsycINFO (k = 7504) were screened, of which19 studies met the eligibility criteria. Random-effects meta-analyses suggested increased PC was generally associated with increased health risk behaviors but not health promoting behaviors. Further analyses indicated that increases in rumination, (r = .122), but not reflection (r = -.080, or worry, r = .048) were associated with health risk behaviors. In conclusion, these results showed that increases in PC are associated with increases in health risk behaviors (substance use, alcohol consumption, unhealthy eating and smoking) that are driven primarily through rumination. These findings provide partial support for our hypothesis that in Brosschot and colleagues (2006) original perseverative cognition hypothesis, there may be scope for addition",
+      "doi": "https://doi.org/10.1111/bjhp.12230",
+      "source": "British Journal of Health Psychology",
+      "cited_by_count": 87,
+      "abstract": "PURPOSE To study the efficacy of forming implementation intentions for fat intake reduction as well as possible moderating variables. METHODS Systematic review and meta-analysis of 12 empirical studies (N = 3,323) published in English and Spanish in the Web of Science (Core Collection) and MEDLINE (1990-January 2016) databases. RESULTS This study found that the efficacy of planning interventions on fat consumption reduction was higher than expected, as a moderate overall effect of implementation intentions was observed (d = 0.488). Moreover, planning for a fat intake reduction seems to be more powerful for men than for women (β = -.623; p = .025) and in cases where there is no monitoring during the intervention (d = 0.671 vs. d = 0.231). CONCLUSIONS Previous research was sceptical of the efficacy of planning in the case of avoiding goals in healthy eating. However, our results show that planning is an efficient intervention that can be used by health education programmes to reduce fat intake and, therefore, increase citizen well-being. These results also support the existence of a key variable in the implementation intentions process, that is, goal complexity, and the presence of two moderating variables, that is, gender and monitoring. Statement of contribution What is already known on this subject? Implementation intentions are action plans subordinate to goal intentions that specify the 'when, where, and how' of responses leading to goal attainment. In healthy eating, the average effect of forming implementation intentions is small to medium, but this efficacy changes depending on the type of intended behaviour. Past evidence shows that the effect size seems to be lower when the intervention aims at reducing unhealthy behaviours versus promoting healthy behaviours. What does this study add? Forming implementation intentions is an efficient intervention to reduce fat intake with a medium overall effect. The efficacy of this intervention is increased when men are t",
       "human_review_required": true
     },
     {
       "seed": "rumination AND worry AND perseverative cognition",
-      "openalex": "https://openalex.org/W2903523306",
-      "title": "Perfectionism, worry, rumination, and distress: A meta-analysis of the evidence for the perfectionism cognition theory",
-      "year": 2018,
+      "provider": "Elicit",
+      "id": "https://doi.org/10.31234/OSF.IO/BSF9E",
+      "title": "Health effects of psychological interventions for worry and rumination: A meta-analysis.",
+      "year": 2021,
       "authors": [
-        "Yu Xie",
-        "Yan Kong",
-        "Jiyu Yang",
-        "Faxiang Chen"
+        "D. McCarrick",
+        "A. Prestwich",
+        "Arianna Prudenzi",
+        "D. B. O'Connor"
       ],
-      "doi": "https://doi.org/10.1016/j.paid.2018.11.028",
-      "source": "Personality and Individual Differences",
-      "cited_by_count": 90,
-      "abstract": "",
+      "doi": "https://doi.org/10.31234/OSF.IO/BSF9E",
+      "source": "Health Psychology",
+      "cited_by_count": 51,
+      "abstract": "OBJECTIVE Evidence suggests that perseverative cognition (PC), the cognitive representation of past stressful events (rumination) or feared future events (worry), mediates the relationship between stress and physical disease. However, the experimental evidence testing methods to influence PC and the subsequent relationship with health outcomes has not been synthesized. Therefore, the current review addressed these gaps. METHOD Studies randomly assigning participants to treatment and control groups, measuring PC and a physical and/or behavioral health outcome after exposure to a nonpharmacological intervention, were included in a systematic review. Key terms were searched in Medline, PsycINFO and CINAHL databases. Of the screened studies (k = 10,703), 36 met the eligibility criteria. RESULTS Random-effects meta-analyses revealed the interventions, relative to comparison groups, on average produced medium-sized effects on rumination (g = -.58), small-to-medium sized effects on worry (g = -.41) and health behaviors (g = .31), and small-sized effects on physical health outcomes (g = .23). Effect sizes for PC were negatively associated with effect sizes for health behaviors. (following outlier removal). Effect sizes for PC were significantly larger when interventions were delivered by health care professionals than when delivered via all other methods. No specific intervention type (when directly compared against other types) was associated with larger effect sizes for PC. CONCLUSIONS Psychological interventions can influence PC. Medium-sized (negative) effect sizes for PC correspond with small (but positive) health behavior effect sizes. (PsycInfo Database Record (c) 2021 APA, all rights reserved).",
+      "human_review_required": true
+    },
+    {
+      "seed": "physical activity AND mood AND depression",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3389/fpsyg.2024.1485641",
+      "title": "The effect of physical activity on depression in university students: the mediating role of self-esteem and positive psychological capital",
+      "year": 2024,
+      "authors": [
+        "Xiaolong Wei",
+        "Zhijie Lai",
+        "Zhaowen Tan",
+        "Ziyue Ou",
+        "Xueyou Feng"
+      ],
+      "doi": "https://doi.org/10.3389/fpsyg.2024.1485641",
+      "source": "Frontiers in Psychology",
+      "cited_by_count": 23,
+      "abstract": "Objective This study aimed to investigate the relationship between physical exercise and depression among college students, focusing on the mediating role of self-esteem and positive psychological capital. Methods Group psychological measurements were conducted on 579 students using various scales, including the Physical Activity Rating Scale (PARS-3), Self-Esteem Scale (SES), Positive Psychological Capital Questionnaire (PPQ), and Self-rating Depression Scale (SDS). The data was analyzed using SPSS 26.0 and bootstrap methods to test and analyze the effects. Results A negative correlation between physical exercise and depressive mood, with physical exercise significantly predicting college students' depressive mood. Additionally, physical exercise was found to positively predict self-esteem and positive psychological capital, both of which are negatively predictive of depressive mood. Self-esteem and positive psychological capital were identified as significant mediators between physical exercise and depressive mood, with three mediating paths: physical exercise, self-esteem, and depressed mood (Path 1), exhibited an indirect effect of 0.017, with the bootstrap 95% confidence interval excluding 0 (LLCI = −0.051, ULCI = −0.004) and accounting for 8.30% of the total effect. Physical exercise, positive psychological capital, and depression emotion (Path 2), had an indirect effect of 0.049, with the bootstrap 95% confidence interval also not containing 0 (LLCI = −0.088, ULCI = −0.011) and contributing to 23.90% of the total effect. Physical exercise, self-esteem, positive psychological capital, depressed mood (Path 3), demonstrated an indirect effect of 0.006, with the bootstrap 95% confidence interval excluding 0 (LLCI = −0.011, ULCI = −0.001) and representing 2.90% of the total effect. Conclusion Physical exercise negatively predicts depressive mood among college students and has a mediating effect through self-esteem and positive psychological capital, creating a cha",
       "human_review_required": true
     },
     {
       "seed": "daylight AND light exposure AND circadian",
-      "openalex": "https://openalex.org/W4205186003",
-      "title": "Migraine and light: A narrative review",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.15275/rusomj.2024.0415",
+      "title": "Evaluating circadian light hygiene: Methodology and health implications",
+      "year": 2024,
+      "authors": [
+        "D. Gubin",
+        "M. Borisenkov",
+        "S. Kolomeichuk",
+        "Alexander Markov",
+        "Dietmar Weinert"
+      ],
+      "doi": "https://doi.org/10.15275/rusomj.2024.0415",
+      "source": "Russian Open Medical Journal",
+      "cited_by_count": 23,
+      "abstract": "Background — A growing body of research demonstrates that a substantial daily range of light exposure, characterized by ample daylight followed by darkness during sleep, is essential for human well-being. This encompasses crucial aspects like sleep quality, mood regulation, and cardiovascular and metabolic health. Objective — This study characterizes Circadian Light Hygiene (CLH) as an essential factor in maintaining health, well-being, and longevity in modern society. CLH involves adjusting the 24-hour light exposure dynamic range to support the natural sleep-wake cycle and circadian rhythms. Three major challenges to CLH negatively impacting human health are: 1) light pollution (light at night, or LAN), characterized by excessive evening and nighttime artificial light; 2) insufficient natural daylight; and 3) irregular light exposure patterns. These interacting challenges necessitate a systematic approach to measurement and analysis. Material and Methods — A systematic review of peer-reviewed literature published through October 30, 2024, examined the methodologies and health effects of circadian and seasonal aspects of light exposure. Conclusion — This review elucidates fundamental principles of circadian light hygiene, synthesizing existing literature and our research to assess the benefits of adequate daylight, the risks of light at night, and adverse outcomes stemming from diminished light exposure range, mistimed light exposure, and irregular patterns. Novel indices for quantifying and optimizing circadian light hygiene are introduced.",
+      "human_review_required": true
+    },
+    {
+      "seed": "nature exposure AND green space AND mental health",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.envpol.2024.124284",
+      "title": "Nature exposure and mental health during the COVID-19 pandemic: A Navigation Guide systematic review with meta-analysis.",
+      "year": 2024,
+      "authors": [
+        "M. Patwary",
+        "M. Bardhan",
+        "Asma Safia Disha",
+        "A. Dzhambov",
+        "Colby Parkinson"
+      ],
+      "doi": "https://doi.org/10.1016/j.envpol.2024.124284",
+      "source": "Environmental Pollution",
+      "cited_by_count": 22,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "nature exposure AND green space AND mental health",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3390/psychiatryint3010008",
+      "title": "Influence of External Natural Environment Including Sunshine Exposure on Public Mental Health: A Systematic Review",
       "year": 2022,
       "authors": [
-        "А. Р. Артеменко",
-        "E. G. Filatova",
-        "Yulia D. Vorobyeva",
-        "Thien Phu",
-        "Messoud Ashina"
+        "Keita Taniguchi",
+        "Mayuko Takano",
+        "Yui Tobari",
+        "Motoshi Hayano",
+        "S. Nakajima"
       ],
-      "doi": "https://doi.org/10.1111/head.14250",
-      "source": "Headache The Journal of Head and Face Pain",
-      "cited_by_count": 35,
-      "abstract": "OBJECTIVE: In this narrative review, we summarize clinical and experimental data on the effect of light in migraine and discuss future prospects. BACKGROUND: Effective nonpharmacological treatment of hypersensitivity to light in migraine is an unmet clinical need. Current management strategies primarily consist of seeking a dark room and avoiding light exposure. Advances in the past 2 decades have improved our understanding of the underlying pathophysiology of how migraine is influenced by light. This may provide promising avenues for novel approaches in clinical management. METHODS: We searched MEDLINE for articles published from database inception up to September 1, 2021. We used the search term \"migraine\" with the search terms \"light,\" \"photophobia,\" \"treatment,\" \"trigger,\" \"circadian rhythm,\" \"environment,\" and/or \"pathophysiology.\" RESULTS: Light is commonly reported as a trigger factor of migraine attacks, however, early manifestation of photophobia and false attribution is likely the actual cause based on data deriving from retrospective, prospective, and experimental studies. The most common photophobia symptoms in migraine are exacerbation of headache by light and abnormal sensitivity to light with the underlying neural pathways likely being dependent on ongoing activity in the trigeminovascular system. Clinical studies and experimental models have identified mediators of photophobia and uncovered narrow wavebands of the light spectrum that may reduce pain intensity during a migraine attack. Consequently, novel devices have undergone exploratory clinical trials with promising results. CONCLUSION: False attribution is likely the reason why light is commonly reported as a trigger factor of migraine attacks, and a prospective confirmation is required to prevent unnecessary avoidance. The observation that individuals with migraine are not equally photophobic to all wavebands of the light spectrum opens the potential for innovative pain management strategies. In",
+      "doi": "https://doi.org/10.3390/psychiatryint3010008",
+      "source": "Psychiatry International",
+      "cited_by_count": 33,
+      "abstract": "The COVID-19 pandemic has been raging around the world and public health measures such as lockdowns have forced people to go out less often, reducing sunlight exposure time, green space use, and physical activity. It is well known that exercise has a positive impact on mental health, but the impact of external environmental factors such as sunlight exposure and green space use on mental health has not been systematically reviewed. In this review, we categorized the major factors that may affect people’s mental health into (1) external environmental factors such as exposure to sunlight and green spaces, (2) internal life factors such as physical activity and lifestyle, and (3) mixed external and internal factors, and systematically examined the relationship between each factor and people’s mental health. The results showed that exposure to sunlight, spending leisure time in green spaces, and physical activity each had a positive impact on people’s mental health, including depression, anxiety, and stress states. Specifically, moderate physical activity in an external environment with sunlight exposure or green space was found to be an important factor. The study found that exposure to the natural environment through sunbathing and exercise is important for people’s mental health.",
+      "human_review_required": true
+    },
+    {
+      "seed": "breathwork AND slow breathing AND stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1111/jir.12350",
+      "title": "The effect of slow‐paced breathing on stress management in adolescents with intellectual disability",
+      "year": 2017,
+      "authors": [
+        "S. Laborde",
+        "Mark S. Allen",
+        "N. Gohring",
+        "F. Dosseville"
+      ],
+      "doi": "https://doi.org/10.1111/jir.12350",
+      "source": "Journal of Intellectual Disability Research",
+      "cited_by_count": 62,
+      "abstract": "BACKGROUND Intellectual disabilities often create a state of chronic stress for both the person concerned and their significant others (family, caregivers). The development of stress management methods is therefore important for the reduction of stress in persons with intellectual disability. The aim of this experiment was to investigate the effect of slow-paced breathing on stress symptoms experienced by adolescents with intellectual disabilities during a cognitive task under time pressure. METHOD Fourteen adolescents with intellectual disabilities (Mage = 17.39 years, range 15-19 years) took part in two laboratory sessions - a slow-paced breathing session (experimental condition) and an audiobook session (control condition) - the order of which was counterbalanced across participants. Vagal tone was measured through heart rate variability to index stress management. RESULTS No difference in vagal tone was observed at baseline between experimental and control conditions. Compared with the control condition, vagal tone was significantly higher during the experimental condition. CONCLUSIONS The slow-paced breathing task enhanced stress management to a greater extent than did listening to an audiobook. Slow-paced breathing seems to be an easy to learn stress management technique that appears as an effective auxiliary method of lowering stress in adolescents with intellectual disabilities.",
+      "human_review_required": true
+    },
+    {
+      "seed": "daylight AND light exposure AND circadian",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1111/jpi.12843",
+      "title": "Daytime light exposure is a strong predictor of seasonal variation in sleep and circadian timing of university students",
+      "year": 2022,
+      "authors": [
+        "Gideon P. Dunster",
+        "Isabelle J Hua",
+        "Alex Grahe",
+        "J. Fleischer",
+        "Satchidananda Panda"
+      ],
+      "doi": "https://doi.org/10.1111/jpi.12843",
+      "source": "Journal of Pineal Research",
+      "cited_by_count": 31,
+      "abstract": "In the absence of electric light, sleep for humans typically starts soon after dusk and at higher latitudes daily sleep timing changes seasonally as photoperiod changes. However, access to electric light shields humans from natural photoperiod changes, and whether seasonal changes in sleep occur despite this isolation from the natural light‐dark cycle remains a matter of controversy. We measured sleep timing in over 500 university students living in the city of Seattle, WA (47.6°N) throughout the four seasons; we show that even when students are following a school schedule, sleep timing is delayed during the fall and winter. For instance, during the winter school days, students fell asleep 35 min later and woke up 27 min later (under daylight‐savings time) than students during the summer school days, a change that is an hour larger relative to solar midnight. Furthermore, chronotype defined by mid‐sleep on free days corrected for oversleep (MSFc), an indirect estimate of circadian phase, was more than 30 min later in the winter compared with the summer. Analysis of the effect of light exposure showed that the number of hours of light exposure to at least 50 lux during the daytime was a stronger predictor of MSFc than the exposure time to this illuminance after dusk. Specifically, MSFc was advanced by 30 min for each additional hour of light exposure during daytime and delayed by only 15 min for each additional hour of postdusk exposure to light. Additionally, the time of the day of exposure to high light intensities was more predictive of MSFc when daytime exposure was considered than when exposure for the full 24‐h day was considered. Our results show that although sleep time is highly synchronized to social time, a delayed timing of sleep is evident during the winter months. They also suggest that daily exposure to daylight is key to prevent this delayed phase of the circadian clock and thus circadian disruption that is typically exacerbated in high‐latitude winte",
       "human_review_required": true
     },
     {
       "seed": "loneliness AND social connection AND intervention",
-      "openalex": "https://openalex.org/W4284960172",
-      "title": "Exploring the Role of Social Connection in Interventions With Military Veterans Diagnosed With Post-traumatic Stress Disorder: Systematic Narrative Review",
-      "year": 2022,
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.jpsychires.2018.01.014",
+      "title": "Efficacy of the I-SOCIAL intervention for loneliness in old age: Lessons from a randomized controlled trial.",
+      "year": 2018,
       "authors": [
-        "Richard Gettings",
-        "Jenna Kirtley",
-        "Gemma Wilson",
-        "Gavin Oxburgh",
-        "Derek Farrell"
+        "J. Cohen-Mansfield",
+        "H. Hazan",
+        "Y. Lerman",
+        "Vera Shalom",
+        "S. Birkenfeld"
       ],
-      "doi": "https://doi.org/10.3389/fpsyg.2022.873885",
-      "source": "Frontiers in Psychology",
-      "cited_by_count": 27,
-      "abstract": "Background: It has been identified that military veterans have distinct experiences of loneliness and social isolation and, when comparing this community to other client groups with a PTSD diagnosis, veterans respond less favorably to treatment. However, the link between PTSD and loneliness for veterans remains insufficiently researched and it is unclear if there are effective interventions tackling this distinct experience of loneliness. Aims: This systematic narrative review aimed to synthesize existing evidence incorporating elements of social connection, social isolation, and loneliness within interventions for military veterans with a diagnosis of PTSD, consequently aiming to examine the impact of such interventions upon this community. Methods: Six databases were searched, utilizing relevant search criteria, with no date restrictions. Articles were included if they involved intervention or treatment for military veterans with PTSD and considered elements of social connection, social isolation, and/or loneliness. The initial search returned 202 papers. After exclusions, removal of duplications, and a reference/citation search, 28 papers remained and were included in this review. Results: From the 28 studies, 11 directly addressed social isolation and two studies directly addressed loneliness. Six themes were generated: (i) rethinking the diagnosis of PTSD, (ii) holistic interventions, (iii) peer support, (iv) social reintegration, (v) empowerment through purpose and community, and (vi) building trust. Conclusions: A direct focus upon social reintegration and engagement, psychosocial functioning, building trust, peer support, group cohesiveness and empowerment through a sense of purpose and learning new skills may mitigate experiential loneliness and social isolation for veterans with PTSD. Future research and practice should further explore the needs of the PTSD-diagnosed veteran community, seek to explore and identify potential common routes toward the develop",
+      "doi": "https://doi.org/10.1016/j.jpsychires.2018.01.014",
+      "source": "Journal of Psychiatric Research",
+      "cited_by_count": 49,
+      "abstract": "",
       "human_review_required": true
     },
     {
       "seed": "habit formation AND behaviour change technique",
-      "openalex": "https://openalex.org/W3134567183",
-      "title": "Effectiveness of interventions and behaviour change techniques for improving physical activity in young adults: A systematic review and meta-analysis",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/08870446.2020.1779272",
+      "title": "An intervention designed to investigate habit formation in a novel health behaviour",
+      "year": 2020,
+      "authors": [
+        "Enrique L. P. Mergelsberg",
+        "B. Mullan",
+        "V. Allom",
+        "Amelia Scott"
+      ],
+      "doi": "https://doi.org/10.1080/08870446.2020.1779272",
+      "source": "Psychology and Health",
+      "cited_by_count": 35,
+      "abstract": "Abstract Objectives Understanding how to help people form habits is important in improving health interventions. The impact of two behaviour change techniques on behaviour (cues and monitoring) was tested, and the role of psychosocial factors that may predict behaviour change and habit formation were investigated. Methods: Participants (N = 186) were randomised to one of six conditions (behaviour monitoring vs habit monitoring vs irrelevant behaviour monitoring and cued vs not cued) and instructed to engage in a specific, novel behaviour every day for the following 3 weeks. Participants completed measures of behaviour, habit strength, prospective memory, attitude, intention, self-efficacy and motivation at three time points (pre-, post- and one-week follow-up). Results: All participants increased habit strength and behaviour. Post-hoc, it was found that community members, compared to students, developed stronger habits and maintained the behaviour and habit strength at one-week follow-up. Intention, behaviour and habit strength post-intervention moderated behaviour and habit strength maintenance. Conclusion: This research furthers our understanding of how to help people form healthy habits. It was found that any intervention seems to be effective in forming a habit and changing behaviour. Moreover, intention, habit and behaviour were the most important predictors of behaviour change and habit formation maintenance.",
+      "human_review_required": true
+    },
+    {
+      "seed": "screen time AND smartphone use AND wellbeing",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/10447318.2025.2499943",
+      "title": "Exploring the Negative Impact of Smartphone Usage on Students’ Digital Wellbeing: A Systematic Review of Empirical Studies",
+      "year": 2025,
+      "authors": [
+        "Rania Islambouli",
+        "Sandy Ingram",
+        "Juan Carlos Farah",
+        "Zarina Charlesworth",
+        "Ralph Aouad"
+      ],
+      "doi": "https://doi.org/10.1080/10447318.2025.2499943",
+      "source": "International journal of human computer interactions",
+      "cited_by_count": 10,
+      "abstract": "Abstract In the current digital era, smartphones have evolved beyond simple communication tools into essential multifunctional devices that particularly pervade the daily lives of young adults. This article systematically reviews the impact of smartphone usage on the digital wellbeing of university students. Through a structured review of empirical studies, we examine the relationship between smartphone use and various aspects of digital wellbeing, such as sleep deprivation, attention deficits, and social challenges. We discuss the methodologies employed in these studies, analyze the data collected, and summarize and categorize the findings within the current research. This comprehensive synthesis aims to inform scholars and policymakers of the impact of smartphone usage on digital wellbieng and suggests potential directions for future research into digital wellbeing.",
+      "human_review_required": true
+    },
+    {
+      "seed": "habit formation AND behaviour change technique",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/17437199.2022.2034516",
+      "title": "A machine-learning assisted review of the use of habit formation in medication adherence interventions for long-term conditions",
+      "year": 2022,
+      "authors": [
+        "L. Robinson",
+        "M. Arden",
+        "S. Dawson",
+        "S. Walters",
+        "M. Wildman"
+      ],
+      "doi": "https://doi.org/10.1080/17437199.2022.2034516",
+      "source": "Health Psychology Review",
+      "cited_by_count": 24,
+      "abstract": "ABSTRACT Adherence to medication in long-term conditions is around 50%. The key components of successful interventions to improve medication adherence remain unclear, particularly when examined over prolonged follow-up periods. Behaviour change theories are increasingly interested in the utility of habit formation for the maintenance of health behaviour change, but there is no documentation on how habit has been conceptualised in the medication adherence intervention literature, or what effect the key technique identified in habit formation theory (context dependent repetition) has in these studies. To examine this, a machine-learning assisted review was conducted. Searches of MEDLINE, EMBASE and PSYCInfo and the reference list of a comprehensive systematic review of medication adherence interventions yielded 5973 articles. Machine learning-assisted title and abstract screening identified 15 independent RCTs published between 1976 and 2021, including 18 intervention comparisons of interest. Key findings indicate that conceptualisations of habit in the medication adherence literature are varied and behaviour change technique coding identified only six studies which explicitly described using habit formation. Future work should aim to develop this evidence base, drawing on contemporary habit theory and with explicit demonstration of what techniques have been used to promote habit formation.",
+      "human_review_required": true
+    },
+    {
+      "seed": "daylight AND light exposure AND circadian",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.psj.2023.103162",
+      "title": "Daylight exposure and circadian clocks in broilers: part I—photoperiod effect on broiler behavior, skeletal health, and fear response",
+      "year": 2023,
+      "authors": [
+        "Sha Jiang",
+        "Yuechi Fu",
+        "Heng-wei Cheng"
+      ],
+      "doi": "https://doi.org/10.1016/j.psj.2023.103162",
+      "source": "Poultry Science",
+      "cited_by_count": 18,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "sleep AND insomnia AND behavioural intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1590/1516-4446-2020-0947",
+      "title": "Acceptance and commitment therapy-based behavioral intervention for insomnia: a pilot randomized controlled trial",
+      "year": 2020,
+      "authors": [
+        "Renatha El Rafihi-Ferreira",
+        "C. Morin",
+        "A. Toscanini",
+        "Francisco Lotufo Neto",
+        "I. Brasil"
+      ],
+      "doi": "https://doi.org/10.1590/1516-4446-2020-0947",
+      "source": "Revista Brasileira de Psiquiatria",
+      "cited_by_count": 27,
+      "abstract": "Objective: To evaluate a protocol for acceptance and commitment therapy-based behavioral intervention for insomnia (ACT-BBI-I) in adults compared to cognitive behavioral therapy for insomnia (CBT-I). Methods: Forty-five adults with chronic insomnia were randomized to ACT-BBI-I or CBT-I. Both interventions were performed in six weekly group sessions. The common treatment elements in both protocols included stimulus control and sleep restriction. CBT-I is focused on the cognitive restructuring of maladaptive beliefs about sleep and the daytime effects of insomnia. ACT-BBI-I focuses on therapeutic processes of acceptance, availability, values, defusion, and commitment. The results were evaluated through the following instruments: a sleep diary, the Insomnia Severity Index, the Epworth Sleepiness Scale, the Hospital Anxiety and Depression Scale, the Acceptance and Action Questionnaire-II, and the Dysfunctional Beliefs and Attitudes about Sleep scale. Results: Both interventions had a significant positive impact on sleep patterns, insomnia, anxiety, beliefs about sleep, and psychological flexibility. All improvement was maintained at the 6-month follow-up. Conclusion: The results suggest that integrating principles of ACT with behavioral techniques may be useful for treating insomnia. Further research should identify whether the principles of ACT result in added effectiveness compared to behavioral components alone. Clinical trial registration: RBR-7nc5wq",
+      "human_review_required": true
+    },
+    {
+      "seed": "self-compassion AND self-criticism",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.brat.2021.103819",
+      "title": "An experimental investigation of the effects of self-criticism and self-compassion on implicit associations with non-suicidal self-injury.",
       "year": 2021,
       "authors": [
-        "Megan Whatnall",
-        "Thomas Sharkey",
-        "Melinda Hutchesson",
-        "Rebecca L. Haslam",
-        "Aaron Bezzina"
+        "Laura M. Nagy",
+        "Mackenzie L. Shanahan",
+        "R. Baer"
       ],
-      "doi": "https://doi.org/10.1080/02640414.2021.1898107",
-      "source": "Journal of Sports Sciences",
-      "cited_by_count": 31,
-      "abstract": "Physical activity (PA) participation declines from adolescence to young adulthood. This review evaluates the effectiveness of interventions aiming to improve PA among healthy young adults (17-35 years), and the effectiveness of the behaviour change techniques (BCTs) used. Six electronic databases were searched up to December 2019, for randomized controlled trials aiming to achieve PA behaviour change among young adults. In total, 66 RCTs were included. Meta-analyses for moderate-vigorous PA (n = 11 studies), steps (n = 5 studies) and total PA (MET min/week, n = 11 studies) identified that intervention participants compared with control significantly increased PA at time points up to 3 months and >3 months. Narrative synthesis identified that 34 RCTs (52%) reported significant between group differences favouring the intervention for one or more PA outcome. BCTs with the highest effectiveness were material reward, valued self-identity and habit formation. However, the overall test of significance demonstrated no significant relationship between type or number of BCTs and effectiveness. This review identified interventions that improve steps, moderate-vigorous and total PA in young adults in the shorter-term, and BCTs associated with greater effectiveness. Further research is needed to determine strategies to achieve longer-term effectiveness of PA interventions in young adults.",
+      "doi": "https://doi.org/10.1016/j.brat.2021.103819",
+      "source": "Behaviour Research and Therapy",
+      "cited_by_count": 20,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "breathwork AND slow breathing AND stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/10615806.2025.2505897",
+      "title": "Brief slow-paced breathing improves working memory, mood, and stress in college students",
+      "year": 2025,
+      "authors": [
+        "J. Pilcher",
+        "K. Byrne",
+        "Skylar E. Weiskittel",
+        "Emma C. Clark",
+        "Madelyn G Brancato"
+      ],
+      "doi": "https://doi.org/10.1080/10615806.2025.2505897",
+      "source": "Anxiety, Stress, & Coping",
+      "cited_by_count": 6,
+      "abstract": "ABSTRACT Background Few studies have examined the effects of brief focused breathing techniques. This study investigated the impact of brief slow-paced breathing (SPB) with a longer exhalation on working memory and perceived mood, stress, and arousal. Design Between-subjects experimental design. Methods Participants (139 undergraduates, 69% female) were randomized to a one-time SPB session or a mind-wandering active control condition. The participants completed the OSPAN working memory task and state measures of mood, stress, and arousal at three time points: baseline, post-manipulation, and post-task. Results OSPAN performance improved in the experimental group. Mood improved in the experimental group but decreased in the control group from baseline to post-manipulation and then decreased in both conditions after completing the OSPAN task. Stress decreased in the experimental group from baseline to post-manipulation and was significantly different from the control group at the post-manipulation time point. Stress then increased from post-manipulation to post-task in both conditions. Arousal decreased in both conditions from baseline to post-manipulation but then increased from post-manipulation to post-task. Conclusions The current results demonstrate that a brief SPB session with longer exhalation improved working memory and temporarily improved mood and stress thus providing a just-in-time intervention to help individuals cope with stress-inducing conditions.",
+      "human_review_required": true
+    },
+    {
+      "seed": "mindfulness AND perceived stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/07448481.2020.1845180",
+      "title": "Mindfulness, anxiety, and perceived stress in university students: Comparing a mindfulness-based intervention (MBI) against active and traditional control conditions",
+      "year": 2021,
+      "authors": [
+        "Alissa Dark-Freudeman",
+        "Colby Jones",
+        "Christian Terry"
+      ],
+      "doi": "https://doi.org/10.1080/07448481.2020.1845180",
+      "source": "Journal of American College Health",
+      "cited_by_count": 14,
+      "abstract": "Abstract Objectives University students experience heightened levels of stress and are seeking mental health services with increasing frequency. Mindfulness-based interventions (MBIs) may be an effective resource for managing stress. The present study examined the effectiveness of an MBI in reducing stress, anxiety, and rumination compared to active and traditional control conditions. Methods Undergraduate students at a southeastern university participated in either a 4-week MBI, active control, or traditional control condition. Measures were collected pre- and post-intervention. Results: Overall the MBI had a significant impact on perceived stress over and above both traditional and active control conditions. The MBI also had a significant impact on trait mindfulness and anxiety compared to the traditional control condition. No significant differences were observed for rumination. Conclusions: The MBI significantly impacted trait mindfulness, perceived stress, and state anxiety. MBIs may be a useful approach to successfully alleviating stress in a highly stressed population.",
+      "human_review_required": true
+    },
+    {
+      "seed": "habit formation AND behaviour change technique",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/08870446.2019.1604956",
+      "title": "Experimental test of a planning intervention for forming a ‘higher order’ health-habit",
+      "year": 2019,
+      "authors": [
+        "L. A. Phillips",
+        "Madeline Johnson",
+        "K. More"
+      ],
+      "doi": "https://doi.org/10.1080/08870446.2019.1604956",
+      "source": "Psychology and Health",
+      "cited_by_count": 18,
+      "abstract": "Abstract Objective: Habit-formation interventions may help individuals initiate and maintain behaviour change. This paper proposes and empirically tests the idea that it is possible for individuals to form ‘higher-order habits’, or behaviours that can be executed in more than one way, and still be habitual. Design: Participants (N = 82) were healthy adults randomly assigned to an action-and-coping-planning intervention for forming a ‘higher-order habit’ of filling half of their dinner plates with fruits and vegetables or a control condition. Key measures were collected at baseline and 1, 2 and 3 weeks post-baseline. Participants submitted 3 pictures per week of their dinner plates via snapchat/email. Main Outcome Measures: Intrinsic motivation, habit strength and behavioural frequency for filling half their dinner plates with fruits and vegetables. Results: Intervention participants reported significantly greater habit strength at each follow-up time point. Controls did show some degree of habit formation, despite not fully forming a habit. Behavioural automaticity increased despite consuming a variety of fruits/vegetables; results did not depend on participants’ intrinsic motivation to consume fruits/vegetables. Conclusion: It may be possible for individuals to form ‘higher-order’ habits, which may be particularly important in health contexts, in which many target behaviours are complex and can be seen as higher-order.",
+      "human_review_required": true
+    },
+    {
+      "seed": "daylight AND light exposure AND circadian",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1093/sleep/zsac065",
+      "title": "From dawn to dusk—mimicking natural daylight exposure improves circadian rhythm entrainment in patients with severe brain injury",
+      "year": 2020,
+      "authors": [
+        "M. Angerer",
+        "G. Pichler",
+        "Birgit Angerer",
+        "M. Scarpatetti",
+        "Manuel Schabus"
+      ],
+      "doi": "https://doi.org/10.1093/sleep/zsac065",
+      "source": "Sleep",
+      "cited_by_count": 13,
+      "abstract": "Abstract Study Objectives While light therapy has proven effective in re-entraining circadian rhythms, the potential of such an intervention has not been evaluated systematically in post-comatose patients with disorders of consciousness (DOC), who often have strongly altered circadian rhythms. Methods We recorded skin temperature over 7–8 days in patients with DOC in each of two conditions: habitual light (HL), and dynamic daylight (DDL) condition. While patients were in a room with usual clinic lighting in the HL condition, they were in an otherwise comparable room with biodynamic lighting (i.e. higher illuminance and dynamic changes in spectral characteristics during the day) in the DDL condition. To detect rhythmicity in the patients’ temperature data, we computed Lomb–Scargle periodograms and analyzed normalized power, and peak period. Furthermore, we computed interdaily stability and intradaily variability, which provide information about rhythm entrainment and fragmentation. Results We analyzed data from 17 patients with DOC (i.e. unresponsive wakefulness syndrome [n = 15] and minimally conscious state [n = 2]). The period length of the patients’ temperature rhythms was closer to 24 h in the DDL as compared to the HL condition (median median deviation from 24 h: DDL = 0.52 h, HL = 3.62 h). Specifically, in 11/17 (65%) patients the period length was closer to 24 h in the DDL condition. Furthermore, the patients’ rhythm was more pronounced, more stable, and less variable in the DDL condition. Conclusions Our results indicate that DDL stimulation entrains and stabilizes circadian rhythms. This highlights the importance of adequate room lighting as an adjunct therapeutic approach for improving circadian rhythms in severely brain-injured patients. Trial Registration Information German Clinical Trials Register (DRKS00016041); registration: 18.01.2019; recording start: 04.06.2019 https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00016041",
+      "human_review_required": true
+    },
+    {
+      "seed": "self-compassion AND self-criticism",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.20885/intervensipsikologi.vol16.iss1.art2",
+      "title": "PELATIHAN SELF-COMPASSION UNTUK MENGURANGI SELF-CRITICISM PADA MAHASISWA",
+      "year": 2024,
+      "authors": [
+        "N. Amita",
+        "Juliarni Siregar",
+        "Nilla Listyani"
+      ],
+      "doi": "https://doi.org/10.20885/intervensipsikologi.vol16.iss1.art2",
+      "source": "JIP (Jurnal Intervensi Psikologi)",
+      "cited_by_count": 5,
+      "abstract": "High self-criticism among students occurs due to increasing responsibilities, competitive demands in various aspects of life, and academic pressure. This study aims to determine the effect of self-compassion training on reducing self-criticism in students. The research used a group pre-test and post-test design. The subjects were ten students from the Islamic University of Riau. We used a self-criticism scale, The Forms of Self-Criticizing/Attacking and Self-Reassuring Scale (FSCRS) developed by Gilbert (2004). To evaluate changes in self-criticism among students, we applied the Wilcoxon test. Statistical results were obtained using the Wilcoxon Normality Test, which yielded a value of 0.005<0.05. It can be concluded that there are significant differences between the pre-test and post-test results. Self-compassion training has an impact on reducing self-criticism in students. The influence of the training provided can be understood and implemented by participants, allowing them to gain better self-understanding.",
+      "human_review_required": true
+    },
+    {
+      "seed": "breathwork AND slow breathing AND stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1002/smi.70161",
+      "title": "Examining the Effectiveness of Breathwork to Improve Resilience and Psychological Wellbeing While Reducing Anxiety, Depression, Stress, and Insomnia in Paramedicine Students: A Single‐Blind Randomised Controlled Trial",
+      "year": 2026,
+      "authors": [
+        "Abbie Little",
+        "Matthew J. Stainer",
+        "A. MacQuarrie",
+        "N. Wiseman",
+        "Brian Haskins"
+      ],
+      "doi": "https://doi.org/10.1002/smi.70161",
+      "source": "Stress and Health",
+      "cited_by_count": 1,
+      "abstract": "Paramedicine students experience disproportionately high rates of anxiety, depression, stress, and insomnia compared to the general population, placing them at risk of post-traumatic stress disorder and long-term psychological distress. Breathwork has emerged as a promising self-regulation intervention that may enhance resilience and wellbeing while reducing symptoms of mental illness. This randomised controlled trial (RCT) evaluated the effectiveness of the A52 Breath Method, a structured breathwork protocol, in improving mental health and resilience among student paramedics. A single-blind parallel-group mixed-methods RCT was conducted with 98 student paramedics from two Australian universities, randomised to either a 12-week breathwork intervention or control, with results interpreted in light of differential attrition. The intervention involved twice-daily practice of slow, diaphragmatic breathing (5-s inhale, 5-s exhale, 2-s hold) with video and guided audio instruction. Outcomes included changes in anxiety, depression, stress (DASS-21), insomnia (ISI), resilience (RS-14), and psychological wellbeing (RPWB-18), between baseline and post-intervention. Analyses included 2 × 2 mixed factorial ANOVA, ANCOVA for baseline differences, and correlation analyses. At post-intervention, participants in the breathwork group reported significantly lower stress, anxiety, and depression scores, and higher resilience compared to controls (all p < 0.05), with medium to large effect sizes. Insomnia and psychological wellbeing showed non-significant changes. Qualitative feedback highlighted perceived benefits for self-regulation, including emotional regulation and perceived psychological safety and control-although challenges to practice engagement was noted. The A52 Breath Method significantly reduced reported symptoms of psychological distress and enhanced resilience in student paramedics, even during exam stress. Breathwork shows promise as a scalable, upstream intervention to",
+      "human_review_required": true
+    },
+    {
+      "seed": "mindfulness AND perceived stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.3389/fpsyt.2025.1644370",
+      "title": "Effect of digital mindfulness on perceived stress and anxious emotion among college students",
+      "year": 2025,
+      "authors": [
+        "Weirui Xiong",
+        "Xia Yu",
+        "Lu Yu",
+        "Fan Yang"
+      ],
+      "doi": "https://doi.org/10.3389/fpsyt.2025.1644370",
+      "source": "Frontiers in Psychiatry",
+      "cited_by_count": 2,
+      "abstract": "Background Perceived stress and anxiety are common psychological issues among college students. Traditional mindfulness interventions effectively ameliorate these psychological issues, while digital mindfulness interventions—an emerging approach—are gaining increasing attention owing to their convenience and accessibility. Purpose This study aimed to assess the effectiveness of digital mindfulness in reducing perceived stress and anxiety among college students and to explore its potential effects on mindfulness. Methods The study employed a randomized controlled trial design and recruited 310 university students aged 18–22 years, randomly assigned to the intervention (N=156) or control (N=154) groups. The intervention group completed 4 weeks of mindfulness practice, engaging in 15–20 min guided sessions via social media 2–3 times per week. The control group did not receive any mindfulness training. The Chinese Perceived Stress Scale, Generalized Anxiety Disorder-7 scale, and Five Facet Mindfulness Questionnaire were used to assess participants’ stress perceptions, anxiety, and mindfulness levels at baseline and the end of the intervention. Results At the end of the intervention, the intervention group reported significantly lower levels of perceived stress and anxiety and considerably higher levels of mindfulness. In contrast, the control group showed no significant changes in perceived stress, anxiety, or mindfulness levels. Conclusions The 4-week digital mindfulness intervention effectively reduced perceived stress and anxiety levels and increased mindfulness among college students.",
+      "human_review_required": true
+    },
+    {
+      "seed": "nature exposure AND green space AND mental health",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1001/jamanetworkopen.2018.0299",
+      "title": "Nature Exposure Gets a Boost From a Cluster Randomized Trial on the Mental Health Benefits of Greening Vacant Lots.",
+      "year": 2018,
+      "authors": [
+        "M. Jerrett",
+        "M. van den Bosch"
+      ],
+      "doi": "https://doi.org/10.1001/jamanetworkopen.2018.0299",
+      "source": "JAMA Network Open",
+      "cited_by_count": 9,
+      "abstract": "A growing body of evidence suggests that contact with nature, often referred to as green or blue space (ie, vegetated areas or water bodies), is associated with multiple health benefits. Recent reviews identify various mechanisms that may underlie the observed associations.1 In addition to encouraging healthy behaviors (eg, physical activity), nature exposure may have an effect on biological mechanisms by acting on the autonomous nervous system and reducing chronic stress,2 which can prevent systemic inflammation, a common cause of many noncommunicable diseases and related mortality. Nature exposure may also have direct structural and functional effects on the brain, resulting in reduced symptoms of depression (eg, rumination).3 Despite the mounting evidence, many associative studies suffer from the limitation of selfselection bias, which creates the possibility of reverse causality. For instance, property values are positively associated with the amount of green space in a neighborhood.4 Populations of high socioeconomic status, which may already have healthier lifestyles and more social advantages than less privileged groups, may agglomerate near green areas, possibly explaining the association of health with nature exposure. This bias challenges the validity of the results. To address this problem, researchers have turned to evaluating natural experiments, where measurements of health are undertaken before and after a change in green space exposure.5 These quasi-experimental designs often include a sociodemographically matched comparison group that does not experience any landscape change. The hypothesis is usually that the intervention group who experience an increase in green space will achieve health benefits that will not occur in the comparison group. A 2016 review,6 however, raised questions about the quality of these designs, noting that many of the studies suffer from bias. Moreover, many quasi-experimental designs rely on strong a priori assumptions, suc",
+      "human_review_required": true
+    },
+    {
+      "seed": "screen time AND smartphone use AND wellbeing",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.5771/2192-4007-2020-3-394",
+      "title": "Five days without a smartphone. Smartphone use and subjective well-being: Results from a study comparing normal use with a deprivation condition",
+      "year": 2020,
+      "authors": [
+        "Susann Kohout",
+        "Christina Schumann"
+      ],
+      "doi": "https://doi.org/10.5771/2192-4007-2020-3-394",
+      "source": "Studies in Communication and Media",
+      "cited_by_count": 6,
+      "abstract": "The study examined the association between smartphone use and subjective well-being by comparing regular use with a deprivation condition. Subjective well-being is defined by cognitive and affective components. Regular smartphone use is studied in various situations and for different functions. Data were collected in a prolonged qualitative quasi-experimental deprivation study (n = 11) using diaries (n = 210 diary entries) and follow-up interviews (n = 11). Participants kept diaries for 10 days: five days during normal smartphone use and five days during deprivation. Afterwards, we compared well-being during normal use and deprivation. Results show that using the smartphone for infotainment was clearly associated with pleasant emotions, while social interaction apps caused both negative and positive emotions. However, results from the deprivation part of the study indicate that in sum, satisfaction with social relations clearly worsened when not using a smartphone. Moreover, participants had difficulty managing daily life. Taken together, non-usage seems to cause isolation and low subjective well-being.",
+      "human_review_required": true
+    },
+    {
+      "seed": "sleep AND insomnia AND behavioural intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.sleep.2025.108676",
+      "title": "Behavioral interventions as treatment for insomnia - A scoping review of randomized controlled trials.",
+      "year": 2025,
+      "authors": [
+        "Brad Hodge",
+        "E. Richert",
+        "Lisa Schmitz",
+        "A. Islind",
+        "T. Leppänen"
+      ],
+      "doi": "https://doi.org/10.1016/j.sleep.2025.108676",
+      "source": "Sleep Medicine",
+      "cited_by_count": 1,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "sleep AND insomnia AND behavioural intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.cct.2023.107137",
+      "title": "A randomized controlled trial to test a behavioral sleep intervention to improve insomnia symptoms in older adults with mild cognitive impairment: Multicomponent Behavioral Sleep Intervention (MBSI) protocol",
+      "year": 2023,
+      "authors": [
+        "M. McPhillips",
+        "Junxin Li",
+        "Darina V. Petrovsky",
+        "Nalaka Gooneratne",
+        "Subhash Aryal"
+      ],
+      "doi": "https://doi.org/10.1016/j.cct.2023.107137",
+      "source": "Contemporary Clinical Trials",
+      "cited_by_count": 2,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "mindfulness AND perceived stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.51584/ijrias.2025.100800018",
+      "title": "Role of Mindfulness Practices on Academic Stress of College Students",
+      "year": 2025,
+      "authors": [
+        "Anuradha Sharma",
+        "Anuj Chauhan"
+      ],
+      "doi": "https://doi.org/10.51584/ijrias.2025.100800018",
+      "source": "International journal of research and innovation in applied science",
+      "cited_by_count": 1,
+      "abstract": "Academic stress has become a significant challenge for students across all educational levels, often resulting in anxiety, burnout, reduced motivation, and impaired cognitive performance. The pressure to meet academic expectations, manage heavy workloads, and sustain high performance underscores the urgent need for effective stress-reduction strategies in education. Mindfulness—defined as purposeful, present-moment awareness without judgment—has been recognized as a promising approach for enhancing emotional regulation, reducing stress, and promoting overall well-being. This study examined the impact of mindfulness practices on reducing academic stress among 200 students aged 16–22, randomly assigned to experimental and control groups. The experimental group underwent an eight-week structured mindfulness program, including guided meditation, mindful breathing, reflective journaling, and body scan techniques. Standardized instruments, the Perceived Stress Scale (PSS) and the Five Facet Mindfulness Questionnaire (FFMQ), were administered pre- and post-intervention. Results demonstrated a statistically significant reduction in perceived stress among students who received mindfulness training compared to controls. Gender-based differences emerged, with female students showing higher mindfulness scores and slightly lower stress levels. Participants also reported improved concentration, time management, sleep quality, and a more balanced approach to academic challenges. These findings support the integration of mindfulness programs into academic institutions as a sustainable, evidence-based strategy to enhance student mental health and performance.",
+      "human_review_required": true
+    },
+    {
+      "seed": "daylight AND light exposure AND circadian",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1093/sleep/zsaf090.0237",
+      "title": "0237 Daylight Exposure Drives Causal Improvements in Deep Sleep and Next-Day Alertness",
+      "year": 2025,
+      "authors": [
+        "R. Lok",
+        "Minqi Yang",
+        "R. Hut"
+      ],
+      "doi": "https://doi.org/10.1093/sleep/zsaf090.0237",
+      "source": "Sleep",
+      "cited_by_count": 1,
+      "abstract": "Light serves as the most potent zeitgeber for synchronizing circadian rhythms and shaping sleep-wake cycles. While prior studies have highlighted associations between daytime daylight exposure and sleep quality, the direct causal effects of outdoor light exposure on sleep remain largely unexplored in real-world settings. This study aimed to bridge this gap by investigating the impact of an afternoon stroll under high-intensity light (HIL) or attenuated light (AL) conditions on self-reported and objective sleep quality and alertness. Ten healthy participants (4 males and 6 females, aged 19–28 years) participated in a within-subject field study. Each participant completed a three-hour afternoon walk, scheduled during the circadian dead zone, under one of two conditions: high-intensity light (HIL, goggles without neutral density filters) or attenuated light (AL, goggles with neutral density filters reducing light intensity to ~10 photopic lux). The conditions were randomized and spaced across two weeks. Salivary Dim Light Melatonin Onset (DLMO) was assessed at baseline and after each walk to determine the circadian phase and adjust walk timing accordingly. Sleep was subsequently monitored using at-home polysomnography (PSG), while subjective alertness and self-reported sleep quality were evaluated with the Karolinska Sleepiness Scale (KSS) and Groningen Sleep Quality Scale (GSQS), respectively. Data were analyzed using linear mixed models to examine changes across conditions. There were no significant differences between interventions in the subsequent phase angle of entrainment, confirming that the walk was appropriately centered around the circadian dead zone (p>0.05). No significant differences were observed between the HIL and AL conditions in terms of sleep duration or subjective sleep quality ratings (p>0.05). However, nighttime delta power accumulation was significantly higher following HIL exposure, along with an increased number of epochs scored as deep sleep ",
+      "human_review_required": true
+    },
+    {
+      "seed": "physical activity AND mood AND depression",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.24310/jpehmjpehmjpehm.v4i215703",
+      "title": "Systematic review of the impact of physical activity on depression and anxiety symptoms",
+      "year": 2022,
+      "authors": [
+        "Muntean Raul Ioan",
+        "Mihaela Oravițan"
+      ],
+      "doi": "https://doi.org/10.24310/jpehmjpehmjpehm.v4i215703",
+      "source": "Journal of Physical Education and Human Movement",
+      "cited_by_count": 2,
+      "abstract": "By 2020, depression is estimated to be the main cause of disability and the second leading contributor to the global burden of disease, affecting 340 million people worldwide [1]. Influence a person's thinking, actions, motivation, emotions, and well-being. Anhedonia is thought to be the primary symptom of depression, which refers to a loss of interest or pleasure in various activities that normally bring individuals happiness. Depression is a symptom of mood disorders, including major depressive disorder and dysthymia [2]. This review aims to describe the scientific literature that has explored the influence and effect of physical activity on symptoms of depression. Using the electronic databases Scopus, Psycho-info, CINAHL, PubMed and ProQuest, Google Scholar, and Research Gate, I was able to locate publications on this issue using the following keywords: physical activity, physical effort, depression, depressive symptom, and anxiety. Physical activity is a significant role in reducing the symptoms of depression, anxiety, and stress, independent of the subject's age, gender, or medical condition, as demonstrated by the 17 studies included in this study.",
+      "human_review_required": true
+    },
+    {
+      "seed": "loneliness AND social connection AND intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1093/geroni/igac059.2622",
+      "title": "COMMUNITY OUTCOMES FROM A PSYCHOSOCIAL INTERVENTION FOR LONELINESS AND SOCIAL ISOLATION IN OLDER ADULTS",
+      "year": 2022,
+      "authors": [
+        "Matthew E Amick",
+        "Olivia Gartlan",
+        "Max Zubatsky",
+        "M. Berg-Weger"
+      ],
+      "doi": "https://doi.org/10.1093/geroni/igac059.2622",
+      "source": "Innovation in aging",
+      "cited_by_count": 2,
+      "abstract": "Abstract Social isolation and loneliness are quickly becoming global health epidemics, where older adults are experiencing greater chronic health conditions and other complications as a result of this trend. This prevalence is likely underreported, given that stigma and health disparities associated with social isolation and loneliness often prevent older adults from reporting this to family members and professionals. This study's aim is to determine the rates of older adult social isolation and social connections from a psychosocial group model called Circle of Friends (CoF). Circle of Friends is built on a model of group rehabilitation model, with the aim to alleviate and prevent loneliness in older adults. The group protocol consists of 6-8 older adults who self-identify as lonely or socially isolated, who meet 12 times over three months. A midwestern university conducted virtual CoF groups between 2020-2022 to underserved areas of a metropolitan city. Researchers used the UCLA Loneliness Scale and Lubben Social Support Scale to determine differences in rates of loneliness and social supports. 15 members participated in three virtual CoF groups, with over 50% of the sample reporting low socioeconomic living conditions. Preliminary findings show that group members reported a 3-point decrease in overall loneliness (p<.05), but no differences in frequency of social supports through friends or family. While our research group continues to collect more data on outcomes of our CoF groups, these initial results highlight the need for more community interventions and social connection resources for older adults lacking financial means for healthcare options.",
+      "human_review_required": true
+    },
+    {
+      "seed": "self-compassion AND self-criticism",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.5935/rpot/2024.24882",
+      "title": "Autocriticismo e Medo da Autocompaixão no Trabalho: uma Revisão Narrativa",
+      "year": 2024,
+      "authors": [
+        "Francisco Leal Ximenes Souza",
+        "M. Teodoro",
+        "Silvia Miranda Amorim"
+      ],
+      "doi": "https://doi.org/10.5935/rpot/2024.24882",
+      "source": "Revista Psicologia Organizações e Trabalho",
+      "cited_by_count": 1,
+      "abstract": "Self-criticism and fear of self-compassion are opposing factors to self-compassion, which has been associated with benefits for the environment of labor and was considered a resource for work in the Job Demand-Resources (JD-R) model. The goal of this narrative review was to explore data on self-criticism and fear of self-compassion in samples of workers and in relation to labor variables. Twenty four studies were included after a search in Google Scholar and PubMed. Results revealed associations among self-criticism, fear of self-compassion, and negative health and work outcomes and that compassion-focused interventions were more successful for fear of self-compassion. This article contributes to the area by adding the hypothesis that self-criticism might operate as a personal demand in the JD-R model. In order to verify this hypothesis, a systematic review is recommended. This research suggests conducting future research in Latin America and diverse professional contexts.",
+      "human_review_required": true
+    },
+    {
+      "seed": "loneliness AND social connection AND intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.30845/ijhss.v13n1p1",
+      "title": "A Brief Behavioral Intervention to Increase Social Connection in College Students: A Randomized Controlled Trial",
+      "year": 2023,
+      "authors": [
+        "Kristen Pedersena",
+        "Savannah Millerb",
+        "Mavis Tsaic"
+      ],
+      "doi": "https://doi.org/10.30845/ijhss.v13n1p1",
+      "source": "International journal of humanities and social sciences",
+      "cited_by_count": 1,
+      "abstract": "Social connection is fundamental to humans’ mental and physical well-being. Developed with Functional Analytic Psychotherapy’s principles of Awareness, Courage & Love (ACL), a three-week group intervention aimed to increase social connection among undergraduates. This intervention is especially relevant given that students’ sense of social isolation and mental health challenges have been magnified during the COVID-19 pandemic. The ACL intervention condition (n=16) engaged in exercises involving self-reflection, self-disclosure, and responsiveness to others. The control group (n=14) took part in a structured study hall. Intervention participants reported increased feelings of belonging on campus and closeness to one another. Results underscore the potential for targeted ACL interventions to help increase college students’ feelings of belonging and social connection.",
+      "human_review_required": true
+    },
+    {
+      "seed": "self-compassion AND self-criticism",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.34883/pi.2022.13.4.008",
+      "title": "Effect of the Intervention of the Compassion Cultivation Training on the Level of Self-Criticism and Self-Compassion",
+      "year": 2023,
+      "authors": [
+        "Стрнаделова, Б.",
+        "Халамова, Ю.",
+        "Мештикова, С."
+      ],
+      "doi": "https://doi.org/10.34883/pi.2022.13.4.008",
+      "source": "Психиатрия, психотерапия и клиническая психология",
+      "cited_by_count": 1,
+      "abstract": "Тренинг по развитию сострадания (ССТ) – это метод обучения, направленный на развитие сострадания, включающий различные медитативные практики и упражнения, улучшающие психическое и эмоциональное благополучие, сочувствие и доброту по отношению к другим и к себе. Цель исследования состояла в том, чтобы проанализировать влияние сокращенного онлайн-обучения «Тренинг по развитию сострадания» на уровень самокритики и сострадания к себе в доступной неклинической выборке из 117 участников. Данные были собраны до обучения, сразу после и через два месяца после завершения тренинга по развитию сострадания. Все участники были случайным образом распределены в экспериментальную или контрольную группу. При финальном измерении 24 участника были в экспериментальной группе и 30 участников в группе бесконтактного контроля. Анкета участников состояла из двух шкал: шкалы форм самокритики/атаки и самоуспокоения и шкалы самосострадания. Результаты исследования подтвердили эффективность онлайн-обучения, поскольку у участников экспериментальной группы было достигнуто достоверное повышение уровня сострадания к себе и снижение уровня самокритики. Исследование предлагает многообещающие результаты в том смысле, что сокращенная онлайн-версия тренинга продолжительностью 14 дней также эффективна не только для развития сострадания, но и для снижения самокритики. The Compassion Cultivation Training (CCT) is an intervention aimed at compassion cultivation involving a variety of meditation practices and exercises enhancing mental and emotional well-being, empathy, and kindness towards others and oneself. The goal of the study was to analyze the effect of the shortened online intervention, The Compassion Cultivation Training, on the level of self-criticism and self-compassion in an available non-clinical sample of 117 participants. Data were collected before intervention, immediately after intervention, and two months after completion of the CCT. All participants were randomly assigned to the experimenta",
+      "human_review_required": true
+    },
+    {
+      "seed": "nature exposure AND green space AND mental health",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.21203/RS.3.RS-255123/V1",
+      "title": "Exploring the role of exposure to green space in preventing anxiety and depression among young people aged 14-24 living in urban settings: a systematic review",
+      "year": 2021,
+      "authors": [
+        "I. Bray",
+        "Rebecca M. Reece",
+        "D. Sinnett",
+        "Faith Martin",
+        "R. Hayward"
+      ],
+      "doi": "https://doi.org/10.21203/RS.3.RS-255123/V1",
+      "source": null,
+      "cited_by_count": 1,
+      "abstract": "Background Despite the growing problem of anxiety and depression amongst young people aged 14-24 years living in urban settings, reviews about the role of exposure to green space or nature in preventing anxiety and depression tend to focus on children, adults or sometimes adolescents. This review aims to explore whether, and if so how, exposure to green space reduces the risk of anxiety and depression among young people aged 14-24 living in urban settings.MethodsCINAHL plus, Global Health, MEDLINE, ProQuest: Dissertations and Theses, PsycINFO, Scopus and OpenGrey were searched for research published in English between January 2000 and June 2020, including all study designs. Results 9,208 sources were identified and 48 were included. Experimental studies provided evidence that walking or being in a green space improves mood and state anxiety immediately following the intervention. Observational studies suggest that social interaction, physical activity, and mindfulness mediate the relationship between exposure to green space and mental health. We propose that the absence of noise and traffic and the presence of nature promotes mindfulness and restoration.ConclusionsThis review provides evidence to clinicians about the value of green social prescribing, and to policymakers about the value of bringing the benefits of forests, vegetation and nature into cities, and ensuring that these spaces are accessible and safe for young people to use.",
+      "human_review_required": true
+    },
+    {
+      "seed": "screen time AND smartphone use AND wellbeing",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.31219/osf.io/frvpb",
+      "title": "Stress, Mood, and Smartphone Use in University Students: A 12-week Longitudinal Study",
+      "year": 2021,
+      "authors": [
+        "A. Bradley",
+        "Andrea L. Howard"
+      ],
+      "doi": "https://doi.org/10.31219/osf.io/frvpb",
+      "source": null,
+      "cited_by_count": 1,
+      "abstract": "The current study used device-logged screen time records to measure week-to-week within-person associations between stress and smartphone use in undergraduate students (N = 187, Mage = 20.1) during Fall 2020, focusing on differences across types of app used and whether accumulated screen use each week predicted end-of-week mood states. Participants uploaded weekly screenshots from their “Screen Time” settings display and completed surveys measuring stress, mood, and COVID-19 experiences. Results of multilevel models showed no week-to-week change in smartphone hours of use or device pickups. Higher stress levels were not concurrently associated with heavier smartphone use, either overall or by type of app. Heavier smartphone use in a given week did not predict end-of-week mood states, but students who tended to spend more time on their phones in general reported slightly worse moods—a between-person effect potentially reflecting deficits in well-being that are present in students’ offline lives as well. Our findings contribute to a growing scholarly consensus that time spent on smartphones tells us little about young people’s well-being.",
+      "human_review_required": true
+    },
+    {
+      "seed": "mindfulness AND perceived stress",
+      "provider": "Elicit",
+      "id": "ss-26401609",
+      "title": "Effects of mindfulness on perceived stress levels and heart rate variability",
+      "year": 2017,
+      "authors": [
+        "Gwyneth Wesley Rolph"
+      ],
+      "doi": null,
+      "source": "arXiv: Neurons and Cognition",
+      "cited_by_count": 1,
+      "abstract": "Mindfulness has become increasingly popular as a method for building resilience against stress in both clinical and healthy populations. This study sought to investigate the effects of mindfulness training on perceived levels of stress and heart rate variability in students.",
+      "human_review_required": true
+    },
+    {
+      "seed": "sleep AND insomnia AND behavioural intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.jbct.2026.100586",
+      "title": "Comparative efficacy of behavioral therapy (SLEEPwindow) and cognitive behavioral therapy for insomnia − a randomized controlled non-inferiority trial",
+      "year": 2026,
+      "authors": [
+        "M. Angelillo",
+        "C. Schneider",
+        "T. Krieger",
+        "Thomas Berger",
+        "Kristoffer D. Fehér"
+      ],
+      "doi": "https://doi.org/10.1016/j.jbct.2026.100586",
+      "source": "Journal of Behavioral and Cognitive Therapy",
+      "cited_by_count": 0,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "breathwork AND slow breathing AND stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.tate.2026.105564",
+      "title": "Just breathe! The impact of a slow-paced breathing intervention for teachers",
+      "year": 2026,
+      "authors": [
+        "T. Carroll",
+        "Benjamin Piggott",
+        "Jenny A Conlon",
+        "Ashley J. Cripps",
+        "Lauren Bloomfield"
+      ],
+      "doi": "https://doi.org/10.1016/j.tate.2026.105564",
+      "source": "Teaching and Teacher Education : An International Journal of Research and Studies",
+      "cited_by_count": 0,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "breathwork AND slow breathing AND stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/17432979.2025.2609283",
+      "title": "Breathwork in embodied psychotherapies: a systematic review and meta-analysis",
+      "year": 2026,
+      "authors": [
+        "Christopher Lomas"
+      ],
+      "doi": "https://doi.org/10.1080/17432979.2025.2609283",
+      "source": "Body, Movement and Dance in Psychotherapy: An International Journal for Theory, Research and Practice",
+      "cited_by_count": 0,
+      "abstract": "Breathwork techniques such as diaphragmatic, paced, and box breathing are increasingly used in psychotherapy and embodied clinical practice yet their efficacy and mechanisms remain unevenly documented. This systematic review and meta-analysis synthesised controlled studies examining breathwork as a stand-alone or adjunctive intervention for psychological (anxiety, depression, stress) and neurobiological (heart-rate variability, brain activation) outcomes. Twenty-five eligible studies (N = 1278) were pooled using random-effects models. Breathwork produced moderate to large reductions in anxiety, depression and perceived stress, with moderate to large increases in heart-rate variability and activation of neural regions implicated in emotion regulation. Subgroup analyses suggested that slow diaphragmatic and paced breathing protocols, delivered regularly and embedded within psychotherapy, were associated with the most robust effects. These findings support breathwork as a low-cost, scalable component of embodied psychotherapies and highlight the need for further trials that integrate somatic, dance/movement, and body-oriented approaches with mechanistically informed psychophysiology.",
+      "human_review_required": true
+    },
+    {
+      "seed": "breathwork AND slow breathing AND stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1002/pits.70137",
+      "title": "Efficacy of a Slow‐Paced Breathwork Training for Primary School Teachers on Stress and Burnout Reduction",
+      "year": 2025,
+      "authors": [
+        "Quentin Hallez",
+        "R. Shankland",
+        "Michaël Vauthier"
+      ],
+      "doi": "https://doi.org/10.1002/pits.70137",
+      "source": "Psychology in the schools (Print)",
+      "cited_by_count": 0,
+      "abstract": "Teaching has been ranked as one of the highest among stressful work settings, and chronic stress can lead to burnout. Therefore, specific interventions that can reduce teacher stress and burnout symptoms through improved stress management strategies are needed. Such initiatives are currently proposed through teacher training in the French national education system. This study aimed at assessing the efficacy of a coherence breathing programme on reduced stress and burnout, and improved emotional regulation, and class‐management self‐efficacy among primary school educators. To that end, a breathwork training was proposed to a total of 74 school teachers. They were assigned to either the experimental condition or the wait‐list control condition. The experimental group benefited from a coherence breathing training to incorporate it into their daily routine before class and with their students during class (n = 46). All teachers were asked to complete online questionnaires before and 1 month after the training. The results revealed a notable decrease in perceived stress and burnout in the experimental group compared to the control group, particularly in terms of reduced emotional exhaustion. However, the effect on emotional regulation only showed a trend towards improved emotional regulation in the experimental group, and no significant effect was reported on classroom management self‐efficacy. Overall, these findings underscore the advantages of incorporating coherence breathing into teacher training initiatives to improve teachers' mental health.",
+      "human_review_required": true
+    },
+    {
+      "seed": "physical activity AND mood AND depression",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.31435/ijitss.2(50).2026.5472",
+      "title": "EFFECT OF PHYSICAL ACTIVITY ON SYMPTOMS OF DEPRESSION-REVIEW OF RANDOMIZED CONTROLLED TRIALS",
+      "year": 2026,
+      "authors": [
+        "Martyna Rynkowska",
+        "Przemysław Szostak",
+        "S. Maj",
+        "Wiktoria Sikorska",
+        "Mikołaj Poleszczuk"
+      ],
+      "doi": "https://doi.org/10.31435/ijitss.2(50).2026.5472",
+      "source": "International Journal of Innovative Technologies in Social Science",
+      "cited_by_count": 0,
+      "abstract": "Depression is one of the most common mental disorders, and its treatment requires a multidimensional approach. Depression affects people of all ages, but in the elderly it poses a greater diagnostic problem due to the overlap of other concomitant diseases on the clinical picture. Traditional treatments include pharmacotherapy and psychotherapy, but there is growing interest in non-drug forms of therapy, including physical activity, as an effective and safe adjunct to depression treatment. Analysis of the results of randomized controlled trials indicates that regular physical activity, including aerobic training, strength training and mixed training, significantly reduces depressive symptoms and improves patients' overall well-being. Mechanisms for this effect include improved blood circulation to the brain, increased neuroplasticity, regulation of neurotransmitters, and positive psychological changes such as increased self-esteem and stress reduction. The results confirm that physical activity is an effective and safe adjunct to traditional treatments for depression, and that its implementation can bring tangible therapeutic benefits.",
+      "human_review_required": true
+    },
+    {
+      "seed": "physical activity AND mood AND depression",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.31435/ijitss.1(49).2026.4796",
+      "title": "THE ANTIDEPRESSANT EFFECTS OF PHYSICAL ACTIVITY: NEUROBIOLOGICAL MECHANISMS AND PSYCHOSOCIAL MECHANISMS",
+      "year": 2026,
+      "authors": [
+        "Amadeusz Furmanek",
+        "Martyna Susek",
+        "Mariusz Suchcicki"
+      ],
+      "doi": "https://doi.org/10.31435/ijitss.1(49).2026.4796",
+      "source": "International Journal of Innovative Technologies in Social Science",
+      "cited_by_count": 0,
+      "abstract": "Background: Depression is a leading cause of disability worldwide, affecting millions and imposing significant personal, social, and economic burdens. While pharmacological and psychotherapeutic interventions are standard treatments, physical activity has emerged as a promising complementary or alternative strategy. Methods: A comprehensive literature review was conducted of peer-reviewed studies published between 2000 and 2025, including randomized controlled trials, meta-analyses, and observational research. Populations examined included adolescents, adults, and older adults. Data extraction focused on depressive symptom outcomes, exercise modalities, intervention duration and intensity, and underlying neurobiological and psychosocial mechanisms. Results: Evidence consistently indicates that regular physical activity, particularly aerobic and combined aerobic–resistance exercise, produces moderate to large reductions in depressive symptoms. Mechanistically, exercise enhances brain-derived neurotrophic factor (BDNF) expression, modulates monoaminergic neurotransmission, regulates the hypothalamic–pituitary-adrenal (HPA) axis, and reduces systemic inflammation. Psychosocial benefits, including behavioral activation, increased self-efficacy, and social engagement, further support sustained mood improvement. Combined interventions often yield the greatest effect, integrating biological, psychological, and social pathways. Conclusion: Physical activity is a safe, accessible, and effective intervention for depression, with benefits extending beyond symptom reduction to improved cognitive function, stress resilience, and overall well-being. Incorporating structured exercise into standard treatment protocols may optimize clinical outcomes and support long-term mental health across diverse populations.",
+      "human_review_required": true
+    },
+    {
+      "seed": "physical activity AND mood AND depression",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.47544/JOHSK.2021.2.1.27",
+      "title": "A Meta-Analysis of the Effect of Physical Activity on Depressive Symptoms: Influence of the COVID-19 Pandemic",
+      "year": 2021,
+      "authors": [
+        "Meungguk Park",
+        "Simon M. Pack"
+      ],
+      "doi": "https://doi.org/10.47544/JOHSK.2021.2.1.27",
+      "source": "Journal of Health, Sports, and Kinesiology",
+      "cited_by_count": 0,
+      "abstract": "Due to the COVID-19 pandemic, a significant number of people experienced higher levels of depression. Concerning the unprecedented impact of depression on physical health, it is important to combat this situation. Physical activity (PA) has been found to have a positive effect on reducing depression (Schuch et al., 2018). However, there is a lack of a systematic review of the association between PA and depression during these unique times of the COVID-19 pandemic. This study was designed to serve as a meta-analysis of the overall effects of PA on depression in studies conducted before and during the COVID-19 pandemic. Empirical studies on the link between PA and depression were searched from academic databases including PubMed and EBSCO. A total of 15 studies (total participants were 170,195) qualified for inclusion in the meta-analysis. Comprehensive Meta-Analysis version 3 was used to compute weighted average effect size and random-effects analyses were conducted. The average effect size (odds ratio) across all 15 studies was 0.722 (95% CI = 0.651, 0.800, Z = -6.229, p < .001), demonstrating that study participants with high levels of PA had lower incidence of depression, compared to those with low PA levels. For the subgroup analysis, significant effects of high PA were found in the 11 studies conducting before the COVID 19 as well as in the four studies that assessed the influence of the COVID-19 (odds ratio = .734, p < .001; odds ratio = .683, p < .001 respectively). The Q-value (Q = 41.061, p < .001) and I-squared value (65.904) demonstrated that the studies were heterogeneous. The main finding of this study supported the evidence that PA can play an important role in reducing depression, especially during the COVID-19 pandemic. Public health professionals should incorporate the significance of improving PE levels into social distancing guidelines (CDC, 2020).",
+      "human_review_required": true
+    },
+    {
+      "seed": "mindfulness AND perceived stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1002/smi.70209",
+      "title": "The Association Between Mindfulness and Perceived Stress: A Meta‐Analysis",
+      "year": 2026,
+      "authors": [
+        "N. Schutte",
+        "A. Rock"
+      ],
+      "doi": "https://doi.org/10.1002/smi.70209",
+      "source": "Stress and Health",
+      "cited_by_count": 0,
+      "abstract": "This study consolidated the association of mindfulness with perceived stress found across studies. A meta-analysis examined the relationship between mindfulness and perceived stress in 56 samples, which included a total of 24,494 participants. The weighted effect size of r(55) = -0.40, 95% CI [-0.36, 0-44], p = 0.0001, showed that greater mindfulness was associated with less perceived stress. Studies assessing mindfulness using the Mindful Attention Awareness Scale or the Five Facet Mindfulness Questionnaire showed substantial effect sizes, as did studies assessing stress using the Perceived Stress Scale. Even though the present meta-analysis does not show causality, the results suggest a possible bidirectional relationship between mindfulness and perceived stress. The nonjudgmental awareness comprising mindfulness may facilitate an appraisal of life events and challenges that results in events and challenges as being perceived as less stressful. Lower perceived stress may free cognitive resources that promote mindfulness. © 2026 The Author(s). Stress and Health published by John Wiley & Sons Ltd.",
+      "human_review_required": true
+    },
+    {
+      "seed": "mindfulness AND perceived stress",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1249/01.mss.0001055256.63313.4e",
+      "title": "The Effect Of Mindful Walking On Perceived Stress",
+      "year": 2024,
+      "authors": [
+        "Melissa D. Powers",
+        "Nishra M. Patel",
+        "Colin Gaston",
+        "Aiswarya Ajesh"
+      ],
+      "doi": "https://doi.org/10.1249/01.mss.0001055256.63313.4e",
+      "source": "Medicine &amp; Science in Sports &amp; Exercise",
+      "cited_by_count": 0,
+      "abstract": "Mindfulness has many physical and mental health benefits. Mindful walking has the added benefit of contributing to daily levels of physical activity. PURPOSE: The purpose of this study was to compare perceived stress before and after three different types of mindful experiences. METHODS: Participants (N = 72; 68.1% female; mean age 34.57 ± 15.85 years) were randomly assigned to one of three mindful experiences: mindful walking (n = 24), walking a labyrinth (n = 24), and sitting mindfully (n = 24). The mindful walking group walked 1/3 mile outdoors on sidewalks. The labyrinth walking group walked an outdoor paver labyrinth. The sitting group sat for 20 minutes. All groups were given instructions to walk/sit quietly and undistracted. The walking groups were instructed to walk at their own pace. Participants completed the Perceived Stress Scale (PSS) before and after the mindful experience. The PSS is a 10-item instrument scored from 0-40 with higher scores indicating a greater level of stress. An ANOVA with repeated measures was conducted to examine the interaction, time, and group effects. RESULTS: The interaction effect was not significant, F(1,69) = 0.61, p > .05, indicating that PSS did not change differently between the three groups. The group effect was also non-significant, F(2,69) = 0.76, p > .05. The time effect, however, was significant, F(2,69) = 8.46, p < .01, with PSS scores decreasing from 17.57 ± 6.54 before the mindful experience to 16.58 ± 6.61 after the experience among all participants. The largest effect size was observed in the mindful walking group (d = 0.22). Results were similar when gender and physical activity levels were considered. CONCLUSION: These results indicate that a single mindful experience can decrease perceived stress; however, the type of mindful activity does not seem to impact the amount of change in stress. This means that individuals with lower levels of activity could be encouraged to engage in mindful walking to receive bot",
+      "human_review_required": true
+    },
+    {
+      "seed": "habit formation AND behaviour change technique",
+      "provider": "Elicit",
+      "id": "ss-147426851",
+      "title": "“Motivation gets you started, habit keeps you going”: Feasibility of a habit-based physical activity intervention",
+      "year": 2015,
+      "authors": [
+        "L. Fleig",
+        "Megan M. McAllister",
+        "Peggy Chen",
+        "J. Iverson",
+        "K. Milne"
+      ],
+      "doi": null,
+      "source": "The European health psychologist",
+      "cited_by_count": 0,
+      "abstract": "Background: Habit formation is a proposed mechanism for behaviour maintenance. However, very few studies have adopted this framework for interventions. We tested feasibility for a theory-based behaviour change intervention encouraging women to embed exercise into daily life routines. Methods: The EASY LiFE study recruited 13 women who completed performance-based (Short-Physical-Performance-Battery) and psychological self-report measures (intention, self-efficacy, planning, action control, habit strength, quality of life) at baseline and four-months follow-up. The intervention include 7 group sessions and 2 phone calls. We conducted t-tests and Wilcoxon signed rank tests to evaluate changes over time, and the Framework-Method to post-intervention interviews to evaluate program content, delivery and acceptability. Findings: In total, 10 women completed the program and showed significant changes in their level of action control (d=-1.2), action planning (d=-0.7), habit strength (d=-1.1), and quality of life (d=-0.6). Participants valued the social support of the group, the behavioural practice with an exercise professional, and ‘education’ on habit formation. Discussion: The theory-based framework showed feasibility for promoting life-style integrated balance and strength exercise habits.",
+      "human_review_required": true
+    },
+    {
+      "seed": "nature exposure AND green space AND mental health",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.54254/2755-2721/59/20240796",
+      "title": "Review of the relationship between green space exposure and mental health",
+      "year": 2024,
+      "authors": [
+        "Luoying Zhang"
+      ],
+      "doi": "https://doi.org/10.54254/2755-2721/59/20240796",
+      "source": "Applied and Computational Engineering",
+      "cited_by_count": 0,
+      "abstract": "Mental health conditions are one of the main causes of the overall disease burden worldwide, and this raises the demand for accessible and cost-effective infrastructure that improves mental health. Growing up in urban environments is associated with a higher risk of developing psychiatric disorders. However, it has been proven that green space can provide mental health benefits and possibly lower the risk of psychiatric disorders, but the underlying mechanisms have not yet been discovered. This systematic review will examine the correlation between green space and mental health, the mechanism by which green space improves mental health, and some mediating factors that affect the results. The results show a positive correlation between exposure to green space and residents mental health, suggesting that green space does play a part in the promotion of residents well-being, thereby ensuring their mental health.",
+      "human_review_required": true
+    },
+    {
+      "seed": "rumination AND worry AND perseverative cognition",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1016/j.appet.2025.108419",
+      "title": "Worry Wart: A Preregistered, Experimental Investigation of Worry-Induced Emotional Eating and Associated Psychological Characteristics.",
+      "year": 2025,
+      "authors": [
+        "U. Dixit",
+        "Wesley R. Barnhart",
+        "Rachel R Henderson",
+        "Jorin D. Larsen",
+        "Emma G Folk"
+      ],
+      "doi": "https://doi.org/10.1016/j.appet.2025.108419",
+      "source": "Appetite",
+      "cited_by_count": 0,
+      "abstract": "",
+      "human_review_required": true
+    },
+    {
+      "seed": "loneliness AND social connection AND intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.4236/health.2024.1611075",
+      "title": "Development of the Making the Connection Intervention to Address Loneliness and Isolation in Older Adults",
+      "year": 2024,
+      "authors": [
+        "L. Ferretti",
+        "Astrid Uhl",
+        "K. Fernandez",
+        "Kelly M. Banks",
+        "Philip McCallion"
+      ],
+      "doi": "https://doi.org/10.4236/health.2024.1611075",
+      "source": "Health",
+      "cited_by_count": 0,
+      "abstract": "Fifty percent of individuals aged over 60 are reported at risk of social isolation and one-third will experience some degree of loneliness later in life. Isolation and loneliness have been reported as having negative consequences for mental and physical health and mortality. Existing supportive interventions, even when successful are not widely adopted or utilized. A developmental, mixed methods approach was taken to building and testing the components and delivery of an intervention, Making the Connection (MTC) in preparation for mounting a larger, systematic test. Method: The approach relied upon the six steps of 6sQuID for the development of public health interventions: 1) Define and understand the problem and its causes. 2) Clarify which causal or contextual factors are malleable. 3) Identify how to bring about change. 4) Identify how to deliver the change mechanism. 5) Test and refine on small scale. 6) Collect sufficient evidence of effectiveness to justify rigorous evaluation/implementation. Depressive symptoms, how often people felt lonely, and size of social networks were quantitatively measured and analyzed. Qualitative measures were also used. Findings: All six steps in the 6sQuiD model were followed in building the intervention for potential testing. In an initial test within CCRC facilities, five loneliness-related areas were examined qualitatively and identified as potentially modifiable. Testing of a subsequent 10-session gamified intervention established trends for reduced reports of symptoms of depression, and increases in social connections. Pre and post-test found there was a statistically significant reduction in reports of loneliness in the past week. Discussion: Making the Connection manualized intervention appears both feasible and viable, a necessary first step to prepare for more systematic evaluation in a randomized control trial.",
+      "human_review_required": true
+    },
+    {
+      "seed": "loneliness AND social connection AND intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.58526/jsret.v5i1.1034",
+      "title": "Effectiveness of Brief Behavioral Activation for Improving Social Connectedness in Lonely Older Adults",
+      "year": 2026,
+      "authors": [
+        "Rizky Amellia",
+        "Yanto Prasetyo"
+      ],
+      "doi": "https://doi.org/10.58526/jsret.v5i1.1034",
+      "source": "Journal of Scientific Research, Education, and Technology (JSRET)",
+      "cited_by_count": 0,
+      "abstract": "Loneliness among older adults is a common psychosocial problem that negatively affects social Loneliness among older adults is a common psychosocial problem that negatively affects emotional well-being, social connectedness, and quality of life. This condition is often worsened by the loss of a spouse, limited daily activities, and reduced meaningful social interactions. This study aimed to examine the effectiveness of Brief Behavioral Activation for Improving Social Connectedness (BBAISC) in reducing loneliness and enhancing social connectedness. A pre-experimental Single Case Experimental Design (pretest–posttest) was used with a 60 year old woman who experienced loneliness after losing her spouse and had limited social support. The participant was selected purposively. Data were collected through participant interviews, interviews with a community health volunteer, behavioral observation, the UCLA Loneliness Scale, the 16 Personality Factors (16PF) Test, and graphic tests (DAP and BAUM). The intervention consisted of six weekly individual sessions, including guided discussions, identification of personal values, activity monitoring and scheduling, gradual social activation, strengthening social support, and evaluation of behavioral changes. Quantitative data were analyzed using the Wilcoxon Signed-Rank Test due to non-normal distribution. Results showed a significant reduction in loneliness from pretest to posttest (Z = −2.830; p = 0.005). This study concludes that BBAISC is an effective and practical psychosocial intervention for reducing loneliness and improving social connectedness among older adults.",
+      "human_review_required": true
+    },
+    {
+      "seed": "loneliness AND social connection AND intervention",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1177/02654075251349701",
+      "title": "Strengthening connections: A randomized controlled trial examining the impact of a supervisor support intervention on loneliness and military couple relationships",
+      "year": 2025,
+      "authors": [
+        "Cynthia D. Mohr",
+        "AnnaMarie S. O’Neill",
+        "Jacquelyn M. Brady",
+        "Todd E. Bodner",
+        "Tori L. Crain"
+      ],
+      "doi": "https://doi.org/10.1177/02654075251349701",
+      "source": "Journal of Social and Personal Relationships",
+      "cited_by_count": 0,
+      "abstract": "Social connection has been declining across the general population (i.e., the “loneliness epidemic”), though some groups, including military personnel, are experiencing particularly high rates. This has led to calls for a multilevel national strategy, including workplaces, to build social connection (U.S. Surgeon General, 2023). To answer this call, the present study draws on the wise intervention approach (Walton, 2014), multidimensional model of social connection (Holt-Lunstad, 2022), and models of the bidirectional relationship between sleep health and relationship functioning (Gordon et al., 2017; Troxel et al., 2007), to deliver a workplace intervention that builds social connection for military employees and their romantic partners (N = 360 couples), using a cluster randomized controlled trial. The workplace intervention, combining supportive supervisor training (for family and sleep health) with personalized sleep feedback for employees, was found to improve social connection for both partners in the treatment group compared to the control group. Specifically, employees and romantic partners reported lower loneliness, and employees reported higher perceived partner responsiveness. We also investigated potential mechanisms of intervention effects, though significant indirect effects were not detected. Broadly, this work contributes to the loneliness intervention literature by demonstrating the efficacy of cultivating social support through one’s workplace supervisor, paired with individual sleep feedback. Clinical trial registry: NCT02946736.",
+      "human_review_required": true
+    },
+    {
+      "seed": "self-compassion AND self-criticism",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.18502/qjcr.v24i94.20085",
+      "title": "The Effectiveness of Mindfulness Training based on Self-Compassion on Self-Criticism, Shame and Perceived Stigma in People with Drug-Dependence",
+      "year": 2025,
+      "authors": [
+        "Narjes Ameri",
+        "Mahmoud Najafi"
+      ],
+      "doi": "https://doi.org/10.18502/qjcr.v24i94.20085",
+      "source": "journal of counseling research",
+      "cited_by_count": 0,
+      "abstract": "Aim: This study aimed to determine the effectiveness of self-compassion-based mindfulness training on self-criticism, shame, and perceived stigma among substance-dependent individuals. Methods: The research employed a quasi-experimental design with pre-test and post-test measures and a control group. The statistical population comprised all substance-dependent patients undergoing methadone maintenance treatment who attended the Soroush Addiction Treatment Center in Shahrood in 2024. From this population, 32 individuals were selected through convenience sampling and randomly assigned to an experimental group (n = 16) and a control group (n = 16). Participants completed the Self-Criticism Levels Scale (Gilbert et al., 2004), the External Shame Scale (Goss et al., 1994), and the Substance Use Stigma Scale (Loma et al., 2010) in both pre-test and post-test stages. The experimental group received eight 90-minute sessions of mindfulness training based on self-compassion, conducted weekly. Data were analyzed using multivariate analysis of covariance (MANCOVA). Findings: The results showed significant differences between the two groups. Mindfulness training based on self-compassion significantly reduced self-criticism components, including self-inadequacy (F = 21.22, p = .001), self-loathing (F = 23.24, p = .001), and self-confidence (F = 31.21, p = .001); shame components, including feelings of inferiority (F = 30.31, p = .001), feelings of emptiness (F = 14.51, p = .001), and shame for making mistakes (F = 8.70, p = .007); as well as the internal stigma variable (F = 9.11, p = .006) among substance-dependent participants. Conclusion: The findings suggest that addiction specialists can utilize mindfulness training based on self-compassion to effectively reduce self-criticism, alleviate shame, and decrease perceived stigma among individuals with substance dependence.",
+      "human_review_required": true
+    },
+    {
+      "seed": "screen time AND smartphone use AND wellbeing",
+      "provider": "Elicit",
+      "id": "https://doi.org/10.1080/0144929x.2026.2675638",
+      "title": "Screen time by the day or week? Effects of screen time framing on the decision to reduce smartphone overuse",
+      "year": 2026,
+      "authors": [
+        "Mijin Kwon",
+        "Youngjee Han",
+        "Hakkyun Kim"
+      ],
+      "doi": "https://doi.org/10.1080/0144929x.2026.2675638",
+      "source": "Behaviour &amp; Information Technology",
+      "cited_by_count": 0,
+      "abstract": "Smartphone overuse is a growing societal challenge. To enhance the effectiveness of digital well-being tools that enable individuals to monitor their smartphone usage, our study examines how presenting screen time data – Daily Average (e.g. 5 h per day) versus Weekly Total (e.g. 35 h per week) – influences consumers’ willingness to reduce their smartphone use. Across four studies, we demonstrate that framing screen time as a weekly total (vs. daily average) is more effective in encouraging consumers to reduce their screen time. This effect is driven by an increased perception of the severity of smartphone use, particularly when screen time is high and among consumers with lower productivity orientation. This research demonstrates that the framing of numerical information can influence intentions to change behaviour by shaping perceptions of magnitude. These findings offer practical implications for digital well-being, highlighting how subtle interventions can effectively nudge consumers toward healthier digital habits.",
       "human_review_required": true
     }
   ]

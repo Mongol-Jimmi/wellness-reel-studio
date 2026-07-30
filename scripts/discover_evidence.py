@@ -41,6 +41,8 @@ SEEDS = (
 MIN_YEAR = 2015
 MIN_CITATIONS = 25
 CURRENT_YEAR = 2026
+MAX_LIVE_REQUESTS = 12
+ELICIT_STUDY_TYPES = ("Systematic Review", "Meta-Analysis", "RCT")
 
 
 def abstract_text(inverted_index: object) -> str:
@@ -55,6 +57,34 @@ def abstract_text(inverted_index: object) -> str:
             if isinstance(place, int):
                 positions[place] = word
     return " ".join(positions[index] for index in sorted(positions))
+
+
+def fetch_elicit(client, seed: str, per_seed: int) -> list[dict]:
+    """One paid Elicit request per seed. Semantic search filtered to review, meta-analysis, and RCT."""
+    cards = []
+    for paper in client.search_papers(
+        seed.replace(" AND ", " "),
+        max_results=min(max(per_seed, 1), 25),
+        min_year=MIN_YEAR,
+        study_types=ELICIT_STUDY_TYPES,
+    ):
+        doi = f"https://doi.org/{paper.doi}" if paper.doi and not paper.doi.startswith("http") else paper.doi
+        cards.append(
+            {
+                "seed": seed,
+                "provider": "Elicit",
+                "id": doi or paper.elicit_id or paper.title,
+                "title": paper.title,
+                "year": paper.year,
+                "authors": list(paper.authors[:5]),
+                "doi": doi,
+                "source": paper.venue,
+                "cited_by_count": paper.cited_by_count or 0,
+                "abstract": (paper.abstract or "")[:2000],
+                "human_review_required": True,
+            }
+        )
+    return cards
 
 
 def fetch(seed: str, per_seed: int) -> list[dict]:
@@ -95,7 +125,8 @@ def fetch(seed: str, per_seed: int) -> list[dict]:
         cards.append(
             {
                 "seed": seed,
-                "openalex": work["id"],
+                "provider": "OpenAlex",
+                "id": work["id"],
                 "title": work.get("display_name"),
                 "year": work.get("publication_year") if isinstance(work.get("publication_year"), int) else None,
                 "authors": [
@@ -117,7 +148,7 @@ def rank(cards: list[dict]) -> list[dict]:
     """Dedupe by work, then order by citations per year since publication."""
     unique: dict[str, dict] = {}
     for card in cards:
-        unique.setdefault(card["openalex"], card)
+        unique.setdefault(card["id"], card)
 
     # ponytail: citations per year is a crude strength proxy. A human still reads every abstract.
     def score(card: dict) -> float:
@@ -130,7 +161,7 @@ def rank(cards: list[dict]) -> list[dict]:
 def write_cards(output_dir: Path, cards: list[dict]) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / "cards.json").write_text(
-        json.dumps({"provider": "OpenAlex", "human_review_required": True, "cards": cards}, indent=2, ensure_ascii=False)
+        json.dumps({"human_review_required": True, "cards": cards}, indent=2, ensure_ascii=False)
         + "\n",
         encoding="utf-8",
     )
@@ -143,14 +174,16 @@ def write_cards(output_dir: Path, cards: list[dict]) -> None:
     ]
     for index, card in enumerate(cards, 1):
         authors = ", ".join(markdown_text(author) for author in card["authors"]) or "Authors unavailable"
-        links = " · ".join(markdown_text(link) for link in (card["doi"], card["openalex"]) if link)
+        links = " · ".join(
+            markdown_text(link) for link in dict.fromkeys(value for value in (card["doi"], card["id"]) if value)
+        )
         lines.extend(
             [
                 f"## {index}. {markdown_text(card['title'])}",
                 "",
                 f"{authors} ({card['year'] or 'year unavailable'})",
                 "",
-                f"Source: {markdown_text(card['source'])} · Cited by: {card['cited_by_count']} · Seed: {markdown_text(card['seed'])}",
+                f"Source: {markdown_text(card['source'])} · Cited by: {card['cited_by_count']} · Found by: {markdown_text(card['provider'])} · Seed: {markdown_text(card['seed'])}",
                 "",
                 links,
                 "",
@@ -172,7 +205,7 @@ def issue_body(card: dict, claim: str, hook: str, actions: list[str], visual: st
 
 {citation}
 
-{card['doi'] or card['openalex']}
+{card['doi'] or card['id']}
 
 Reviewed finding: {claim}
 
@@ -201,7 +234,7 @@ Select exactly one. Approval starts scripting from the evidence above. It does n
 - [ ] Approve for research
 - [ ] Reject
 
-<!-- openalex: {card['openalex']} -->
+<!-- source-id: {card['id']} -->
 <!-- research-query: {card['seed']} -->
 """
 
@@ -226,6 +259,12 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, default=Path("research/generated/evidence-first"))
     parser.add_argument("--per-seed", type=int, default=5)
     parser.add_argument("--seed", action="append", help="Override the seed list. Repeatable.")
+    parser.add_argument(
+        "--provider",
+        choices=("elicit", "openalex"),
+        default="elicit",
+        help="elicit spends one paid request per seed. openalex is free and less precise.",
+    )
     parser.add_argument("--propose", help="Path to a JSON proposal file built from one evidence card")
     parser.add_argument("--repo", default="Mongol-Jimmi/wellness-reel-studio")
     parser.add_argument("--apply", action="store_true", help="Create the Issue. Default is a dry run.")
@@ -249,12 +288,23 @@ def main() -> None:
         print(create_issue(args.repo, proposal["title"], body))
         return
 
+    seeds = list(dict.fromkeys(args.seed or SEEDS))
     cards = []
-    for seed in args.seed or SEEDS:
-        cards.extend(fetch(seed, args.per_seed))
+    if args.provider == "elicit":
+        if len(seeds) > MAX_LIVE_REQUESTS:
+            raise SystemExit(f"{len(seeds)} seeds would exceed the {MAX_LIVE_REQUESTS} request ceiling")
+        from src.elicit_client import ElicitClient
+
+        client = ElicitClient.from_environment()
+        print(f"Elicit live search: {len(seeds)} requests against the paid plan quota")
+        for seed in seeds:
+            cards.extend(fetch_elicit(client, seed, args.per_seed))
+    else:
+        for seed in seeds:
+            cards.extend(fetch(seed, args.per_seed))
     ranked = rank(cards)
     write_cards(args.output_dir, ranked)
-    print(f"Found {len(ranked)} unique evidence candidates across {len(args.seed or SEEDS)} seeds")
+    print(f"Found {len(ranked)} unique evidence candidates across {len(seeds)} seeds via {args.provider}")
 
 
 if __name__ == "__main__":

@@ -84,7 +84,7 @@ Run `./verify_sleep_reel.sh` to render first and then enforce the high-resolutio
 
 The repository is the control plane, and the pipeline runs evidence first:
 
-1. `python3 scripts/discover_evidence.py` sweeps wellness domains on OpenAlex for reviews and meta-analyses, then writes ranked evidence cards with abstracts to `research/generated/evidence-first/`.
+1. `python3 scripts/discover_evidence.py` sweeps wellness domains for reviews, meta-analyses, and RCTs, then writes ranked evidence cards with abstracts to `research/generated/evidence-first/`. It uses the paid Elicit semantic search by default, one request per seed with a twelve request ceiling. Add `--provider openalex` for a free but noisier sweep.
 2. A human reads the abstracts, picks one finding, and writes the claim into a proposal file under `ideas/evidence-first/`.
 3. `python3 scripts/discover_evidence.py --propose <file> --apply` opens a topic Issue that carries the paper, the reviewed finding, and the safety boundary. The topic exists because the evidence does.
 4. The operator checks exactly one box: **Approve for research** or **Reject**.
@@ -99,7 +99,8 @@ The lifecycle and terms are documented in [`CONTEXT.md`](CONTEXT.md), [`docs/cap
 ### Cost and secret boundaries
 
 - OpenAlex discovery has no per-request fee and uses no secret.
-- Elicit live requests consume account quota. They remain opt-in through `--live --confirm-quota` and are not enabled in GitHub Actions.
+- The evidence-first sweep calls Elicit and consumes plan quota, one request per seed. Export `ELICIT_API_KEY` before running it, keep it out of the repository, and use `--provider openalex` when a free sweep is enough.
+- `src/research_pipeline.py` still keeps Elicit behind `--live --confirm-quota`. No workflow calls Elicit, so GitHub Actions needs no secret.
 - GitHub Actions and Pages use the repository's GitHub allowance. No paid third-party media or AI service is called by the workflows.
 - Never commit `ELICIT_API_KEY`. GitHub workflows do not need it for the current pipeline.
 

@@ -13,6 +13,7 @@ on:
         type: string
 
 permissions:
+  actions: write
   contents: write
   issues: write
 
@@ -106,6 +107,7 @@ jobs:
           grep -Fxq state:rendering <<<"$labels"
           slug="$(python -c 'import glob, json; print(json.load(open(glob.glob("render-output/*.preview.json")[0]))["slug"])')"
           gh issue edit "$ISSUE" --remove-label state:rendering --add-label state:preview-review
+          gh workflow run deploy-pages.yml
           gh issue comment "$ISSUE" --body "The verified render is ready for human review on the [Pages dashboard]($PAGES_URL?reel=$slug). Build files are retained in the [workflow artifact]($RUN_URL). This is not publication approval."
 
       - name: Restore reviewable state after failure

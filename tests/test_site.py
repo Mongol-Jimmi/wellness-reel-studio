@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.assemble_site import assemble, source_for
+from scripts.assemble_site import assemble, safe_asset_name, source_for
 
 
 class SiteTests(unittest.TestCase):
@@ -25,6 +25,12 @@ class SiteTests(unittest.TestCase):
                 self.assertTrue((output / reel["video"]).is_file())
                 self.assertTrue((output / reel["poster"]).is_file())
                 self.assertTrue((output / reel["links"]["Captions"]).is_file())
+
+    def test_release_asset_names_cannot_escape_the_artifact(self) -> None:
+        self.assertEqual(safe_asset_name("reel-v1.0.0.mp4"), "reel-v1.0.0.mp4")
+        for unsafe in ("../secrets.env", "a/b.mp4", "", None, "x" * 200):
+            with self.subTest(name=unsafe), self.assertRaises(ValueError):
+                safe_asset_name(unsafe)
 
     def test_site_assembly_rejects_path_traversal(self) -> None:
         with self.assertRaises(ValueError):

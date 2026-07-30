@@ -1,7 +1,6 @@
 const ideasContainer = document.querySelector('#ideas');
 const reelsContainer = document.querySelector('#reels');
 const repository = 'Mongol-Jimmi/wellness-reel-studio';
-const previewRelease = `https://api.github.com/repos/${repository}/releases/tags/preview-assets`;
 
 function text(tag, value, className) {
   const element = document.createElement(tag);
@@ -85,46 +84,14 @@ fetch(`https://api.github.com/repos/${repository}/issues?state=all&labels=topic-
     ideasContainer.append(fallback);
   });
 
-function fetchJson(url, optional = false) {
+function fetchJson(url) {
   return fetch(url).then((response) => {
-    if (optional && response.status === 404) return [];
     if (!response.ok) throw new Error('Could not load previews');
     return response.json();
   });
 }
 
-function releasePreviews() {
-  return fetchJson(previewRelease, true)
-    .then((release) => {
-      if (Array.isArray(release)) return [];
-      const metadata = release.assets.filter((asset) => asset.name.endsWith('.preview.json'));
-      return Promise.all(metadata.map((asset) => fetchJson(asset.browser_download_url)
-        .then((preview) => ({ preview, asset }))));
-    })
-    .then((items) => items.map(({ preview, asset }) => {
-      const base = asset.browser_download_url.slice(0, -asset.name.length);
-      return {
-        slug: preview.slug,
-        title: preview.title,
-        status: preview.status,
-        duration: preview.duration,
-        resolution: preview.resolution,
-        renderVersion: preview.renderVersion,
-        sourceIssue: `Issue #${preview.issueNumber}`,
-        video: `${base}${preview.videoFile}`,
-        poster: `${base}${preview.posterFile}`,
-        links: {
-          Issue: `https://github.com/${repository}/issues/${preview.issueNumber}`,
-          Captions: `${base}${preview.captionsFile}`,
-          'Reel Spec': `https://github.com/${repository}/blob/main/${preview.specPath}`,
-          Evidence: preview.sources[0],
-        },
-      };
-    }));
-}
-
-Promise.all([fetchJson('reels.json'), releasePreviews()])
-  .then(([staticReels, generatedReels]) => [...staticReels, ...generatedReels])
+fetchJson('reels.json')
   .then((reels) => {
     if (!reels.length) {
       reelsContainer.append(text('p', 'No rendered previews yet.', 'empty'));
