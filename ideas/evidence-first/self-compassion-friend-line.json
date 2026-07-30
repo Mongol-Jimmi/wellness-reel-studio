@@ -1,0 +1,29 @@
+{
+  "title": "The Friend Line for Self-Criticism",
+  "hook": "What if the voice in your head spoke to you the way it speaks to your friends?",
+  "claim": "A 2021 systematic review pooled 19 randomised controlled trials with 1350 participants and found self-compassion interventions produced a medium reduction in self-criticism against controls (Hedges g = 0.51, 95% CI 0.33 to 0.69). Longer interventions showed larger reductions. The included studies were moderate quality with high heterogeneity.",
+  "actions": [
+    "Notice the critical sentence without arguing with it",
+    "Say plainly that you are being hard on yourself",
+    "Ask what you would say to a friend in the same spot",
+    "Use one small moment a day rather than a long practice"
+  ],
+  "visual": "One sharp pebble softens as a second, kinder pebble answers it.",
+  "safety": "General wellness only. This is not treatment for depression or anxiety. If self-criticism feels constant or severe, talk with a healthcare professional.",
+  "card": {
+    "seed": "self-compassion AND self-criticism",
+    "openalex": "https://openalex.org/W3137777394",
+    "title": "Effectiveness of self‐compassion‐related interventions for reducing self‐criticism: A systematic review and meta‐analysis",
+    "year": 2021,
+    "authors": [
+      "Katherine Wakelin",
+      "Gemma Perman",
+      "Laura M. Simonds"
+    ],
+    "doi": "https://doi.org/10.1002/cpp.2586",
+    "source": "Clinical Psychology & Psychotherapy",
+    "cited_by_count": 156,
+    "abstract": "Self-criticism is the process of negative self-evaluation. High levels are associated with psychopathology and poorer therapeutic outcomes. Self-compassion interventions were developed to explicitly target self-criticism. The aim of this review was to estimate the overall effect of self-compassion-related interventions on self-criticism outcomes and investigate potential moderating variables. A systematic search of the literature identified 20 randomized controlled trials (RCTs) that met the inclusion criteria. Nineteen papers, involving 1350 participants, had sufficient data to be included in the meta-analysis. Pre- and post-data points were extracted for the compassion and control groups. Study quality was assessed using an adapted version of the Cochrane Collaboration's risk of bias tool, which concluded that studies were of moderate quality. Meta-analysis findings indicated that self-compassion-related interventions produce a significant, medium reduction in self-criticism in comparison with control groups (Hedges' g = 0.51, 95% CI [0.33-0.69]). Moderator analysis found greater reductions in self-criticism when self-compassion-related interventions were longer and compared with passive controls rather than active. The remaining moderators of forms of self-criticism, sample type, intervention delivery, intervention setting and risk of bias ratings were insignificant. Overall, the review provides promising evidence of the effectiveness of self-compassion-related interventions for reducing self-criticism. However, results are limited by moderate quality studies with high heterogeneity. Directions for future research indicate that more RCTs with active controls, follow-ups, consistent use and reporting of measures and diverse samples are needed.",
+    "human_review_required": true
+  }
+}

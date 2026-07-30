@@ -18,6 +18,9 @@ EVIDENCE_SECTION = re.compile(
 HTML_COMMENT = re.compile(r"<!--.*?-->", re.DOTALL)
 OPENALEX = "https://api.openalex.org/works"
 MAX_RESPONSE_BYTES = 2_000_000
+# Psychology, Neuroscience, Medicine, Health Professions. Unscoped search returns
+# radar and computer-vision papers for wellness words such as clutter or attention.
+HUMAN_FIELDS = "fields/32|fields/28|fields/27|fields/36"
 
 
 class NoRedirectHandler(HTTPRedirectHandler):
@@ -48,14 +51,15 @@ def markdown_text(value: object, fallback: str = "unavailable") -> str:
 
 
 def search_terms(query: str) -> str:
-    """Strip OpenAlex wildcards, which its stemmed search rejects with HTTP 400."""
-    return " ".join(re.sub(r"[*?]", " ", query).split())
+    """Strip characters OpenAlex reads as wildcards or filter separators."""
+    return " ".join(re.sub(r"[*?,:|]", " ", query).split())
 
 
 def discover(query: str, limit: int = 10) -> list[dict]:
     params = urllib.parse.urlencode(
         {
-            "search": search_terms(query),
+            "filter": f"title_and_abstract.search:{search_terms(query)},primary_topic.field.id:{HUMAN_FIELDS}",
+            "sort": "cited_by_count:desc",
             "per-page": min(max(limit, 1), 10),
             "select": "id,display_name,publication_year,doi,primary_location,authorships,cited_by_count",
             "mailto": "kiranjasonshu@gmail.com",

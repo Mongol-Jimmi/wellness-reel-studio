@@ -128,17 +128,24 @@ class Canvas:
         fill: str = INK,
         max_width: int = 452,
         spacing: int = 8,
-    ) -> None:
+    ) -> float:
+        """Draw centered text growing downward from y and return its logical height."""
         wrapped = self._wrap(text, size, max_width)
+        font = load_font(size * self.scale)
+        origin = self.point((LOGICAL_WIDTH / 2, y))
         self.draw.multiline_text(
-            self.point((LOGICAL_WIDTH / 2, y)),
+            origin,
             wrapped,
-            font=load_font(size * self.scale),
+            font=font,
             fill=fill,
             anchor="ma",
             align="center",
             spacing=self.n(spacing),
         )
+        bounds = self.draw.multiline_textbbox(
+            origin, wrapped, font=font, anchor="ma", align="center", spacing=self.n(spacing)
+        )
+        return (bounds[3] - bounds[1]) / self.scale
 
     def _wrap(self, text: str, size: int, max_width: int) -> str:
         selected_font = load_font(size * self.scale)

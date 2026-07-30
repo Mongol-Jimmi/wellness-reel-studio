@@ -40,6 +40,17 @@ class SpecValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "em dash"):
             validate_spec(unsafe_copy)
 
+    def test_source_label_is_optional_and_length_checked(self) -> None:
+        labelled = copy.deepcopy(VALID_SPEC)
+        labelled["beats"][0]["source_label"] = "Meta-analysis, 2021"
+        validate_spec(labelled)
+        self.assertEqual(render_frame(labelled, 1.0, scale=1).size, (540, 960))
+
+        too_long = copy.deepcopy(VALID_SPEC)
+        too_long["beats"][0]["source_label"] = "x" * 41
+        with self.assertRaisesRegex(ValueError, "source_label"):
+            validate_spec(too_long)
+
     def test_rejects_timeline_gaps_and_non_https_sources(self) -> None:
         gap = copy.deepcopy(VALID_SPEC)
         gap["beats"][1]["start"] = 7

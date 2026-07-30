@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "issue_number": 11,
+  "slug": "self-compassion-friend-line",
+  "title": "The Friend Line for Self-Criticism",
+  "render_version": "1.0.0",
+  "status": "ready_to_render",
+  "publication_status": "human_review_required",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 36
+  },
+  "sources": [
+    "https://doi.org/10.1002/cpp.2586"
+  ],
+  "safety": [
+    "General wellness only. This is not treatment for depression or anxiety. If self-criticism feels constant or severe, talk with a healthcare professional."
+  ],
+  "beats": [
+    {
+      "id": "the-voice",
+      "start": 0,
+      "end": 6,
+      "headline": "19 TRIALS, 1350 PEOPLE",
+      "body": "Learning to speak to yourself more kindly measurably lowered self-criticism, at a medium effect size.",
+      "source_label": "Meta-analysis, 2021"
+    },
+    {
+      "id": "what-it-means",
+      "start": 6,
+      "end": 12,
+      "headline": "What self-compassion means",
+      "body": "It means treating yourself the way you would treat a friend who is having a hard day. That is the whole idea."
+    },
+    {
+      "id": "notice",
+      "start": 12,
+      "end": 18,
+      "headline": "Start by noticing",
+      "body": "Self-criticism is negative self-evaluation. You cannot soften a sentence you have not heard yet, so just catch it."
+    },
+    {
+      "id": "name-it",
+      "start": 18,
+      "end": 24,
+      "headline": "Say it plainly",
+      "body": "You could try naming it. I am being hard on myself right now. Naming it counts as a start."
+    },
+    {
+      "id": "friend-line",
+      "start": 24,
+      "end": 30,
+      "headline": "Then use the friend line",
+      "body": "Ask what you would say to a friend in this exact spot, then say that to yourself. Awkward is normal at first."
+    },
+    {
+      "id": "one-moment",
+      "start": 30,
+      "end": 36,
+      "headline": "Small and often",
+      "body": "Longer programmes showed bigger drops. One moment a day is a good place to start.",
+      "source_label": "g = 0.51, 19 RCTs"
+    }
+  ]
+}

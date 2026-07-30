@@ -14,9 +14,9 @@ from urllib.parse import urlparse
 from PIL import Image
 
 try:
-    from .sleep_reel import INK, MUTED, PERIWINKLE, Canvas, draw_background, draw_blob
+    from .sleep_reel import INK, MOON, MUTED, PERIWINKLE, Canvas, draw_background, draw_blob
 except ImportError:
-    from sleep_reel import INK, MUTED, PERIWINKLE, Canvas, draw_background, draw_blob
+    from sleep_reel import INK, MOON, MUTED, PERIWINKLE, Canvas, draw_background, draw_blob
 
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 VERSION = re.compile(r"^\d+\.\d+\.\d+$")
@@ -96,6 +96,8 @@ def validate_spec(spec: dict) -> None:
         expected_start = float(end)
         require_text(beat.get("headline"), f"beats[{index}].headline", 52)
         require_text(beat.get("body"), f"beats[{index}].body", 180)
+        if beat.get("source_label") is not None:
+            require_text(beat.get("source_label"), f"beats[{index}].source_label", 40)
     if abs(expected_start - duration) > 0.001:
         raise ValueError("beat timeline must end at duration_seconds")
 
@@ -136,7 +138,19 @@ def render_frame(spec: dict, time_seconds: float, scale: int = 2) -> Image.Image
     draw_blob(canvas, (270, 300 - bob), (230, 130), color, beat["id"].replace("-", " ").upper(), text_size=20)
 
     canvas.center_text(beat["headline"], 455, 42, max_width=450, spacing=8)
-    canvas.center_text(beat["body"], 600, 28, fill=MUTED, max_width=430, spacing=8)
+    body_height = canvas.center_text(beat["body"], 600, 28, fill=MUTED, max_width=430, spacing=8)
+
+    cursor = 600 + body_height + 24
+    label = beat.get("source_label")
+    if label:
+        half_width = 9 + 4.2 * len(label)
+        canvas.rounded_rectangle((270 - half_width, cursor, 270 + half_width, cursor + 32), radius=16, fill=MOON)
+        canvas.text((270, cursor + 16), label, 14, INK)
+        cursor += 56
+
+    if beat_index == len(spec["beats"]) - 1:
+        canvas.center_text(spec["safety"][0], cursor, 17, fill=MUTED, max_width=400, spacing=6)
+
     canvas.text((270, 860), f"{beat_index + 1} OF {len(spec['beats'])}", 15, MUTED)
     canvas.text((270, 908), "SAVE IF USEFUL", 16, INK)
     return canvas.image

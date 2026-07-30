@@ -82,14 +82,17 @@ Run `./verify_sleep_reel.sh` to render first and then enforce the high-resolutio
 
 ## GitHub Reel Studio
 
-The repository is also the control plane for future Reels:
+The repository is the control plane, and the pipeline runs evidence first:
 
-1. Ten reviewed topic proposals appear as GitHub Issues.
-2. The operator checks exactly one box: **Approve for research** or **Reject**.
-3. Approval triggers a free OpenAlex discovery workflow and moves the Issue to evidence review.
-4. A human reviews full texts and creates a Reel Spec before rendering.
-5. The **Render reviewed Reel Spec** Action validates and renders the Spec at 1080 × 1920, stores the Preview in a GitHub prerelease, and exposes it through Pages.
-6. Publication approval remains a separate human decision. YouTube upload is not implemented yet.
+1. `python3 scripts/discover_evidence.py` sweeps wellness domains on OpenAlex for reviews and meta-analyses, then writes ranked evidence cards with abstracts to `research/generated/evidence-first/`.
+2. A human reads the abstracts, picks one finding, and writes the claim into a proposal file under `ideas/evidence-first/`.
+3. `python3 scripts/discover_evidence.py --propose <file> --apply` opens a topic Issue that carries the paper, the reviewed finding, and the safety boundary. The topic exists because the evidence does.
+4. The operator checks exactly one box: **Approve for research** or **Reject**.
+5. A human writes a Reel Spec under `reels/specs/` that cites the same source.
+6. The **Render reviewed Reel Spec** Action validates and renders the Spec at 1080 × 1920, stores the Preview in a GitHub prerelease, and exposes it through Pages.
+7. Publication approval remains a separate human decision. YouTube upload is not implemented yet.
+
+Topic-first discovery still exists for filling gaps in an approved topic: **Research approved topic** runs `scripts/research_issue.py` against the Issue's `research-query` comment. Write that query as keywords joined by AND, not as a sentence. OpenAlex searches are scoped to Psychology, Neuroscience, Medicine, and Health Professions because unscoped wellness words return radar and computer-vision papers.
 
 The lifecycle and terms are documented in [`CONTEXT.md`](CONTEXT.md), [`docs/capabilities/reel-studio.md`](docs/capabilities/reel-studio.md), and [ADR 0001](docs/adr/0001-github-control-plane-and-pages-previews.md).
 
