@@ -22,45 +22,46 @@
     {
       "id": "fifty-nine",
       "start": 0,
-      "end": 7,
-      "headline": "Habits took about 59 days, not twenty one",
-      "body": "In a 2021 trial, the people who did form a habit hit peak automatic feeling after a median of 59 days. The twenty one day rule was never a research finding.",
+      "end": 6,
+      "headline": "59 days, not three weeks",
+      "body": "In a 2021 trial, the people who did form a habit reached peak automatic feeling after a median of 59 days. The popular three week rule wasn't a research finding.",
       "source_label": "Randomised trial, 2021"
     },
     {
-      "id": "feels-automatic",
-      "start": 7,
-      "end": 14,
-      "headline": "Automatic means you stop deciding",
-      "body": "Automaticity is the point where a behaviour runs without much thought. The trial tracked it with daily surveys, and it built up slowly rather than switching on."
+      "id": "automatic",
+      "start": 6,
+      "end": 13,
+      "headline": "What automatic actually means",
+      "body": "Automaticity is just how little thought a behaviour takes. It's the moment you do the thing before you decide to. That feeling builds slowly, and slowly is normal."
     },
     {
-      "id": "your-cue",
-      "start": 14,
-      "end": 21,
-      "headline": "Pick the cue you will actually repeat",
-      "body": "A cue is the thing that reminds you to start. Anchoring to a daily routine worked no better than a set clock time, so you could pick whichever one sticks."
+      "id": "any-cue",
+      "start": 13,
+      "end": 20,
+      "headline": "Pick the cue you'll repeat",
+      "body": "The trial compared anchoring the behaviour to a daily routine against anchoring it to a clock time. Neither worked better. So you could pick whichever one sticks."
     },
     {
       "id": "count-reps",
-      "start": 21,
+      "start": 20,
       "end": 27,
-      "headline": "Count repetitions, not days",
-      "body": "Repeating the plan was the strongest predictor in the trial. A good place to start is a simple tally of how many times you have actually done it."
+      "headline": "Count repeats, not days",
+      "body": "Repeating the plan was the key predictor in this trial. A good place to start is a simple tally of times done, rather than watching the calendar."
     },
     {
       "id": "two-months",
       "start": 27,
       "end": 33,
       "headline": "Give it about two months",
-      "body": "Expect roughly two months before it feels easy, and remember the study followed one everyday nutrition habit. Your own timing may sit either side of that."
+      "body": "The median of 59 days sits close to two months. If yours takes longer, that says nothing about you. Habit timing varied widely across the people studied.",
+      "source_label": "Randomised trial, 2021"
     },
     {
-      "id": "same-spot",
+      "id": "pebble-path",
       "start": 33,
       "end": 38,
-      "headline": "Slower is not failing",
-      "body": "If it still takes effort today, that is just where you are on the path. Nothing has gone wrong. You could simply do it once more tomorrow."
+      "headline": "Same spot, same stone",
+      "body": "Each repeat lands in the same place until the step needs no thought. You could start with the next one."
     }
   ]
 }
