@@ -94,6 +94,32 @@ The repository is the control plane, and the pipeline runs evidence first:
 
 Topic-first discovery still exists for filling gaps in an approved topic: **Research approved topic** runs `scripts/research_issue.py` against the Issue's `research-query` comment. Write that query as keywords joined by AND, not as a sentence. OpenAlex searches are scoped to Psychology, Neuroscience, Medicine, and Health Professions because unscoped wellness words return radar and computer-vision papers.
 
+### Approval autopilot
+
+Ticking **Approve for research** is the only human step in a Reel. A timer on the studio
+machine picks the topic up within ten minutes and takes it the rest of the way:
+
+```bash
+python3 scripts/autopilot_spec.py             # every approved topic without a Spec
+python3 scripts/autopilot_spec.py --issue 12 --dry-run
+systemctl --user status wellness-autopilot.timer
+```
+
+The writer reads the Issue, asks a local model for a Reel Spec grounded in the paper the
+Issue carries, and refuses to ship anything that fails these checks:
+
+- every number on screen must appear in the paper's abstract or the reviewed finding
+- any beat showing a number must also show a source label
+- the safety boundary is copied from the Issue word for word
+- no cure, guarantee, prevents, eliminates, instantly, proven, or you-must phrasing
+- plus the existing shape rules: timing, lengths, HTTPS sources, no em dashes
+
+A rejected draft is sent back to the model with the exact error, up to three attempts.
+The model runs locally because the studio uses a Claude subscription rather than an API
+key, so no model secret is stored in GitHub. These checks cannot tell whether a claim is
+*true*, only whether it is grounded and hedged, which is why output stays a Preview and
+publication remains a separate human decision.
+
 The lifecycle and terms are documented in [`CONTEXT.md`](CONTEXT.md), [`docs/capabilities/reel-studio.md`](docs/capabilities/reel-studio.md), and [ADR 0001](docs/adr/0001-github-control-plane-and-pages-previews.md).
 
 ### Cost and secret boundaries
