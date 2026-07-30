@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "issue_number": 12,
+  "slug": "habits-take-about-59-days-not-21",
+  "title": "Habits Take About 59 Days, Not 21",
+  "render_version": "1.0.0",
+  "status": "ready_to_render",
+  "publication_status": "human_review_required",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration_seconds": 38
+  },
+  "sources": [
+    "https://doi.org/10.1111/bjhp.12504"
+  ],
+  "safety": [
+    "General wellness only. The trial studied one everyday nutrition behaviour, so the timing is a reference point rather than a rule for every habit."
+  ],
+  "beats": [
+    {
+      "id": "fifty-nine",
+      "start": 0,
+      "end": 7,
+      "headline": "Habits took about 59 days, not twenty one",
+      "body": "In a 2021 trial, the people who did form a habit hit peak automatic feeling after a median of 59 days. The twenty one day rule was never a research finding.",
+      "source_label": "Randomised trial, 2021"
+    },
+    {
+      "id": "feels-automatic",
+      "start": 7,
+      "end": 14,
+      "headline": "Automatic means you stop deciding",
+      "body": "Automaticity is the point where a behaviour runs without much thought. The trial tracked it with daily surveys, and it built up slowly rather than switching on."
+    },
+    {
+      "id": "your-cue",
+      "start": 14,
+      "end": 21,
+      "headline": "Pick the cue you will actually repeat",
+      "body": "A cue is the thing that reminds you to start. Anchoring to a daily routine worked no better than a set clock time, so you could pick whichever one sticks."
+    },
+    {
+      "id": "count-reps",
+      "start": 21,
+      "end": 27,
+      "headline": "Count repetitions, not days",
+      "body": "Repeating the plan was the strongest predictor in the trial. A good place to start is a simple tally of how many times you have actually done it."
+    },
+    {
+      "id": "two-months",
+      "start": 27,
+      "end": 33,
+      "headline": "Give it about two months",
+      "body": "Expect roughly two months before it feels easy, and remember the study followed one everyday nutrition habit. Your own timing may sit either side of that."
+    },
+    {
+      "id": "same-spot",
+      "start": 33,
+      "end": 38,
+      "headline": "Slower is not failing",
+      "body": "If it still takes effort today, that is just where you are on the path. Nothing has gone wrong. You could simply do it once more tomorrow."
+    }
+  ]
+}
