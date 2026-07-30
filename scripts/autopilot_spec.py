@@ -61,7 +61,7 @@ Contract, all required:
 - 6 or 7 beats. Beat times are contiguous, start at 0, and the last end equals duration_seconds
 - Each beat: id, start, end, headline, body, and source_label only when the beat shows a number
 - id: one or two lowercase words joined by a hyphen. It is drawn on screen in capitals, so make it a content word like "one-window", never "hook" or "beat-1"
-- headline at most 52 characters. body at most 180 characters. source_label at most 40 characters
+- headline at most 52 characters. body at most 180 characters, except the LAST beat whose body is at most 120 characters because the safety line is drawn beneath it. source_label at most 40 characters
 - sources: exactly ["{parts['source_url']}"]
 - safety: exactly ["{parts['safety']}"] copied character for character
 

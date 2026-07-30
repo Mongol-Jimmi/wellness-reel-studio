@@ -40,6 +40,12 @@ class SpecValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "em dash"):
             validate_spec(unsafe_copy)
 
+    def test_final_beat_body_leaves_room_for_the_safety_line(self) -> None:
+        crowded = copy.deepcopy(VALID_SPEC)
+        crowded["beats"][-1]["body"] = "word " * 30
+        with self.assertRaisesRegex(ValueError, "body"):
+            validate_spec(crowded)
+
     def test_source_label_is_optional_and_length_checked(self) -> None:
         labelled = copy.deepcopy(VALID_SPEC)
         labelled["beats"][0]["source_label"] = "Meta-analysis, 2021"

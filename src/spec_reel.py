@@ -25,6 +25,8 @@ MIN_DURATION = 30
 MAX_DURATION = 45
 MIN_BEATS = 5
 MAX_BEATS = 8
+# The final beat shares its space with the safety boundary, so its body stays short.
+FINAL_BODY_LIMIT = 120
 BEAT_COLORS = ("#9EA9E8", "#F4C96B", "#8CB7C6", "#A7B9A5", "#E79A7E", "#7F718A")
 
 
@@ -95,7 +97,8 @@ def validate_spec(spec: dict) -> None:
             raise ValueError("beat timeline must be positive and contiguous")
         expected_start = float(end)
         require_text(beat.get("headline"), f"beats[{index}].headline", 52)
-        require_text(beat.get("body"), f"beats[{index}].body", 180)
+        body_limit = FINAL_BODY_LIMIT if index == len(beats) - 1 else 180
+        require_text(beat.get("body"), f"beats[{index}].body", body_limit)
         if beat.get("source_label") is not None:
             require_text(beat.get("source_label"), f"beats[{index}].source_label", 40)
     if abs(expected_start - duration) > 0.001:
@@ -149,7 +152,8 @@ def render_frame(spec: dict, time_seconds: float, scale: int = 2) -> Image.Image
         cursor += 56
 
     if beat_index == len(spec["beats"]) - 1:
-        canvas.center_text(spec["safety"][0], cursor, 17, fill=MUTED, max_width=400, spacing=6)
+        # Fixed band. The final beat's shorter body keeps this clear of both the copy and the counter.
+        canvas.center_text(spec["safety"][0], 790, 14, fill=MUTED, max_width=440, spacing=5)
 
     canvas.text((270, 860), f"{beat_index + 1} OF {len(spec['beats'])}", 15, MUTED)
     canvas.text((270, 908), "SAVE IF USEFUL", 16, INK)
