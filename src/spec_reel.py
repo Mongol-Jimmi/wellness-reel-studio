@@ -153,7 +153,7 @@ def render_frame(spec: dict, time_seconds: float, scale: int = 2) -> Image.Image
 
     if beat_index == len(spec["beats"]) - 1:
         # Fixed band. The final beat's shorter body keeps this clear of both the copy and the counter.
-        canvas.center_text(spec["safety"][0], 790, 14, fill=MUTED, max_width=440, spacing=5)
+        canvas.center_text(spec["safety"][0], 772, 14, fill=MUTED, max_width=440, spacing=5)
 
     canvas.text((270, 860), f"{beat_index + 1} OF {len(spec['beats'])}", 15, MUTED)
     canvas.text((270, 908), "SAVE IF USEFUL", 16, INK)
