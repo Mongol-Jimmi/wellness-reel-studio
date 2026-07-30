@@ -1,6 +1,6 @@
 # Wellness Brand Lab
 
-Five locally generated identity studies and evidence-linked Plain-Spoken Pebble Reels for a calming mental-wellness series.
+A calming mental-wellness Reel studio. The current practice format uses sparse, breath-mapped visuals and softly paced OpenRouter speech instead of copy-heavy slides.
 
 ## Prerequisites
 
@@ -26,7 +26,40 @@ python3 -m unittest discover -s tests -v
 - `previews/all-identities-comparison.mp4`
 - `previews/identity-contact-sheet.png`
 
-All visuals and sounds are generated locally. External spend: USD $0. The bundled Ubuntu Sans font and its licence are in `assets/fonts/` so renders do not depend on a host font installation.
+The bundled Ubuntu Sans font and its licence are in `assets/fonts/` so renders do not depend on a host font installation.
+
+## One-minute practice format
+
+A practice Reel guides one exercise and nothing else. The first is cyclic sighing, in the
+Plain-Spoken Pebble language: warm paper, the drifting lavender shapes, the mustard dots.
+The pebble is the guide rather than a label holder. It fills through the inhale, lifts a
+second small pebble on the sip, and pales as it settles through the sigh out. Three words
+appear all minute, each in a frosted chip: `in`, `more`, `out`.
+
+Narration is a Coral voice from `openai/gpt-audio-mini` through OpenRouter. Audio output
+from that model requires `stream: true` and `pcm16`; a plain request is rejected.
+
+Every motion runs a whole number of cycles per minute, so the last frame meets the first
+and the Reel loops without a seam. `tests/test_practice_pebble.py` asserts that seam, so a
+change that breaks the loop fails the suite.
+
+```bash
+export OPENROUTER_API_KEY=...  # only needed the first time voice cues are generated
+./render_practice.sh
+```
+
+Outputs:
+
+- `previews/cyclic-sigh-pebble-60s.mp4`
+- `edit/cyclic-sigh-practice-script.md`
+- `edit/cyclic-sigh-practice-captions.srt`
+- `edit/cyclic-sigh-practice-brief.md`
+
+The speech call is paid through the configured OpenRouter account. Voice cues are cached
+under ignored `work/audio/`, so re-rendering the visuals never calls OpenRouter again.
+
+A practice is not a Reel Spec. It has no beats or text slides, so it does not go through
+the approval autopilot and is not on the Pages dashboard yet.
 
 ## Evidence-linked content research
 
