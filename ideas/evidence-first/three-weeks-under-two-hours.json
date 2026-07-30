@@ -1,0 +1,31 @@
+{
+  "title": "Three Weeks Under Two Hours of Screen",
+  "hook": "They capped phone time at two hours a day for three weeks. Four separate measures moved.",
+  "claim": "A 2025 randomised controlled trial asked 111 healthy students, averaging 276 minutes of daily screen time, to cut to two hours or less for three weeks. Well-being, depressive symptoms, sleep quality and stress all improved by small to medium effects against the control group. Screen time rose again afterwards and was approaching baseline at follow-up. The trial was not blinded.",
+  "actions": [
+    "Set a cap rather than aiming for zero",
+    "Choose a three week window instead of a permanent rule",
+    "Decide in advance what happens when the time creeps back"
+  ],
+  "visual": "A bright rectangle shrinking while the room around it fills in.",
+  "safety": "General wellness only. The sample was healthy students, the trial was not blinded, and this is not treatment for depression or anxiety.",
+  "card": {
+    "seed": "screen time AND smartphone use AND wellbeing",
+    "provider": "Elicit",
+    "id": "https://doi.org/10.1186/s12916-025-03944-z",
+    "title": "Smartphone screen time reduction improves mental health: a randomized controlled trial",
+    "year": 2025,
+    "authors": [
+      "C. Pieh",
+      "E. Humer",
+      "Andreas Hoenigl",
+      "Julia Schwab",
+      "Doris Mayerhofer"
+    ],
+    "doi": "https://doi.org/10.1186/s12916-025-03944-z",
+    "source": "BMC Medicine",
+    "cited_by_count": 41,
+    "abstract": "Smartphone screen time has risen sharply in recent years. Even though an association between smartphone use and mental health is well documented, it is still unclear whether this is simply a correlation or causality. The aim of this study is to investigate the effects of smartphone screen time reduction on mental health indicators. This non-blinded, parallel randomized controlled trial (RCT) was performed to investigate the impact of a 3-week screen time reduction to ≤ 2 h/d in healthy students on stress (PSQ), well-being (WHO-5), depressive symptoms (PHQ-9), and sleep quality (ISI) at baseline (t0), post-intervention (t1), and at follow-up (t2 = 6 weeks after t1). For the intention to treat analysis, repeated measures ANOVAs and post-hoc tests (for time as well as group differences) were performed and effect sizes were presented as partial eta squared (η2 = time × group) and group-mean differences. In total, 111 out of 125 healthy students (70 females; mean age = 22.68 ± 2.6 years; mean screen time = 276 ± 115.1 min/day) were randomly assigned to intervention—(n = 58; 3 weeks of screen time reduction to ≤ 2 h/day) or control group (n = 53). Although no differences were observed at baseline (t0), significant post-intervention (t1) effects of small to medium size were observed on well-being (η2 = .053), depressive symptoms (η2 = .109), sleep quality (η2 = .048), and stress (η2 = .085). Significant group differences (p ≤ .05) were found post-intervention (t1) for depressive symptoms (Mean Difference (MD) = 2.11, Standard Error (SE) = 0.63, 95% Confidence Interval (CI) [0.87, 3.36]), sleep quality (MD = 2.59, SE = 0.97, 95% CI [0.66, 4.51]), well-being (MD = -1.54, SE = 0.68, 95% CI [.-2.89, -0.18]), and stress (MD = 6.91, SE = 3.48, 95% CI [0.01, 13.81]). Screen time increased rapidly after the intervention and at follow-up the values were once again approaching the initial level. The study highlights mental health improvements through smartphone screen time reduction",
+    "human_review_required": true
+  }
+}

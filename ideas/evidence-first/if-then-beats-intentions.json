@@ -1,0 +1,29 @@
+{
+  "title": "If-Then Beats Good Intentions",
+  "hook": "Same goal, two different sentences. Only one of them tends to happen.",
+  "claim": "A 2024 meta-analysis of 642 independent tests found that forming implementation intentions helped cognitive, emotional and behavioural outcomes, with effect sizes from d = 0.27 to d = 0.66. Effects were larger when the plan used a contingent if-then format, when motivation for the goal was high, and when the plan was rehearsed.",
+  "actions": [
+    "Write the plan as if this happens, then I will do that",
+    "Name the exact cue, a time and place or the end of another task",
+    "Say the plan back to yourself once so it is rehearsed"
+  ],
+  "visual": "Two sentence cards, one vague and one hinged, with the hinged one clicking shut.",
+  "safety": "General wellness only. Planning helps translate a goal you already have and is not a fix for goals set under pressure.",
+  "card": {
+    "seed": "implementation intentions AND goal attainment",
+    "provider": "Elicit",
+    "id": "https://doi.org/10.1080/10463283.2024.2334563",
+    "title": "The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests",
+    "year": 2024,
+    "authors": [
+      "P. Sheeran",
+      "Olivia Listrom",
+      "P. Gollwitzer"
+    ],
+    "doi": "https://doi.org/10.1080/10463283.2024.2334563",
+    "source": "European Review of Social Psychology",
+    "cited_by_count": 37,
+    "abstract": "ABSTRACT When and how should one plan? We estimated the scope (when) of implementation intentions by computing effect sizes for different outcomes, samples, and study characteristics, and tested the components (how) of implementation intentions by analysing the format, processes of formation, and contents of plans. Across 642 independent tests, forming implementation intentions proved effective for cognitive, affective, and behavioural outcomes (.27 ≤ d ≤ .66). Effect sizes were larger when plans had a contingent (if-then) format, participants were highly motivated to pursue the goal, and plans were rehearsed. We developed a new taxonomy of the cues (e.g., time-and-place, task juncture) and responses (e.g., cognitive procedures, ignore- or inner speech-responses) specified in implementation intentions and tested their efficacy in promoting outcomes. Our review underlines the utility of implementation intentions in helping people regulate their thoughts, feelings, and actions and offers a taxonomy of plan contents that could inspire further tests of implementation intentions.",
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Movement and the Odds of Depression",
+  "hook": "266,939 people, followed for years. The active ones were less likely to become depressed.",
+  "claim": "A 2018 meta-analysis pooled 49 prospective cohort studies covering 266,939 people and 1.8 million person years. People with high physical activity had lower odds of later developing depression than people with low activity (adjusted odds ratio 0.83), and the pattern held in youths, adults and older adults and across regions. These were observational studies, so they show a link rather than proof of cause, and publication bias was present though adjusting for it did not change the size of the association.",
+  "actions": [
+    "Count movement you already do rather than starting a programme",
+    "Treat any amount as counting, since the comparison was high versus low",
+    "Pick something you would repeat in bad weather"
+  ],
+  "visual": "A small pebble walking a slow loop while the sky changes behind it.",
+  "safety": "General wellness only. These are observational links, not proof that exercise prevents depression, and movement is not a treatment. If your mood has been low for weeks, talk with a healthcare professional.",
+  "card": {
+    "seed": "physical activity AND mood AND depression",
+    "provider": "Elicit",
+    "id": "https://doi.org/10.1176/appi.ajp.2018.17111194",
+    "title": "Physical Activity and Incident Depression: A Meta-Analysis of Prospective Cohort Studies.",
+    "year": 2018,
+    "authors": [
+      "F. Schuch",
+      "D. Vancampfort",
+      "J. Firth",
+      "S. Rosenbaum",
+      "P. Ward"
+    ],
+    "doi": "https://doi.org/10.1176/appi.ajp.2018.17111194",
+    "source": "American Journal of Psychiatry",
+    "cited_by_count": 1450,
+    "abstract": "OBJECTIVE The authors examined the prospective relationship between physical activity and incident depression and explored potential moderators. METHOD Prospective cohort studies evaluating incident depression were searched from database inception through Oct. 18, 2017, on PubMed, PsycINFO, Embase, and SPORTDiscus. Demographic and clinical data, data on physical activity and depression assessments, and odds ratios, relative risks, and hazard ratios with 95% confidence intervals were extracted. Random-effects meta-analyses were conducted, and the potential sources of heterogeneity were explored. Methodological quality was assessed using the Newcastle-Ottawa Scale. RESULTS A total of 49 unique prospective studies (N=266,939; median proportion of males across studies, 47%) were followed up for 1,837,794 person-years. Compared with people with low levels of physical activity, those with high levels had lower odds of developing depression (adjusted odds ratio=0.83, 95% CI=0.79, 0.88; I2=0.00). Furthermore, physical activity had a protective effect against the emergence of depression in youths (adjusted odds ratio=0.90, 95% CI=0.83, 0.98), in adults (adjusted odds ratio=0.78, 95% CI=0.70, 0.87), and in elderly persons (adjusted odds ratio=0.79, 95% CI=0.72, 0.86). Protective effects against depression were found across geographical regions, with adjusted odds ratios ranging from 0.65 to 0.84 in Asia, Europe, North America, and Oceania, and against increased incidence of positive screen for depressive symptoms (adjusted odds ratio=0.84, 95% CI=0.79, 0.89) or major depression diagnosis (adjusted odds ratio=0.86, 95% CI=0.75, 0.98). No moderators were identified. Results were consistent for unadjusted odds ratios and for adjusted and unadjusted relative risks/hazard ratios. Overall study quality was moderate to high (Newcastle-Ottawa Scale score, 6.3). Although significant publication bias was found, adjusting for this did not change the magnitude of the associations. CONCLU",
+    "human_review_required": true
+  }
+}

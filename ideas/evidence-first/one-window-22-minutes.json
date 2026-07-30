@@ -1,0 +1,31 @@
+{
+  "title": "One Window Moved Bedtime 22 Minutes",
+  "hook": "Nobody changed their bedtime. More daylight indoors moved it anyway.",
+  "claim": "A 2021 crossover field study put 20 residents through one week with more daytime daylight in their homes and one week with standard windows and blinds. The brighter week showed consistent melatonin onset, sleep onset 22 minutes earlier, and higher sleep regularity. The blinds week showed melatonin onset delayed by 15 minutes, delayed daytime vitality, and lower positive affect. The sample was small.",
+  "actions": [
+    "Get your morning light near the biggest window you have",
+    "Open the blinds before you open anything else",
+    "Move one daily task to the brightest spot in the room"
+  ],
+  "visual": "A pale window brightening while a small moon slides earlier along the edge.",
+  "safety": "General wellness only. This was 20 people over two weeks, so treat it as a reason to try daylight rather than a guaranteed result.",
+  "card": {
+    "seed": "daylight AND light exposure AND circadian",
+    "provider": "Elicit",
+    "id": "https://doi.org/10.3390/ijerph18199980",
+    "title": "Access to Daylight at Home Improves Circadian Alignment, Sleep, and Mental Health in Healthy Adults: A Crossover Study",
+    "year": 2021,
+    "authors": [
+      "R. Nagare",
+      "May K Woo",
+      "P. MacNaughton",
+      "B. Plitnick",
+      "Brandon Tinianov"
+    ],
+    "doi": "https://doi.org/10.3390/ijerph18199980",
+    "source": "International Journal of Environmental Research and Public Health",
+    "cited_by_count": 67,
+    "abstract": "As the primary environmental cue for the body’s master biological clock, light–dark patterns are key for circadian alignment and are ultimately fundamental to multiple dimensions of health including sleep and mental health. Although daylight provides the proper qualities of light for promoting circadian alignment, our modern indoor lifestyles offer fewer opportunities for adequate daylight exposure. This field study explores how increasing circadian-effective light in residences affects circadian phase, sleep, vitality, and mental health. In this crossover study, 20 residents spent one week in their apartments with electrochromic glass windows and another week with functionally standard windows with blinds. Calibrated light sensors revealed higher daytime circadian-effective light levels with the electrochromic glass windows, and participants exhibited consistent melatonin onset, a 22-min earlier sleep onset, and higher sleep regularity. In the blinds condition, participants exhibited a 15-min delay in dim light melatonin onset, a delay in subjective vitality throughout the day, and an overall lower positive affect. This study demonstrates the impact of daytime lighting on the physiological, behavioral, and subjective measures of circadian health in a real-world environment and stresses the importance of designing buildings that optimize daylight for human health and wellbeing.",
+    "human_review_required": true
+  }
+}

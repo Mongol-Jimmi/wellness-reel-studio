@@ -1,0 +1,31 @@
+{
+  "title": "Habits Take About 59 Days, Not 21",
+  "hook": "The 21 day habit rule is not a research finding. The real number is slower and kinder.",
+  "claim": "A 2021 randomised controlled trial followed 192 adults aged 18 to 77 with daily surveys for 84 days. Among those who did form a habit, automaticity peaked after a median of 59 days. Anchoring the behaviour to a daily routine worked no better than anchoring it to a clock time. Repeated enactment of the plan was the key predictor. The behaviour studied was one everyday nutrition habit.",
+  "actions": [
+    "Pick whichever cue you will actually repeat, routine or time",
+    "Count repetitions rather than days",
+    "Expect roughly two months before it feels automatic"
+  ],
+  "visual": "A pebble path where each stone lands in the same spot until the step needs no thought.",
+  "safety": "General wellness only. The trial studied one everyday nutrition behaviour, so the timing is a reference point rather than a rule for every habit.",
+  "card": {
+    "seed": "habit formation AND behaviour change technique",
+    "provider": "Elicit",
+    "id": "https://doi.org/10.1111/bjhp.12504",
+    "title": "Habit formation following routine-based versus time-based cue planning: A randomized controlled trial.",
+    "year": 2021,
+    "authors": [
+      "J. Keller",
+      "D. Kwasnicka",
+      "P. Klaiber",
+      "Lena Sichert",
+      "Phillippa Lally"
+    ],
+    "doi": "https://doi.org/10.1111/bjhp.12504",
+    "source": "British Journal of Health Psychology",
+    "cited_by_count": 89,
+    "abstract": "OBJECTIVES Habit formation has been identified as one of the key determinants of behaviour change. To initiate habit formation, self-regulation interventions can support individuals to form a cue-behaviour plan and to repeatedly enact the plan in the same context. This randomized controlled trial aimed to model habit formation of an everyday nutrition behaviour and examined whether habit formation and plan enactment differ when individuals plan to enact their behaviour in response to a routine-based versus time-based cue. DESIGN Following a baseline assessment, N = 192 adults (aged 18-77 years) were randomly assigned to a routine-based cue or a time-based cue planning intervention, in which they selected an everyday nutrition behaviour and linked it to a daily routine or a time cue. METHODS Participants responded to daily questionnaires over 84 days assessing plan enactment and the behaviour's automaticity (as an indicator of habit formation). Multilevel models with days nested in participants were fitted. RESULTS As indicated by asymptotic curves, it took a median of 59 days for participants who successfully formed habits to reach peak automaticity. Group-level analyses revealed that both routine-based and time-based cue planning led to increases in automaticity and plan enactment, but no between-condition differences were found. Repeated plan enactment was a key predictor for automaticity. CONCLUSIONS Linking one's nutrition behaviour to a daily routine or a specific time was similarly effective for habit formation. Interventions should encourage persons to repeatedly carry out their planned behaviour in response to the planned cue to facilitate habit formation.",
+    "human_review_required": true
+  }
+}
