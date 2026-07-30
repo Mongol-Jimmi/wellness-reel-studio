@@ -47,10 +47,15 @@ def markdown_text(value: object, fallback: str = "unavailable") -> str:
     return re.sub(r"([\\`*_\[\]<>])", r"\\\1", flattened)
 
 
+def search_terms(query: str) -> str:
+    """Strip OpenAlex wildcards, which its stemmed search rejects with HTTP 400."""
+    return " ".join(re.sub(r"[*?]", " ", query).split())
+
+
 def discover(query: str, limit: int = 10) -> list[dict]:
     params = urllib.parse.urlencode(
         {
-            "search": query,
+            "search": search_terms(query),
             "per-page": min(max(limit, 1), 10),
             "select": "id,display_name,publication_year,doi,primary_location,authorships,cited_by_count",
             "mailto": "kiranjasonshu@gmail.com",

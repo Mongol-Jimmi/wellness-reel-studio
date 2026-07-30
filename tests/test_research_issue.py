@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.research_issue import NoRedirectHandler, extract_query, markdown_text
+from scripts.research_issue import NoRedirectHandler, extract_query, markdown_text, search_terms
 
 
 class ResearchIssueTests(unittest.TestCase):
@@ -21,6 +21,13 @@ class ResearchIssueTests(unittest.TestCase):
         self.assertNotIn("\n", rendered)
         self.assertIn(r"\[link\]", rendered)
         self.assertNotIn("[link](", rendered)
+
+    def test_search_terms_strip_openalex_wildcards(self) -> None:
+        self.assertEqual(
+            search_terms("What links clutter and stress?"),
+            "What links clutter and stress",
+        )
+        self.assertEqual(search_terms("sleep * onset"), "sleep onset")
 
     def test_extracts_encoded_query_metadata(self) -> None:
         body = "<!-- research-query: choice overload &amp; cognitive load -->"
