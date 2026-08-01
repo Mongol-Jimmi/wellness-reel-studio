@@ -27,9 +27,14 @@ outside, then say what you see.
 
 Two pebbles. Yours in periwinkle, the thing in coral, pressed against each other at the
 start. Through the minute they ease apart and the coral one shrinks slightly, the way
-anything does with distance. While the viewer describes what they see, small mustard
-marks cross the gap. On the close the two drift back together, so a replay begins from
-the same picture it started with.
+anything does with distance. While the viewer describes what they see, a mustard line
+draws itself across the gap and small marks travel along it; the line then holds for the
+rest of the minute, the way a said thing stays said. On the close the two drift back
+together and the line lets go, so a replay begins from the same picture it started with.
+
+The stroke is drawn with a seeded wobble rather than as a clean curve, and the whole
+frame carries a fine grain and a soft edge vignette, so the minute reads as a made object
+rather than as vector shapes.
 
 Words on screen for the whole minute: `step back`, `keep it small`, `look`, `say it`,
 `what next`, `again?`, and the source chip.

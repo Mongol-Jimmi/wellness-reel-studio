@@ -6,6 +6,11 @@ explainer Reels. The tweak is that the pebble is no longer a label holder. It
 breathes: filling on the inhale, catching the second sip, settling and warming
 through the sigh out. Every motion has a whole number of cycles per minute, so
 the last frame meets the first and the Reel loops without a seam.
+
+Motion and material come from `src.motion`: each phase of the breath picks its
+own easing, captions arrive on a settle rather than a fade, the drifting motes
+step at 12fps like every other decorative mark, and the finished frame takes a
+grain and vignette pass so the flat fills read as printed rather than plotted.
 """
 
 from __future__ import annotations
@@ -21,6 +26,18 @@ from PIL import Image, ImageDraw, ImageFilter
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from src.motion import (
+    apply_texture,
+    back_out,
+    bezier,
+    clamp,
+    expo_out,
+    hand_stroke,
+    power1_in_out,
+    power2_in_out,
+    smooth,
+    stutter,
+)
 from src.sleep_reel import INK, MOON, MUTED, PERIWINKLE, SHADOW, Canvas, load_font
 
 WIDTH = 540
@@ -82,29 +99,26 @@ def phase_at(time_seconds: float) -> Phase:
     return PHASES[-1]
 
 
-def clamp(value: float) -> float:
-    return max(0.0, min(1.0, value))
-
-
-def smooth(value: float) -> float:
-    value = clamp(value)
-    return value * value * (3 - 2 * value)
-
-
 def fade_window(time_seconds: float, start: float, end: float, fade: float = 0.6) -> float:
     return min(smooth((time_seconds - start) / fade), smooth((end - time_seconds) / fade))
 
 
 def breath(time_seconds: float) -> tuple[float, float]:
-    """How full the pebble is from 0 to 1, and how much warmth the release carries."""
+    """How full the pebble is from 0 to 1, and how much warmth the release carries.
+
+    Each phase carries its own easing. The long moves sit on the slowest curve
+    in the set so the fill and the release both stall at their ends, which is
+    where a real breath spends its time; the second sip is a quick top-up that
+    settles, so it takes the fast-arriving one instead.
+    """
     phase = phase_at(time_seconds)
     progress = (time_seconds - phase.start) / (phase.end - phase.start)
     if phase.name == "inhale":
-        return 0.88 * smooth(progress), 0.0
+        return 0.88 * power2_in_out(progress), 0.0
     if phase.name == "sip":
-        return 0.88 + 0.12 * smooth(progress), 0.0
+        return 0.88 + 0.12 * expo_out(progress), 0.0
     if phase.name == "exhale":
-        return 1.0 - smooth(progress), smooth(1 - abs(progress - 0.5) * 2)
+        return 1.0 - power1_in_out(progress), smooth(1 - abs(progress - 0.5) * 2)
     return 0.0, 0.0
 
 
@@ -152,11 +166,15 @@ def draw_pebble(canvas: Canvas, time_seconds: float) -> None:
 
 
 def draw_release(canvas: Canvas, time_seconds: float) -> None:
-    """Three mustard motes drifting off as the breath leaves. The dots are already brand furniture."""
+    """Three mustard motes drifting off as the breath leaves. The dots are already brand furniture.
+
+    Stepped to 12fps: decorative marks stutter, the pebble the viewer is
+    breathing with does not.
+    """
     phase = phase_at(time_seconds)
     if phase.name != "exhale":
         return
-    progress = (time_seconds - phase.start) / (phase.end - phase.start)
+    progress = (stutter(time_seconds) - phase.start) / (phase.end - phase.start)
     for index in range(3):
         local = clamp(progress * 1.5 - index * 0.22)
         if local <= 0 or local >= 1:
@@ -207,11 +225,42 @@ def tracked_text(canvas: Canvas, text: str, centre_y: float, size: int, alpha: f
     canvas.image.paste(Image.alpha_composite(canvas.image.convert("RGBA"), layer).convert("RGB"), (0, 0))
 
 
-def chip_box(text: str, size: int, tracking: float, centre_y: float, canvas: Canvas) -> tuple[float, float, float, float]:
+def chip_box(text: str, size: int, tracking: float, centre_y: float, canvas: Canvas, swell: float = 1.0) -> tuple[float, float, float, float]:
+    """The frosted plate behind a caption. `swell` scales it for the arrival."""
     font = load_font(canvas.n(size))
     width = (sum(font.getlength(character) for character in text) + canvas.n(tracking) * max(0, len(text) - 1)) / canvas.scale
-    half = width / 2 + 30
-    return (270 - half, centre_y - 30, 270 + half, centre_y + 30)
+    half = (width / 2 + 30) * swell
+    height = 30 * swell
+    return (270 - half, centre_y - height, 270 + half, centre_y + height)
+
+
+def settle(alpha: float) -> float:
+    """Plate scale for a caption that is `alpha` of the way in.
+
+    Captions used to fade in at a fixed size, which reads as a cut. The plate
+    now arrives just over full size and settles back while the type fades in
+    behind it, so the word lands rather than appears.
+    """
+    return 0.86 + 0.14 * back_out(alpha)
+
+
+def draw_underline(canvas: Canvas, text: str, centre_y: float, size: int, tracking: float, alpha: float, canvas_progress: float) -> None:
+    """A drawn-on rule under a caption, wobbled so it reads as a pen line."""
+    if alpha <= 0.01:
+        return
+    box = chip_box(text, size, tracking, centre_y, canvas)
+    left, right = box[0] + 30, box[2] - 30
+    baseline = box[3] + 6
+    hand_stroke(
+        canvas,
+        bezier((left, baseline), ((left + right) / 2, baseline + 3.5), (right, baseline)),
+        power1_in_out(canvas_progress),
+        MOON,
+        width=2.6,
+        seed=5,
+        wobble=1.5,
+        alpha=alpha * 0.9,
+    )
 
 
 def phase_word(phase: Phase) -> str:
@@ -246,20 +295,25 @@ def render_frame(time_seconds: float, scale: int = 2) -> Image.Image:
     word = phase_word(phase)
     if word:
         alpha = fade_window(time_seconds, phase.start, phase.end, 0.5)
-        frosted_chip(canvas, chip_box(word, 30, 8, 656, canvas), alpha)
+        frosted_chip(canvas, chip_box(word, 30, 8, 656, canvas, settle(alpha)), alpha)
         tracked_text(canvas, word, 656, 30, alpha, INK, 8)
     else:
         label = "cyclic sigh" if intro > 0.01 else "again?" if close > 0.01 else ""
         alpha = max(intro, close)
         if label:
-            frosted_chip(canvas, chip_box(label, 28, 4, 656, canvas), alpha)
+            frosted_chip(canvas, chip_box(label, 28, 4, 656, canvas, settle(alpha)), alpha)
             tracked_text(canvas, label, 656, 28, alpha, INK, 4)
+            # Opening only. The close already carries the mustard source chip
+            # right below this line, and two warm marks stacked read as one.
+            if intro > 0.01:
+                draw_underline(canvas, label, 656, 28, 4, alpha, clamp((time_seconds - 1.2) / 2.2))
 
     tracked_text(canvas, "never forced", 716, 16, intro * 0.85, MUTED, 2)
     if close > 0.01:
         canvas.rounded_rectangle((150, 700, 390, 742), radius=20, fill=MOON)
         canvas.text((270, 721), "Cell Reports Medicine, 2023", 15, INK)
     draw_cycle_dots(canvas, time_seconds)
+    apply_texture(canvas.image, time_seconds, DURATION_SECONDS, scale)
     return canvas.image
 
 

@@ -30,30 +30,48 @@ The bundled Ubuntu Sans font and its licence are in `assets/fonts/` so renders d
 
 ## One-minute practice format
 
-A practice Reel guides one exercise and nothing else. The first is cyclic sighing, in the
-Plain-Spoken Pebble language: warm paper, the drifting lavender shapes, the mustard dots.
-The pebble is the guide rather than a label holder. It fills through the inhale, lifts a
-second small pebble on the sip, and pales as it settles through the sigh out. Three words
-appear all minute, each in a frosted chip: `in`, `more`, `out`.
+A practice Reel guides one exercise and nothing else, in the Plain-Spoken Pebble language:
+warm paper, the drifting lavender shapes, the mustard dots. There are two.
+
+**Cyclic sighing.** The pebble is the guide rather than a label holder. It fills through
+the inhale, lifts a second small pebble on the sip, and pales as it settles through the
+sigh out. Three words appear all minute, each in a frosted chip: `in`, `more`, `out`.
+
+**Step back.** A self-distancing minute the viewer plays along with. Two pebbles, yours and
+the thing, ease apart while you watch it from outside, and a drawn line crosses the gap
+while you put what you see into words. The 2022 meta-analysis found the visual and verbal
+approach beat either half alone, so the describing gets its own mark on screen.
 
 Narration is a Coral voice from `openai/gpt-audio-mini` through OpenRouter. Audio output
 from that model requires `stream: true` and `pcm16`; a plain request is rejected.
 
 Every motion runs a whole number of cycles per minute, so the last frame meets the first
-and the Reel loops without a seam. `tests/test_practice_pebble.py` asserts that seam, so a
-change that breaks the loop fails the suite.
+and the Reel loops without a seam. Both practice test modules assert that seam, so a change
+that breaks the loop fails the suite.
 
 ```bash
 export OPENROUTER_API_KEY=...  # only needed the first time voice cues are generated
-./render_practice.sh
+./render_practice.sh cyclic-sigh
+./render_practice.sh step-back
 ```
 
 Outputs:
 
-- `previews/cyclic-sigh-pebble-60s.mp4`
+- `previews/cyclic-sigh-pebble-60s.mp4`, `previews/step-back-60s.mp4`
 - `edit/cyclic-sigh-practice-script.md`
 - `edit/cyclic-sigh-practice-captions.srt`
 - `edit/cyclic-sigh-practice-brief.md`
+- `edit/step-back-practice-brief.md`
+- `edit/step-back-practice-captions.srt`
+
+### Motion and material
+
+`src/motion.py` is the shared vocabulary both practices animate through, ported from the
+news studio's locked-easing presets and animation bank: an easing chosen per gesture rather
+than one smoothstep everywhere, a deterministic grain and vignette pass so the flat fills
+read as printed, strokes that draw themselves on with a seeded wobble, and 12fps stutter on
+decorative marks only. [ADR 0003](docs/adr/0003-motion-vocabulary-from-the-news-studio.md)
+records what was ported, what was left behind, and why the grain cadence is what it is.
 
 The speech call is paid through the configured OpenRouter account. Voice cues are cached
 under ignored `work/audio/`, so re-rendering the visuals never calls OpenRouter again.

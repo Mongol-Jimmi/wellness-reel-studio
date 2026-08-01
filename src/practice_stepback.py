@@ -26,17 +26,27 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from src.motion import (
+    apply_texture,
+    bezier,
+    clamp,
+    expo_out,
+    hand_stroke,
+    power1_in_out,
+    power2_in_out,
+    smooth,
+    stutter,
+)
 from src.practice_pebble import (
     CORAL,
     HAZE,
     PAPER,
     blend,
     chip_box,
-    clamp,
     draw_paper,
     fade_window,
     frosted_chip,
-    smooth,
+    settle,
     tracked_text,
 )
 from src.sleep_reel import INK, MOON, MUTED, PERIWINKLE, SHADOW, Canvas
@@ -98,9 +108,10 @@ def distance(time_seconds: float) -> float:
     if phase.name == "settle":
         return 0.0
     if phase.name == "picture":
-        return smooth(progress)
+        # Stepping back is the slow move of the minute, so it eases at both ends.
+        return power2_in_out(progress)
     if phase.name == "close":
-        return 1.0 - smooth(progress)
+        return 1.0 - power2_in_out(progress)
     return 1.0
 
 
@@ -120,13 +131,46 @@ def positions(apart: float) -> tuple[float, float]:
     return CENTRE_X - offset, CENTRE_X + offset * 0.95
 
 
+def draw_account(canvas: Canvas, time_seconds: float, apart: float) -> None:
+    """A line drawn from you to the thing while you put what you see into words.
+
+    The meta-analysis found the visual and verbal approach beat either half on
+    its own, so the describing gets its own mark on screen rather than living
+    only in the narration. It draws on across the phase and holds afterwards,
+    the way a said thing stays said, then lets go as the pebbles come back.
+    """
+    phase = phase_at(time_seconds)
+    if phase.name in ("settle", "picture"):
+        return
+    you_x, thing_x = positions(apart)
+    if phase.name == "say":
+        drawn = power1_in_out((time_seconds - phase.start) / 8.0)
+        alpha = 1.0
+    else:
+        drawn = 1.0
+        alpha = 1.0 if phase.name in ("watch", "hold") else 1.0 - expo_out((time_seconds - phase.start) / 2.4)
+    hand_stroke(
+        canvas,
+        bezier((you_x + 46, CENTRE_Y + 34), ((you_x + thing_x) / 2, CENTRE_Y + 96), (thing_x - 30, CENTRE_Y + 46)),
+        drawn,
+        MOON,
+        width=3.0,
+        seed=3,
+        wobble=2.2,
+        alpha=alpha * 0.92,
+    )
+
+
 def draw_words(canvas: Canvas, time_seconds: float, apart: float) -> None:
-    """Small mustard marks crossing the gap while you describe what you can see."""
+    """Small mustard marks crossing the gap while you describe what you can see.
+
+    Stepped to 12fps like every decorative mark in the house style.
+    """
     phase = phase_at(time_seconds)
     if phase.name != "say":
         return
     you_x, thing_x = positions(apart)
-    progress = (time_seconds - phase.start) / (phase.end - phase.start)
+    progress = (stutter(time_seconds) - phase.start) / (phase.end - phase.start)
     for index in range(4):
         local = clamp(progress * 1.6 - index * 0.18)
         if local <= 0 or local >= 1:
@@ -175,6 +219,7 @@ def render_frame(time_seconds: float, scale: int = 2) -> Image.Image:
         (150 * thing_scale, 104 * thing_scale),
         blend(CORAL, HAZE, 0.25 * apart),
     )
+    draw_account(canvas, time_seconds, apart)
     draw_words(canvas, time_seconds, apart)
     draw_pebble(canvas, (you_x, CENTRE_Y), (176, 122), PERIWINKLE)
 
@@ -188,7 +233,7 @@ def render_frame(time_seconds: float, scale: int = 2) -> Image.Image:
     alpha = fade_window(time_seconds, phase.start, phase.end, 0.6) if word else max(intro, close)
     if label:
         size, tracking = (30, 8) if word else (28, 4)
-        frosted_chip(canvas, chip_box(label, size, tracking, 656, canvas), alpha)
+        frosted_chip(canvas, chip_box(label, size, tracking, 656, canvas, settle(alpha)), alpha)
         tracked_text(canvas, label, 656, size, alpha, INK, tracking)
 
     tracked_text(canvas, "keep it small", 716, 16, intro * 0.85, MUTED, 2)
@@ -196,6 +241,7 @@ def render_frame(time_seconds: float, scale: int = 2) -> Image.Image:
         canvas.rounded_rectangle((146, 700, 394, 742), radius=20, fill=MOON)
         canvas.text((270, 721), "Cognition & Emotion, 2022", 15, INK)
     draw_step_dots(canvas, time_seconds)
+    apply_texture(canvas.image, time_seconds, DURATION_SECONDS, scale)
     return canvas.image
 
 
